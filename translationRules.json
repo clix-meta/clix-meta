@@ -1,0 +1,47 @@
+{
+	"__default" : "__keep",
+	"__except" : [
+		"selection",
+		"category",
+		"orig_order",
+		"index_type",
+		"index_function"
+	],
+	"output" : {
+		"__source" : {
+			"standard_name" : "output_standard_name",
+			"cell_methods" : "output_cell_methods",
+			"long_name" : "output_long_name",
+			"canonical_units" : "output_canonical_units",
+			"units" : "output_units",
+			"legend_units" : "output_legend_units",
+			"reference" : "output_reference"
+		}
+	},
+	"threshold" : {
+		"__split" : "n_thresholds",
+		"__source" : {
+			"varname" : "threshold_varname",
+			"standard_name" : "threshold_standard_name",
+			"value" : "threshold_value",
+			"units" : "threshold_units",
+			"relop" : "threshold_relop"
+		}
+	},
+	"input" : {
+		"__split" : "n_inputs",
+		"__source" : {
+			"known_variables" : "input_variable",
+			"standard_name" : "input_standard_name",
+			"cell_methods" : "input_cell_methods"
+		}
+	},
+	"et" : {
+		"__source" : {
+			"short_name" : "et_short_name",
+			"long_name" : "et_long_name",
+			"definition" : "et_definition",
+			"comment" : "et_comment"
+		}
+	}
+}

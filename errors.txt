@@ -1,0 +1,1102 @@
+================================================================================
+Error processing input index 74
+--------------------------------------------------------------------------------
+{
+  "varname": "tx#tn#", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2", 
+  "orig_order": "75", 
+  "index_type": "A5", 
+  "index_function": "_", 
+  "n_thresholds": "2", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "?????", 
+  "output_cell_methods": "?????", 
+  "output_long_name": "?????", 
+  "output_canonical_units": "?????", 
+  "output_units": "?????", 
+  "output_legend_units": "events", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "???", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "???", 
+  "threshold_units": "???", 
+  "threshold_relop": ">, >", 
+  "input_variable": "tasmin,tasmax", 
+  "input_standard_name": "air_temperature, air_temperature", 
+  "input_cell_methods": "time: minimum within days, time: maximum within days", 
+  "et_short_name": "ntxntn", 
+  "et_long_name": "User-defined consecutive number of hot days and nights, both above the 95th percentile", 
+  "et_definition": "Annual count of n consecutive days where both TX > 95th percentile and TN > 95th percentile, where n >= 2 (and max of 10)", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	Splitting "varname":"???" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 75
+--------------------------------------------------------------------------------
+{
+  "varname": "tx#tn#gt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "76", 
+  "index_type": "A5", 
+  "index_function": "_", 
+  "n_thresholds": "3", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "????", 
+  "output_canonical_units": "????", 
+  "output_units": "????", 
+  "output_legend_units": "events", 
+  "output_reference": "_", 
+  "threshold_varname": "???", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "???", 
+  "threshold_units": "???", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmin,tasmax", 
+  "input_standard_name": "air_temperature, air_temperature", 
+  "input_cell_methods": "time: minimum within days, time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	Splitting "varname":"???" does not yield a list of the expected 3, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 76
+--------------------------------------------------------------------------------
+{
+  "varname": "txb#tnb#", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "4", 
+  "orig_order": "77", 
+  "index_type": "A5", 
+  "index_function": "_", 
+  "n_thresholds": "2", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "?????", 
+  "output_cell_methods": "?????", 
+  "output_long_name": "?????", 
+  "output_canonical_units": "?????", 
+  "output_units": "?????", 
+  "output_legend_units": "events", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "???", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "???", 
+  "threshold_units": "???", 
+  "threshold_relop": "<, <", 
+  "input_variable": "tasmin,tasmax", 
+  "input_standard_name": "air_temperature, air_temperature", 
+  "input_cell_methods": "time: minimum within days, time: maximum within days", 
+  "et_short_name": "ntxbntnb", 
+  "et_long_name": "User-defined consecutive number of cold days and nights", 
+  "et_definition": "Annual count of n consecutive days where both TX < 5th percentile and TN < 5th percentile where n >=2 and n <=10?", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	Splitting "varname":"???" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 77
+--------------------------------------------------------------------------------
+{
+  "varname": "tx#tn#lt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "78", 
+  "index_type": "A5", 
+  "index_function": "_", 
+  "n_thresholds": "3", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "????", 
+  "output_canonical_units": "????", 
+  "output_units": "????", 
+  "output_legend_units": "events", 
+  "output_reference": "_", 
+  "threshold_varname": "???", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "???", 
+  "threshold_units": "???", 
+  "threshold_relop": "<, <", 
+  "input_variable": "tasmin,tasmax", 
+  "input_standard_name": "air_temperature, air_temperature", 
+  "input_cell_methods": "time: minimum within days, time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	Splitting "varname":"???" does not yield a list of the expected 3, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 83
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "_", 
+  "category": "4", 
+  "orig_order": "84", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "hwn (ehf/ ctn90pct/ ctx90pct)", 
+  "et_long_name": "Heat wave number", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 84
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "_", 
+  "category": "4", 
+  "orig_order": "85", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "hwd (ehf/ ctn90pct/ ctx90pct)", 
+  "et_long_name": "Heat wave duration", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 85
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "_", 
+  "category": "4", 
+  "orig_order": "86", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "hwf (ehf/ ctn90pct/ ctx90pct)", 
+  "et_long_name": "Heat wave day frequency", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 86
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "_", 
+  "category": "4", 
+  "orig_order": "87", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "hwa (ehf/ ctn90pct/ ctx90pct)", 
+  "et_long_name": "Heat wave amplitude", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 87
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "_", 
+  "category": "4", 
+  "orig_order": "88", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "hwm (ehf/ ctn90pct/ ctx90pct)", 
+  "et_long_name": "Heat wave mean", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 88
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "_", 
+  "category": "4", 
+  "orig_order": "89", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "1", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "hwmi", 
+  "et_long_name": "Heat Wave Magnitude Index", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 106
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "4", 
+  "orig_order": "108", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "1", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "spiflex (spi?)", 
+  "et_long_name": "Standardised Precipitation Index", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 107
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "4", 
+  "orig_order": "109", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "1", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "speiflex (spei?)", 
+  "et_long_name": "Standardised Precipitation Evapotranspiration Index", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 108
+--------------------------------------------------------------------------------
+{
+  "varname": "gd4", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "111", 
+  "index_type": "_", 
+  "index_function": "FUN_dd", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "gd4", 
+  "et_long_name": "like gddgrow but with +4 C threshold", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 109
+--------------------------------------------------------------------------------
+{
+  "varname": "ctnlt0", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "112", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "cfd", 
+  "et_long_name": "consecutive frost days", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 110
+--------------------------------------------------------------------------------
+{
+  "varname": "tmlt#p", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "113", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "tg10p", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 111
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "114", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "cd", 
+  "et_long_name": "Cool and Dry: Days with TM < 25 percentile and RR < 25 percentile", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 112
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "115", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "cw", 
+  "et_long_name": "Cool and Wet: Days with TM < 25 percentile and RR > 75 percentile", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 113
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "116", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "wd", 
+  "et_long_name": "Warm and Dry: Days with TM > 75 percentile and RR < 25 percentile", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 114
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "117", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "ww", 
+  "et_long_name": "Warm and Wet: Days with TM > 75 percentile and RR > 75 percentile", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 115
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "118", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "hi", 
+  "et_long_name": "Huglin index", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 116
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "119", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "bedd", 
+  "et_long_name": "Biologically Effective Degree Days", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 117
+--------------------------------------------------------------------------------
+{
+  "varname": "tmgt90p", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "120", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "tg90p", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 118
+--------------------------------------------------------------------------------
+{
+  "varname": "ctxgt25", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "121", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "csu", 
+  "et_long_name": "consecutive summer days", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 119
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "122", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "rr", 
+  "et_long_name": "Precipitation sum", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 120
+--------------------------------------------------------------------------------
+{
+  "varname": "wetdays", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "123", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "rr1", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 121
+--------------------------------------------------------------------------------
+{
+  "varname": "r#pctl", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "124", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "r75p", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 122
+--------------------------------------------------------------------------------
+{
+  "varname": "r#ptot", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "125", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "r75ptot", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 123
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "126", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "etr", 
+  "et_long_name": "Intra-period temperature difference (max(tx) - min(tmin)", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 124
+--------------------------------------------------------------------------------
+{
+  "varname": "_", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "5", 
+  "orig_order": "127", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "_", 
+  "n_inputs": "_", 
+  "freq": "_", 
+  "output_standard_name": "_", 
+  "output_cell_methods": "_", 
+  "output_long_name": "_", 
+  "output_canonical_units": "_", 
+  "output_units": "_", 
+  "output_legend_units": "_", 
+  "output_reference": "ECA&D", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "_", 
+  "input_standard_name": "_", 
+  "input_cell_methods": "_", 
+  "et_short_name": "vdtr", 
+  "et_long_name": "mean absolute day-to-day temperature difference", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "threshold":
+	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+================================================================================
