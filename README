@@ -6,9 +6,10 @@ Files for defining CF compliant metadata for climate indices' data variable.
 
 The master document is the LibreOffice Calc .fods file.
 
-For convenience the master table is available in several alternative file formats.
+For convenience the master table is available in several alternative file formats, but note that 
+CHANGES CAN ONLY BE DONE IN THE MASTER .FODS FILE.
 
-All changes to the LibreOffice .ods file must be exported to the alternative formats (this will not be done automagically). , i.e. the LibreOffice Calc .ods file.       
+
 
 ---------------
 
