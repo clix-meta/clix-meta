@@ -1,6 +1,8 @@
 # CF compliant metadata for the data variable in climate index netCDF files. #
 
 ---------------
+*This is very much a first attempt, needs to be developed ....*
+---------------
 
 ## Overview ##
 
@@ -41,9 +43,9 @@ This repository contains the following components:
 
 **climate_indices_CV20.xlsx** *'Read-only'* version of the master table in Excel (zipped) produced by LibreOffice export. 
 
-**climate_indices_CV20.csv** Intermediate file produced by the LibreOffice macro.
+**climate_indices_CV20.csv** Intermediate file, produced by the LibreOffice macro.
 
-**climate_indices_CV20.json** Flat .json representation of the master table. 
+**climate_indices_CV20.json** Flat .json representation of the master table, produced by the LibreOffice macro. 
 
 **jsonFlat2Hierarchial.py** Python script for transforming the 'flat' .json (produced by the LibreOffice macro) file into a 'hierarchical' .json file. The transformation rules are specified in a separate .json file. Indices that cannot be parsed according to the rule set are logged to stderr.  
 
