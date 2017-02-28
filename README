@@ -1,7 +1,8 @@
-
 README
 
-This repository contains files for defining CF compliant metadata for climate indices' data variable.
+# OVERVIEW #
+
+Files for defining CF compliant metadata for climate indices' data variable.
 
 All necessary information is kept in a LibreOffice Calc .ods file containing the master table. 
 
@@ -91,5 +92,3 @@ Who do I talk to?
 
     Repo owner or admin
     Other community or team contact
-
-
