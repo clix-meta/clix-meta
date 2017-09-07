@@ -14,7 +14,7 @@
 			"long_name" : "output_long_name",
 			"canonical_units" : "output_canonical_units",
 			"units" : "output_units",
-			"legend_units" : "output_legend_units",
+			"user_units" : "output_user_units",
 			"reference" : "output_reference"
 		}
 	},

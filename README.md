@@ -1,8 +1,5 @@
 # CF compliant metadata for the data variable in climate index netCDF files. #
 
----------------
-*This is very much a first attempt, needs to be developed ....*
----------------
 
 ## Overview ##
 
@@ -11,6 +8,7 @@ This repository contains the following components:
 * The master table as a LibreOffice Calc **.fods** file.
 * The master table in several alternative file formats intended to be **used as read-only**.
 * Python helper scripts for transforming the 'flat' master table to a 'hierarchical' form
+* Some other helper files.
 
 ---------------
 
@@ -23,7 +21,7 @@ This repository contains the following components:
 **If you want to contribute by adding or updating the master table**
 
 * You need to have developer access to this repository (contact the admin)
-* Git pull the master file (.fods) and the relevant python scripts
+* Git pull (clone the first time) the repository
 * Add/change the information in the master table
 * Run the macro in master table document. This creates the .csv and .json files
 * Save/Export the master table to .fods, .ods, .xlsx files
@@ -41,13 +39,13 @@ This repository contains the following components:
 
 **climate_indices_CV20.ods** *'Read-only'* version of the master table in LibreOffice standard (zipped) binary format.
 
-**climate_indices_CV20.xlsx** *'Read-only'* version of the master table in Excel (zipped) produced by LibreOffice export. 
+**climate_indices_CV20.xlsx** *'Read-only'* version of the master table in Excel (zipped) binary format produced by LibreOffice export. 
 
 **climate_indices_CV20.csv** Intermediate file, produced by the LibreOffice macro.
 
 **climate_indices_CV20.json** Flat .json representation of the master table, produced by the LibreOffice macro. 
 
-**jsonFlat2Hierarchial.py** Python script for transforming the 'flat' .json (produced by the LibreOffice macro) file into a 'hierarchical' .json file. The transformation rules are specified in a separate .json file. Indices that cannot be parsed according to the rule set are logged to stderr.  
+**jsonFlat2Hierarchial.py** Python script for transforming the 'flat' .json (produced by the LibreOffice macro) file into a 'hierarchical' .json file. The transformation rules are specified in a separate .json file. Indices that cannot be parsed according to the rule set are logged to stderr. 
 
 **translationRules.json** Definition of the rule set used by jsonFlat2Hierarchial.py
 
@@ -58,3 +56,4 @@ This repository contains the following components:
 **listMissingItems.py** Python script for listing empty/placeholder text in otherwise successfully translated indices. 
 
 **climate_indices_CV20_DEF_missing.txt** List of missing/placeholder items.
+

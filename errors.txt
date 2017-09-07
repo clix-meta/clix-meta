@@ -1,4 +1,2890 @@
 ================================================================================
+Error processing input index 0
+--------------------------------------------------------------------------------
+{
+  "varname": "fd", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "1", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of Frost Days (Tmin < 0C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "fd", 
+  "et_long_name": "Frost days", 
+  "et_definition": "Count when TN < 0\u00baC", 
+  "et_comment": "count of days when daily minimum temperature is below 0 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 1
+--------------------------------------------------------------------------------
+{
+  "varname": "tnlt2", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "2", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of Frost Days (Tmin < +2C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "2", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "fd2", 
+  "et_long_name": "Frost days 2", 
+  "et_definition": "Count when TN < 2\u00baC", 
+  "et_comment": "count of days when daily minimum temperature is below plus 2 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 2
+--------------------------------------------------------------------------------
+{
+  "varname": "tnltm2", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "3", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of Hard Freeze Days (Tmin < -2C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "-2", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "fdm2", 
+  "et_long_name": "Hard freeze", 
+  "et_definition": "Count when TN < -2\u00baC", 
+  "et_comment": "count of days when daily minimum temperature is below minus 2 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 3
+--------------------------------------------------------------------------------
+{
+  "varname": "tnltm20", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "4", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of Very Hard Freeze Days (Tmin < -20C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "-20", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "fdm20", 
+  "et_long_name": "Very hard freeze", 
+  "et_definition": "Count when TN < -20\u00baC", 
+  "et_comment": "count of days when daily minimum temperature is below minus 20 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 4
+--------------------------------------------------------------------------------
+{
+  "varname": "id", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "5", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of Ice Days (Tmax < 0C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "id", 
+  "et_long_name": "Ice days", 
+  "et_definition": "Count when TX < 0\u00baC", 
+  "et_comment": "count of days when daily maximum temperature is below 0 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 5
+--------------------------------------------------------------------------------
+{
+  "varname": "su", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "6", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of Summer Days (Tmax > 25C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "25", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "su", 
+  "et_long_name": "Summer days", 
+  "et_definition": "Count when TX > 25\u00baC", 
+  "et_comment": "count of days when daily maximum temperature is above plus 25 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 6
+--------------------------------------------------------------------------------
+{
+  "varname": "txge30", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "7", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of Hot Days (Tmax >= 30C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "30", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "su30", 
+  "et_long_name": "Hot days", 
+  "et_definition": "Count when TX >= 30\u00baC", 
+  "et_comment": "count of days when daily maximum temperature is above or equal plus 30 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 7
+--------------------------------------------------------------------------------
+{
+  "varname": "txge35", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "8", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of Very Hot Days (Tmax >= 35C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "35", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "su35", 
+  "et_long_name": "Very hot days", 
+  "et_definition": "Count when TX >= 35\u00baC", 
+  "et_comment": "count of days when daily maximum temperature is above or equal plus 35 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 8
+--------------------------------------------------------------------------------
+{
+  "varname": "tr", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "9", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of Tropical Nights (Tmin > 20C)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "20", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "tr", 
+  "et_long_name": "Tropical nights", 
+  "et_definition": "Count when TN > 20\u00baC", 
+  "et_comment": "count of days when daily minimum temperature is above plus 20 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 9
+--------------------------------------------------------------------------------
+{
+  "varname": "tmge5", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "10", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_or_equal_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean >= 5C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "5", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "tm5a", 
+  "et_long_name": "TM above 5C", 
+  "et_definition": "Count when TM >= 5\u00baC", 
+  "et_comment": "count of days when daily mean temperature is above plus 5 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 10
+--------------------------------------------------------------------------------
+{
+  "varname": "tmlt5", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "11", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean < 5C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "5", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "tm5b", 
+  "et_long_name": "TM below 5C", 
+  "et_definition": "Count when TM < 5\u00baC", 
+  "et_comment": "count of days when daily mean temperature is below plus 5 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 11
+--------------------------------------------------------------------------------
+{
+  "varname": "tmge10", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "12", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_or_equal_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean >= 10C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "10", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "tm10a", 
+  "et_long_name": "TM above 10C", 
+  "et_definition": "Count when TM >= 10\u00baC", 
+  "et_comment": "count of days when daily mean temperature is above plus 10 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 12
+--------------------------------------------------------------------------------
+{
+  "varname": "tmlt10", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "13", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean < 10C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "10", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "tm10b", 
+  "et_long_name": "TM below 10C", 
+  "et_definition": "Count when TM < 10\u00baC", 
+  "et_comment": "count of days when daily mean temperature is below plus 10 degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 13
+--------------------------------------------------------------------------------
+{
+  "varname": "tngt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "14", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmin > #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is above # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 14
+--------------------------------------------------------------------------------
+{
+  "varname": "tnlt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "15", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmin < #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is below # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 15
+--------------------------------------------------------------------------------
+{
+  "varname": "tnge#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "16", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmin >= #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is above or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 16
+--------------------------------------------------------------------------------
+{
+  "varname": "tnle#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "17", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_or equal_threshold", 
+  "output_cell_methods": "time: minimum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmin <= #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<=", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is below or equal# degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 17
+--------------------------------------------------------------------------------
+{
+  "varname": "txgt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "18", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmax > #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is above # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 18
+--------------------------------------------------------------------------------
+{
+  "varname": "txlt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "19", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmax < #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is below # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 19
+--------------------------------------------------------------------------------
+{
+  "varname": "txge#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "20", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmax >= #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is above or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 20
+--------------------------------------------------------------------------------
+{
+  "varname": "txle#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "21", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_or equal_threshold", 
+  "output_cell_methods": "time: maximum within days time: sum over days", 
+  "output_long_name": "Number of days with Tmax <= #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<=", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is below or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 21
+--------------------------------------------------------------------------------
+{
+  "varname": "tmgt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "22", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean > #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is above # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 22
+--------------------------------------------------------------------------------
+{
+  "varname": "tmlt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "23", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean < #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is below # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 23
+--------------------------------------------------------------------------------
+{
+  "varname": "tmge#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "24", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean >= #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is above or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 24
+--------------------------------------------------------------------------------
+{
+  "varname": "tmle#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "25", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_air_temperature_below_or equal_threshold", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Number of days with Tmean <= #C", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<=", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is below or equal# degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 25
+--------------------------------------------------------------------------------
+{
+  "varname": "ctngt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "26", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmin > #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is above # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 26
+--------------------------------------------------------------------------------
+{
+  "varname": "ctnlt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "27", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmin < #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is below # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 27
+--------------------------------------------------------------------------------
+{
+  "varname": "ctnge#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "28", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmin >= #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is above or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 28
+--------------------------------------------------------------------------------
+{
+  "varname": "ctnle#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "29", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_below_or equal_threshold", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmin <= #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<=", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily minimum temperature is below or equal# degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 29
+--------------------------------------------------------------------------------
+{
+  "varname": "ctxgt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "30", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmax > #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is above # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 30
+--------------------------------------------------------------------------------
+{
+  "varname": "ctxlt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "31", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmax < #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is below # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 31
+--------------------------------------------------------------------------------
+{
+  "varname": "ctxge#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "32", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmax >= #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is above or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 32
+--------------------------------------------------------------------------------
+{
+  "varname": "ctxle#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "33", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_below_or equal_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmax <= #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<=", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily maximum temperature is below or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 33
+--------------------------------------------------------------------------------
+{
+  "varname": "ctmgt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "34", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmean > #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is above # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 34
+--------------------------------------------------------------------------------
+{
+  "varname": "ctmlt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "35", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmean < #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is below # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 35
+--------------------------------------------------------------------------------
+{
+  "varname": "ctmge#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "36", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_above_or equal_threshold", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmean >= #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">=", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is above or equal # degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 36
+--------------------------------------------------------------------------------
+{
+  "varname": "ctmle#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "37", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_air_temperature_below_or equal_threshold", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Maximum number of consequtive days with Tmean <= #C", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<=", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily mean temperature is below or equal# degC"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 37
+--------------------------------------------------------------------------------
+{
+  "varname": "gsl", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "1", 
+  "orig_order": "38", 
+  "index_type": "B", 
+  "index_function": "FUN_growing", 
+  "n_thresholds": "2", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "ETCCDI Growing Season Length (Tmean > 5C)", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "6, 5", 
+  "threshold_units": "day, degree_Celsius", 
+  "threshold_relop": ">, <", 
+  "input_variable": "tas, latitude", 
+  "input_standard_name": "air_temperature, latitude", 
+  "input_cell_methods": "time: mean within days, ?????", 
+  "et_short_name": "gsl", 
+  "et_long_name": "Growing season length", 
+  "et_definition": "Annual (1st Jan to 31st Dec in NH, 1st July to 30st June in SH) count between first span of at least 6 days with TM>5\u00baC and first span after July 1 (January 1 in SH) of 6 days with TM<5C", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 38
+--------------------------------------------------------------------------------
+{
+  "varname": "gsstart", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2.5", 
+  "orig_order": "39", 
+  "index_type": "B", 
+  "index_function": "FUN_growing", 
+  "n_thresholds": "2", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Start of ETCCDI Growing Season (6 days with Tmean > 5C)", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_legend_units": "day number", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "6, 5", 
+  "threshold_units": "day, degree_Celsius", 
+  "threshold_relop": ">, >", 
+  "input_variable": "tas, latitude", 
+  "input_standard_name": "air_temperature, latitude", 
+  "input_cell_methods": "time: mean within days, ?????", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 39
+--------------------------------------------------------------------------------
+{
+  "varname": "gsend", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2.5", 
+  "orig_order": "40", 
+  "index_type": "B", 
+  "index_function": "FUN_growing", 
+  "n_thresholds": "2", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "End of ETCCDI Growing Season (6 days with Tmean < 5C)", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_legend_units": "day number", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "6, 5", 
+  "threshold_units": "day, degree_Celsius", 
+  "threshold_relop": ">, <", 
+  "input_variable": "tas, latitude", 
+  "input_standard_name": "air_temperature, latitude", 
+  "input_cell_methods": "time: mean within days, ?????", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 40
+--------------------------------------------------------------------------------
+{
+  "varname": "gsgdd", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2.7", 
+  "orig_order": "41", 
+  "index_type": "B", 
+  "index_function": "FUN_growing", 
+  "n_thresholds": "2", 
+  "n_inputs": "2", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Degree Days (Tmean >5C) during ETCCDI Growing Season", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_legend_units": "degree_Celsius day", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "6, 5", 
+  "threshold_units": "day, degree_Celsius", 
+  "threshold_relop": ">, >", 
+  "input_variable": "tas, latitude", 
+  "input_standard_name": "air_temperature, latitude", 
+  "input_cell_methods": "time: mean within days, ?????", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 41
+--------------------------------------------------------------------------------
+{
+  "varname": "txx", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "42", 
+  "index_type": "A0", 
+  "index_function": "FUN_max", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Maximum daily maximum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "txx", 
+  "et_long_name": "Maximum daily maximum temperature", 
+  "et_definition": "Maximum value of daily TX", 
+  "et_comment": "maximum of daily maximum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 42
+--------------------------------------------------------------------------------
+{
+  "varname": "tnx", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "43", 
+  "index_type": "A0", 
+  "index_function": "FUN_max", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Maximum daily minimum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "tnx", 
+  "et_long_name": "Maximum daily minimum temperature", 
+  "et_definition": "Maximum value of daily TN", 
+  "et_comment": "maximum of daily minimum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 43
+--------------------------------------------------------------------------------
+{
+  "varname": "txn", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "44", 
+  "index_type": "A0", 
+  "index_function": "FUN_min", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: maximum within days time: minimum over days", 
+  "output_long_name": "Minimum daily maximum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "txn", 
+  "et_long_name": "Minimum daily maximum temperature", 
+  "et_definition": "Minimum value of daily TX", 
+  "et_comment": "minimum of daily maximum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 44
+--------------------------------------------------------------------------------
+{
+  "varname": "tnn", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "45", 
+  "index_type": "A0", 
+  "index_function": "FUN_min", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: minimum within days time: minimum over days", 
+  "output_long_name": "Minimum daily minimum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "tnn", 
+  "et_long_name": "Minimum daily minimum temperature", 
+  "et_definition": "Minimum value of daily TN", 
+  "et_comment": "minimum of daily minimum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 45
+--------------------------------------------------------------------------------
+{
+  "varname": "txmax", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "46", 
+  "index_type": "A0", 
+  "index_function": "FUN_max", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Maximum daily maximum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "mean of daily maximum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 46
+--------------------------------------------------------------------------------
+{
+  "varname": "tnmax", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "47", 
+  "index_type": "A0", 
+  "index_function": "FUN_max", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Maximum daily minimum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "mean of daily minimum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 47
+--------------------------------------------------------------------------------
+{
+  "varname": "txmin", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "48", 
+  "index_type": "A0", 
+  "index_function": "FUN_min", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: maximum within days time: minimum over days", 
+  "output_long_name": "Minimum daily maximum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "maximum of daily mean temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 48
+--------------------------------------------------------------------------------
+{
+  "varname": "tnmin", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "49", 
+  "index_type": "A0", 
+  "index_function": "FUN_min", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: minimum within days time: minimum over days", 
+  "output_long_name": "Minimum daily minimum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "minimum of daily mean temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 49
+--------------------------------------------------------------------------------
+{
+  "varname": "txmean", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "50", 
+  "index_type": "A0", 
+  "index_function": "FUN_mean", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: maximum within days time: mean over days", 
+  "output_long_name": "Mean daily maximum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "mean of daily maximum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 50
+--------------------------------------------------------------------------------
+{
+  "varname": "tnmean", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "51", 
+  "index_type": "A0", 
+  "index_function": "FUN_mean", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: minimum within days time: mean over days", 
+  "output_long_name": "Mean daily minimum temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "mean of daily minimum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 51
+--------------------------------------------------------------------------------
+{
+  "varname": "tmmax", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "52", 
+  "index_type": "A0", 
+  "index_function": "FUN_max", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Maximum daily mean temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "maximum of daily mean temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 52
+--------------------------------------------------------------------------------
+{
+  "varname": "tmmin", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "53", 
+  "index_type": "A0", 
+  "index_function": "FUN_min", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Minimum daily mean temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "minimum of daily mean temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 53
+--------------------------------------------------------------------------------
+{
+  "varname": "tmmean", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "54", 
+  "index_type": "A0", 
+  "index_function": "FUN_mean", 
+  "n_thresholds": "0", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: mean within days time: mean over days", 
+  "output_long_name": "Mean daily mean temperature", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "mean of daily mean temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 54
+--------------------------------------------------------------------------------
+{
+  "varname": "wsdi", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "1", 
+  "orig_order": "55", 
+  "index_type": "D", 
+  "index_function": "FUN_wsdi", 
+  "n_thresholds": "2", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Warm Spell Duration Index, count of days with at least 6 consecutive days when Tmax > 90th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "6, 0.90", 
+  "threshold_units": "day, 1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">, >", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "wsdi", 
+  "et_long_name": "Warm spell duration index", 
+  "et_definition": "Annual count of days with at least 6 consecutive days when TX>90th percentile", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 55
+--------------------------------------------------------------------------------
+{
+  "varname": "wsdi#", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2", 
+  "orig_order": "56", 
+  "index_type": "D", 
+  "index_function": "FUN_wsdi", 
+  "n_thresholds": "2", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "User-defined Warm Spell Duration Index, count of days with at least # consecutive days when Tmax > 90th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "#, 0.90", 
+  "threshold_units": "day, 1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">, >", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "wsdin", 
+  "et_long_name": "User-defined WSDI", 
+  "et_definition": "Annual count of days with at least n consecutive days when TX>90th percentile where n>= 2 (and  max 10)", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 56
+--------------------------------------------------------------------------------
+{
+  "varname": "csdi", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "1", 
+  "orig_order": "57", 
+  "index_type": "D", 
+  "index_function": "FUN_csdi", 
+  "n_thresholds": "2", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Cold Spell Duration Index, count of days with at least 6 consecutive days when Tmin < 10th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "6, 0.90", 
+  "threshold_units": "day, 1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">, >", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "csdi", 
+  "et_long_name": "Cold spell duration index", 
+  "et_definition": "Annual count of days with at least 6 consecutive days when TN<10th percentile", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 57
+--------------------------------------------------------------------------------
+{
+  "varname": "csdi#", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2", 
+  "orig_order": "58", 
+  "index_type": "D", 
+  "index_function": "FUN_csdi", 
+  "n_thresholds": "2", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "User-defined Cold Spell Duration Index, count of days with at least # consecutive days when Tmin < 10th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold_days, threshold_temp", 
+  "threshold_standard_name": "??????, air_temperature", 
+  "threshold_value": "#, 0.90", 
+  "threshold_units": "day, 1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">, >", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "csdin", 
+  "et_long_name": "User-defined CSDI", 
+  "et_definition": "Annual count of days with at least n consecutive days when TN<10th percentile where n>= 2 (and  max 10)", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 58
+--------------------------------------------------------------------------------
+{
+  "varname": "txgt50p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2", 
+  "orig_order": "59", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmax > 50th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0.50", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "tx50p", 
+  "et_long_name": "Above average days", 
+  "et_definition": "Number of days where TX > 50th percentile", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 59
+--------------------------------------------------------------------------------
+{
+  "varname": "tn10p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "1", 
+  "orig_order": "60", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmin < 10th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0.10", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "tn10p", 
+  "et_long_name": "WMO No.1500: Cold nights (count of days)", 
+  "et_definition": "Number of days when TN < 10th percentile", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 60
+--------------------------------------------------------------------------------
+{
+  "varname": "tx10p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "1", 
+  "orig_order": "61", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: maximum within days time: minimum over days", 
+  "output_long_name": "Percentage of days when Tmax < 10th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0.10", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "tx10p", 
+  "et_long_name": "WMO No.1500: Cold day-times (count of days)", 
+  "et_definition": "Number of days when TX < 10th percentile", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 61
+--------------------------------------------------------------------------------
+{
+  "varname": "tn90p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "1", 
+  "orig_order": "62", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: minimum within days time: minimum over days", 
+  "output_long_name": "Percentage of days when Tmin > 90th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0.90", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "tn90p", 
+  "et_long_name": "WMO No.1500: Warm nights (count of days)", 
+  "et_definition": "Number of days when TN > 90th percentile", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 62
+--------------------------------------------------------------------------------
+{
+  "varname": "tx90p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "1", 
+  "orig_order": "63", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmax > 90th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0.90", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "tx90p", 
+  "et_long_name": "WMO No.1500: Warm day-times (count of days)", 
+  "et_definition": "Number of days when TX > 90th percentile", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 63
+--------------------------------------------------------------------------------
+{
+  "varname": "txgt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "64", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmax > #th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 64
+--------------------------------------------------------------------------------
+{
+  "varname": "tngt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "65", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmin > #th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 65
+--------------------------------------------------------------------------------
+{
+  "varname": "tmgt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "66", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmean > #th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 66
+--------------------------------------------------------------------------------
+{
+  "varname": "txlt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "67", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: maximum within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmax < #th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 67
+--------------------------------------------------------------------------------
+{
+  "varname": "tnlt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "68", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: minimum within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmin < #th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": "<", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 68
+--------------------------------------------------------------------------------
+{
+  "varname": "tmlt#p", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "69", 
+  "index_type": "A3", 
+  "index_function": "FUN_frac", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+  "output_cell_methods": "time: mean within days time: maximum over days", 
+  "output_long_name": "Percentage of days when Tmean < #th percentile", 
+  "output_canonical_units": "1", 
+  "output_units": "%", 
+  "output_legend_units": "%", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # degree_Celsius) )", 
+  "threshold_relop": "<", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 69
+--------------------------------------------------------------------------------
+{
+  "varname": "dtr", 
+  "ready": "1", 
+  "cf_level": "CF-1.7 (draft)", 
+  "category": "1", 
+  "orig_order": "70", 
+  "index_type": "E", 
+  "index_function": "FUN_dtr", 
+  "n_thresholds": "0", 
+  "n_inputs": "2", 
+  "freq": "mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time range within days time: mean over days", 
+  "output_long_name": "Mean Diurnal Temperature Range", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "_", 
+  "threshold_standard_name": "_", 
+  "threshold_value": "_", 
+  "threshold_units": "_", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmin,tasmax", 
+  "input_standard_name": "air_temperature, air_temperature", 
+  "input_cell_methods": "time: minimum within days, time: maximum within days", 
+  "et_short_name": "dtr", 
+  "et_long_name": "Daily temperature range", 
+  "et_definition": "Monthly mean difference between TX and TN", 
+  "et_comment": "mean of daily temperature range"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 70
+--------------------------------------------------------------------------------
+{
+  "varname": "tx95t", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "2", 
+  "orig_order": "71", 
+  "index_type": "F", 
+  "index_function": "FUN_prctile", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: maximum within days time: quantile over days", 
+  "output_long_name": "Very Warm Days threshold (95th percentile of Tmax)", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "0.95", 
+  "threshold_units": "1 (=quantile)", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "tx95t", 
+  "et_long_name": "Very warm day threshold", 
+  "et_definition": "Value of 95th percentile of TX", 
+  "et_comment": "95th percentile of daily maximum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 71
+--------------------------------------------------------------------------------
+{
+  "varname": "tx#pctl", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "72", 
+  "index_type": "F", 
+  "index_function": "FUN_prctile", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: maximum within days time: quantile over days", 
+  "output_long_name": "#th percentile of Tmax", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile)", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmax", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: maximum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "95th percentile of daily maximum temperature"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 72
+--------------------------------------------------------------------------------
+{
+  "varname": "tn#pctl", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "73", 
+  "index_type": "F", 
+  "index_function": "FUN_prctile", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: minimum within days time: quantile over days", 
+  "output_long_name": "#th percentile of Tmin", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile)", 
+  "threshold_relop": "_", 
+  "input_variable": "tasmin", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: minimum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 73
+--------------------------------------------------------------------------------
+{
+  "varname": "tm#pctl", 
+  "ready": "0", 
+  "cf_level": "NOT", 
+  "category": "3", 
+  "orig_order": "74", 
+  "index_type": "F", 
+  "index_function": "FUN_prctile", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "air_temperature", 
+  "output_cell_methods": "time: mean within days time: quantile over days", 
+  "output_long_name": "#th percentile of Tmean", 
+  "output_canonical_units": "Kelvin", 
+  "output_units": "degree_Celsius", 
+  "output_legend_units": "degree_Celsius", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile)", 
+  "threshold_relop": "_", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
 Error processing input index 74
 --------------------------------------------------------------------------------
 {
@@ -33,8 +2919,9 @@ Error processing input index 74
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	Splitting "varname":"???" does not yield a list of the expected 2, but instead 1 elements.
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 75
@@ -71,8 +2958,9 @@ Error processing input index 75
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	Splitting "varname":"???" does not yield a list of the expected 3, but instead 1 elements.
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 76
@@ -109,8 +2997,9 @@ Error processing input index 76
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	Splitting "varname":"???" does not yield a list of the expected 2, but instead 1 elements.
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 77
@@ -147,8 +3036,204 @@ Error processing input index 77
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	Splitting "varname":"???" does not yield a list of the expected 3, but instead 1 elements.
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 78
+--------------------------------------------------------------------------------
+{
+  "varname": "hddheat#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "79", 
+  "index_type": "A6", 
+  "index_function": "FUN_dd", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "integral_of_air_temperature_excess_wrt_time", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Heating Degree Days (Tmean < #C)", 
+  "output_canonical_units": "Kelvin second", 
+  "output_units": "degree_Celsius day", 
+  "output_legend_units": "degree-days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "# (=Tb)", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "hddheat", 
+  "et_long_name": "Heating degree days", 
+  "et_definition": "Sum of Tb- TM (where Tb is a user- defined location-specific base temperature and TM < Tb)", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 79
+--------------------------------------------------------------------------------
+{
+  "varname": "ddgt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "80", 
+  "index_type": "A6", 
+  "index_function": "FUN_dd", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "integral_of_air_temperature_excess_wrt_time", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Degree Days (Tmean > #C)", 
+  "output_canonical_units": "Kelvin second", 
+  "output_units": "degree_Celsius day", 
+  "output_legend_units": "degree-days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 80
+--------------------------------------------------------------------------------
+{
+  "varname": "cddcold#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "81", 
+  "index_type": "A6", 
+  "index_function": "FUN_dd", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "integral_of_air_temperature_deficit_wrt_time", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Cooling Degree Days (Tmean > #C)", 
+  "output_canonical_units": "Kelvin second", 
+  "output_units": "degree_Celsius day", 
+  "output_legend_units": "degree-days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "# (=Tb)", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "cddcold", 
+  "et_long_name": "Cooling degree days", 
+  "et_definition": "Sum of TM - Tb (where Tb is a user- defined location-specific base temperature and TM > Tb)", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 81
+--------------------------------------------------------------------------------
+{
+  "varname": "ddlt#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "82", 
+  "index_type": "A6", 
+  "index_function": "FUN_dd", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "integral_of_air_temperature_deficit_wrt_time", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Degree Days (Tmean < #C)", 
+  "output_canonical_units": "Kelvin second", 
+  "output_units": "degree_Celsius day", 
+  "output_legend_units": "degree-days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "#", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": "<", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 82
+--------------------------------------------------------------------------------
+{
+  "varname": "gddgrow#", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "2", 
+  "orig_order": "83", 
+  "index_type": "A6", 
+  "index_function": "FUN_dd", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "output_standard_name": "integral_of_air_temperature_excess_wrt_time", 
+  "output_cell_methods": "time: mean within days time: sum over days", 
+  "output_long_name": "Annual Growing Degree Days (Tmean > 5C)", 
+  "output_canonical_units": "Kelvin second", 
+  "output_units": "degree_Celsius day", 
+  "output_legend_units": "degree-days", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "air_temperature", 
+  "threshold_value": "# (=Tb)", 
+  "threshold_units": "degree_Celsius", 
+  "threshold_relop": ">", 
+  "input_variable": "tas", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean within days", 
+  "et_short_name": "gddgrow", 
+  "et_long_name": "Growing degree days", 
+  "et_definition": "Annual sum of TM - Tb (where Tb is a user- defined location-specific base temperature and TM >Tb)", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 83
@@ -185,8 +3270,9 @@ Error processing input index 83
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 84
@@ -223,8 +3309,9 @@ Error processing input index 84
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 85
@@ -261,8 +3348,9 @@ Error processing input index 85
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 86
@@ -299,8 +3387,9 @@ Error processing input index 86
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 87
@@ -337,8 +3426,9 @@ Error processing input index 87
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 88
@@ -375,8 +3465,672 @@ Error processing input index 88
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 89
+--------------------------------------------------------------------------------
+{
+  "varname": "r10mm", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "91", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_or_equal_threshold", 
+  "output_cell_methods": "time: sum within days time: sum over days", 
+  "output_long_name": "Number of heavy precipitation days (Precip >=10mm)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "threshold_value": "10", 
+  "threshold_units": "mm", 
+  "threshold_relop": ">=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "input_cell_methods": "time: sum within days", 
+  "et_short_name": "r10mm", 
+  "et_long_name": "Number of heavy precipitation days", 
+  "et_definition": "Count of days when P>=10mm", 
+  "et_comment": "count of days when daily total precipitation is above 10 mm"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 90
+--------------------------------------------------------------------------------
+{
+  "varname": "r20mm", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "92", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_or_equal_threshold", 
+  "output_cell_methods": "time: sum within days time: sum over days", 
+  "output_long_name": "Number of very heavy precipitation days (Precip >= 20mm)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "threshold_value": "20", 
+  "threshold_units": "mm", 
+  "threshold_relop": ">=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "input_cell_methods": "time: sum within days", 
+  "et_short_name": "r20mm", 
+  "et_long_name": "Number of very heavy precipitation days", 
+  "et_definition": "Count of days when P>=20mm", 
+  "et_comment": "count of days when daily total precipitation is above 20 mm"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 91
+--------------------------------------------------------------------------------
+{
+  "varname": "r#mm", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "93", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_or_equal_threshold", 
+  "output_cell_methods": "time: sum within days time: sum over days", 
+  "output_long_name": "Number of days with daily Precip >= #mm)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "threshold_value": "#", 
+  "threshold_units": "mm", 
+  "threshold_relop": ">=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "input_cell_methods": "time: sum within days", 
+  "et_short_name": "rnnmm", 
+  "et_long_name": "Number of days above a user-defined threshold", 
+  "et_definition": "_", 
+  "et_comment": "count of days when daily total precipitation is above X mm"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 92
+--------------------------------------------------------------------------------
+{
+  "varname": "wetdays", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "3", 
+  "orig_order": "94", 
+  "index_type": "A1", 
+  "index_function": "FUN_count", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_or_equal_threshold", 
+  "output_cell_methods": "time: sum within days time: sum over days", 
+  "output_long_name": "Number of Wet Days (precip >= 1 mm)", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "days", 
+  "output_reference": "_", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "threshold_value": "1", 
+  "threshold_units": "mm", 
+  "threshold_relop": ">=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "input_cell_methods": "time: sum within days", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 93
+--------------------------------------------------------------------------------
+{
+  "varname": "cdd", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "95", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_below_threshold", 
+  "output_cell_methods": "time: sum within days time: sum over days", 
+  "output_long_name": "Maximum consecutive dry days (Precip < 1mm)", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "threshold_value": "1", 
+  "threshold_units": "mm", 
+  "threshold_relop": "<", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "input_cell_methods": "time: sum within days", 
+  "et_short_name": "cdd", 
+  "et_long_name": "Consecutive dry days", 
+  "et_definition": "Maximum number of consecutive days with P<1mm", 
+  "et_comment": "maximum consecutive days when daily total precipitation is below 1 mm"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 94
+--------------------------------------------------------------------------------
+{
+  "varname": "cwd", 
+  "ready": "1", 
+  "cf_level": "CF-1.6", 
+  "category": "1", 
+  "orig_order": "96", 
+  "index_type": "A2", 
+  "index_function": "FUN_spell", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_above_or_equal_threshold", 
+  "output_cell_methods": "time: sum within days time: sum over days", 
+  "output_long_name": "Maximum consecutive wet days (Precip >= 1mm)", 
+  "output_canonical_units": "day", 
+  "output_units": "day", 
+  "output_legend_units": "days", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "threshold", 
+  "threshold_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "threshold_value": "1", 
+  "threshold_units": "mm", 
+  "threshold_relop": ">=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "input_cell_methods": "time: sum within days", 
+  "et_short_name": "cwd", 
+  "et_long_name": "Consecutive wet days", 
+  "et_definition": "Maximum number of consecutive days with P>=1mm", 
+  "et_comment": "maximum consecutive days when daily total precipitation is at least 1 mm"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 95
+--------------------------------------------------------------------------------
+{
+  "varname": "??????", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "1", 
+  "orig_order": "97", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Total precipitation during Wet Days", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "1", 
+  "threshold_units": "mm", 
+  "threshold_relop": ">", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "prcptot", 
+  "et_long_name": "Total wet- day precipitation", 
+  "et_definition": "PRCP from wet days (P>=1mm)", 
+  "et_comment": "sum of total daily precipitation during days having at least 1 mm"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 96
+--------------------------------------------------------------------------------
+{
+  "varname": "sdii", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "1", 
+  "orig_order": "98", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Average precipitation during Wet Days (SDII)", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "1", 
+  "threshold_units": "mm", 
+  "threshold_relop": ">=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "sdii", 
+  "et_long_name": "Simple precipitation intensity index", 
+  "et_definition": "PRCPTOT / Nwetdays", 
+  "et_comment": "mean daily total precipitation during days having at least 1 mm"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 97
+--------------------------------------------------------------------------------
+{
+  "varname": "r95ptot", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "1", 
+  "orig_order": "99", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Total precipitation amount when Precip > 95th pctl on Wet Days", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "0.95", 
+  "threshold_units": "1 (=quantile (--> # mm) )", 
+  "threshold_relop": ">", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "r95ptot", 
+  "et_long_name": "Contribution from very wet days", 
+  "et_definition": "Total precipitation amount when RR > 95th pctl on wet days", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 98
+--------------------------------------------------------------------------------
+{
+  "varname": "r99ptot", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "1", 
+  "orig_order": "100", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Total precipitation amount when Precip > 99th pctl on Wet Days", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "0.99", 
+  "threshold_units": "1 (=quantile (--> # mm) )", 
+  "threshold_relop": ">", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "r99ptot", 
+  "et_long_name": "Contribution from extremely wet days", 
+  "et_definition": "Total precipitation amount when RR > 99th pctl on wet days", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 99
+--------------------------------------------------------------------------------
+{
+  "varname": "r#ptot", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "3", 
+  "orig_order": "101", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Total precipitation amount when Precip > #th pctl on Wet Days", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "_", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # mm) )", 
+  "threshold_relop": ">", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 100
+--------------------------------------------------------------------------------
+{
+  "varname": "r95p", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "2", 
+  "orig_order": "102", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "%", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "0.95", 
+  "threshold_units": "1 (=quantile (--> # mm) )", 
+  "threshold_relop": ">", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "r95p", 
+  "et_long_name": "Contribution from very wet days", 
+  "et_definition": "Annual total precipitation amount when RR > 95th pctl on wet days", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 101
+--------------------------------------------------------------------------------
+{
+  "varname": "r99p", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "2", 
+  "orig_order": "103", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "%", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "0.99", 
+  "threshold_units": "1 (=quantile (--> # mm) )", 
+  "threshold_relop": ">", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "r99p", 
+  "et_long_name": "Contribution from extremely wet days", 
+  "et_definition": "Annual percentage of P>99th percentile /  PRCPTOT", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 102
+--------------------------------------------------------------------------------
+{
+  "varname": "r#pctl", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "3", 
+  "orig_order": "104", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_legend_units": "%", 
+  "output_reference": "_", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "#", 
+  "threshold_units": "1 (=quantile (--> # mm) )", 
+  "threshold_relop": ">", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 103
+--------------------------------------------------------------------------------
+{
+  "varname": "rx1day", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "1", 
+  "orig_order": "105", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_cell_methods": "time: sum within days time: maximum over days", 
+  "output_long_name": "Maximum 1-day precipitation", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "1", 
+  "threshold_units": "day", 
+  "threshold_relop": "=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "rx1day", 
+  "et_long_name": "Monthly maximum 1-day precipitation", 
+  "et_definition": "Maximum one-day precipitation", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 104
+--------------------------------------------------------------------------------
+{
+  "varname": "rx5day", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "1", 
+  "orig_order": "106", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_cell_methods": "time: sum within days time: maximum over days", 
+  "output_long_name": "Maximum 5-day precipitation", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "5", 
+  "threshold_units": "day", 
+  "threshold_relop": "=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "rx5day", 
+  "et_long_name": "Monthly maximum 5-day precipitation", 
+  "et_definition": "Maximum consecutive five-day precipitation", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
+================================================================================
+================================================================================
+Error processing input index 105
+--------------------------------------------------------------------------------
+{
+  "varname": "rx#day", 
+  "ready": "0", 
+  "cf_level": "", 
+  "category": "2", 
+  "orig_order": "107", 
+  "index_type": "_", 
+  "index_function": "_", 
+  "n_thresholds": "1", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_cell_methods": "time: sum within days time: maximum over days", 
+  "output_long_name": "Maximum #-day precipitation", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_legend_units": "mm", 
+  "output_reference": "ET-SCI", 
+  "threshold_varname": "??????", 
+  "threshold_standard_name": "??????", 
+  "threshold_value": "#", 
+  "threshold_units": "day", 
+  "threshold_relop": "=", 
+  "input_variable": "pr (transformed)", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "??????", 
+  "et_short_name": "rxnday", 
+  "et_long_name": "User-defined consecutive days precipitation amount", 
+  "et_definition": "Maximum consecutive n-day precipitation", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 106
@@ -413,8 +4167,9 @@ Error processing input index 106
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 107
@@ -451,8 +4206,9 @@ Error processing input index 107
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 108
@@ -489,8 +4245,9 @@ Error processing input index 108
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 109
@@ -527,8 +4284,9 @@ Error processing input index 109
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 110
@@ -565,8 +4323,9 @@ Error processing input index 110
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 111
@@ -603,8 +4362,9 @@ Error processing input index 111
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 112
@@ -641,8 +4401,9 @@ Error processing input index 112
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 113
@@ -679,8 +4440,9 @@ Error processing input index 113
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 114
@@ -717,8 +4479,9 @@ Error processing input index 114
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 115
@@ -755,8 +4518,9 @@ Error processing input index 115
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 116
@@ -793,8 +4557,9 @@ Error processing input index 116
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 117
@@ -831,8 +4596,9 @@ Error processing input index 117
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 118
@@ -869,8 +4635,9 @@ Error processing input index 118
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 119
@@ -907,8 +4674,9 @@ Error processing input index 119
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 120
@@ -945,8 +4713,9 @@ Error processing input index 120
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 121
@@ -983,8 +4752,9 @@ Error processing input index 121
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 122
@@ -1021,8 +4791,9 @@ Error processing input index 122
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 123
@@ -1059,8 +4830,9 @@ Error processing input index 123
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
 ================================================================================
 Error processing input index 124
@@ -1097,6 +4869,7 @@ Error processing input index 124
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "output":
+	Error applying rule for the __source field with key "user_units":
+		The input has no field with the key "output_user_units".
 ================================================================================
