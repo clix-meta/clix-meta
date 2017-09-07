@@ -1,3 +1,6 @@
 # Skip backup files
 *~ 
 .*~ 
+
+# Skip lock files
+.~lock*
