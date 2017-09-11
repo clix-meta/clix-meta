@@ -29,7 +29,7 @@ This repository contains the following components:
 ```python jsonFlat2Hierarchial.py translationRules.json < climate_indices_CV20.json > climate_indices_CV20_DEF.json 2>errors.txt```
 * Run the python script listMissingItems.py
 ```python listMissingItems.py < climate_indices_CV20_DEF.json > climate_indices_CV20_DEF_missing.txt```
-* Git commit all the files (the same as are in the repository)
+* Git commit all the files (the same as are in the repository) and push to the repo.
 
 
 ## Files ##
