@@ -1,10 +1,11 @@
 import sys, json, collections
 
 def printif(txt,hd): #{{{
-     #print type(txt),txt
-     if isinstance(txt, unicode) or isinstance(txt, str):
-         if len(txt) == 0 or txt[0] == "?" or txt[0] == "_":
-             print hd+": '"+txt+"'"
+     if hd.find("et::") < 0:
+         #print type(txt),txt
+         if isinstance(txt, unicode) or isinstance(txt, str):
+             if len(txt) == 0 or txt[0] == "?" or txt[0] == "_":
+                 print hd+": '"+txt+"'"
 #}}}
 
   

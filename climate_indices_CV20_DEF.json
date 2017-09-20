@@ -2,6 +2,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "fd", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -27,7 +28,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -41,6 +42,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnlt2", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -66,7 +68,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -80,6 +82,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnltm2", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -105,7 +108,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -119,6 +122,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnltm20", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -144,7 +148,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -158,6 +162,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "id", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -183,7 +188,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -197,6 +202,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "su", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -222,7 +228,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -236,6 +242,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "txge30", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -261,7 +268,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -275,6 +282,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "txge35", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -300,7 +308,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -314,6 +322,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tr", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -339,7 +348,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -353,6 +362,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "tmge5", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -378,7 +388,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -392,6 +402,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tmlt5", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -417,7 +428,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -431,6 +442,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "tmge10", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -456,7 +468,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -470,6 +482,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tmlt10", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -495,7 +508,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -509,6 +522,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tngt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -520,7 +534,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -534,7 +548,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -548,6 +562,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnlt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -559,7 +574,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -573,7 +588,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -587,6 +602,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "tnge#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -598,7 +614,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -612,7 +628,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -626,6 +642,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "tnle#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -637,7 +654,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -651,7 +668,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -665,6 +682,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "txgt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -676,7 +694,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -690,7 +708,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -704,6 +722,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "txlt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -715,7 +734,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -729,7 +748,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -743,6 +762,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "txge#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -754,7 +774,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -768,7 +788,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -782,6 +802,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "txle#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -793,7 +814,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -807,7 +828,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -821,6 +842,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tmgt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -832,7 +854,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -846,7 +868,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -860,6 +882,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tmlt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -871,7 +894,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -885,7 +908,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -899,6 +922,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "tmge#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -910,7 +934,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -924,7 +948,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -938,6 +962,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "tmle#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -949,7 +974,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -963,7 +988,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -977,6 +1002,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctngt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -988,7 +1014,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1002,7 +1028,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1016,6 +1042,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctnlt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1027,7 +1054,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1041,7 +1068,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1055,6 +1082,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "ctnge#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -1066,7 +1094,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1080,7 +1108,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1094,6 +1122,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "ctnle#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -1105,7 +1134,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1119,7 +1148,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1133,6 +1162,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctxgt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1144,7 +1174,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1158,7 +1188,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1172,6 +1202,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctxlt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1183,7 +1214,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1197,7 +1228,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1211,6 +1242,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctxge#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -1222,7 +1254,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1236,7 +1268,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1250,6 +1282,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctxle#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -1261,7 +1294,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1275,7 +1308,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1289,6 +1322,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctmgt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1300,7 +1334,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1314,7 +1348,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -1328,6 +1362,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctmlt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1339,7 +1374,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1353,7 +1388,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -1367,6 +1402,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctmge#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -1378,7 +1414,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1392,7 +1428,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -1406,6 +1442,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ctmle#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -1417,7 +1454,7 @@
       "canonical_units": "day", 
       "units": "day", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1431,7 +1468,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -1445,6 +1482,7 @@
   {
     "cf_level": "NOT", 
     "varname": "gsl", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "2", 
     "ready": "0", 
@@ -1477,7 +1515,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }, 
       {
@@ -1496,6 +1534,7 @@
   {
     "cf_level": "NOT", 
     "varname": "gsstart", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "2", 
     "ready": "0", 
@@ -1507,7 +1546,7 @@
       "canonical_units": "??????", 
       "units": "??????", 
       "user_units": "day number", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1528,7 +1567,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }, 
       {
@@ -1547,6 +1586,7 @@
   {
     "cf_level": "NOT", 
     "varname": "gsend", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "2", 
     "ready": "0", 
@@ -1558,7 +1598,7 @@
       "canonical_units": "??????", 
       "units": "??????", 
       "user_units": "day number", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1579,7 +1619,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }, 
       {
@@ -1598,6 +1638,7 @@
   {
     "cf_level": "NOT", 
     "varname": "gsgdd", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "2", 
     "ready": "0", 
@@ -1609,7 +1650,7 @@
       "canonical_units": "??????", 
       "units": "??????", 
       "user_units": "degree_Celsius day", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -1630,7 +1671,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }, 
       {
@@ -1649,6 +1690,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "txx", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1666,7 +1708,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1680,6 +1722,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnx", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1697,7 +1740,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1711,6 +1754,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "txn", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1728,7 +1772,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1742,6 +1786,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnn", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1759,7 +1804,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1773,6 +1818,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "txmax", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1784,13 +1830,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1804,6 +1850,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnmax", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1815,13 +1862,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1835,6 +1882,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "txmin", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1846,13 +1894,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -1866,6 +1914,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnmin", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1877,13 +1926,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -1897,6 +1946,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "txmean", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1908,13 +1958,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -1928,6 +1978,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tnmean", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1939,13 +1990,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -1959,6 +2010,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tmmax", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -1970,13 +2022,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -1990,6 +2042,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tmmin", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -2001,13 +2054,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2021,6 +2074,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "tmmean", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -2032,13 +2086,13 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [], 
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2052,6 +2106,7 @@
   {
     "cf_level": "NOT", 
     "varname": "wsdi", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2084,7 +2139,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2098,6 +2153,7 @@
   {
     "cf_level": "NOT", 
     "varname": "wsdi#", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2130,7 +2186,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2144,6 +2200,7 @@
   {
     "cf_level": "NOT", 
     "varname": "csdi", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2176,7 +2233,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -2190,6 +2247,7 @@
   {
     "cf_level": "NOT", 
     "varname": "csdi#", 
+    "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2222,7 +2280,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -2236,6 +2294,7 @@
   {
     "cf_level": "NOT", 
     "varname": "txgt50p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2261,7 +2320,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2275,6 +2334,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tn10p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2300,7 +2360,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -2314,6 +2374,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tx10p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2339,7 +2400,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2353,6 +2414,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tn90p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2378,7 +2440,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -2392,6 +2454,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tx90p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2417,7 +2480,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2431,6 +2494,7 @@
   {
     "cf_level": "NOT", 
     "varname": "txgt#p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2442,7 +2506,7 @@
       "canonical_units": "1", 
       "units": "%", 
       "user_units": "%", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2456,7 +2520,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2470,6 +2534,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tngt#p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2481,7 +2546,7 @@
       "canonical_units": "1", 
       "units": "%", 
       "user_units": "%", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2495,7 +2560,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -2509,6 +2574,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tmgt#p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2520,7 +2586,7 @@
       "canonical_units": "1", 
       "units": "%", 
       "user_units": "%", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2534,7 +2600,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2548,6 +2614,7 @@
   {
     "cf_level": "NOT", 
     "varname": "txlt#p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2559,7 +2626,7 @@
       "canonical_units": "1", 
       "units": "%", 
       "user_units": "%", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2573,7 +2640,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2587,6 +2654,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tnlt#p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2598,7 +2666,7 @@
       "canonical_units": "1", 
       "units": "%", 
       "user_units": "%", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2612,7 +2680,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -2626,6 +2694,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tmlt#p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2637,7 +2706,7 @@
       "canonical_units": "1", 
       "units": "%", 
       "user_units": "%", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2651,7 +2720,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2663,8 +2732,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.7 (draft)", 
+    "cf_level": "CF-1.7", 
     "varname": "dtr", 
+    "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "2", 
     "ready": "1", 
@@ -2682,12 +2752,12 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }, 
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2701,6 +2771,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tx95t", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2726,7 +2797,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2740,6 +2811,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tx#pctl", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2751,7 +2823,7 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2765,7 +2837,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum within days", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmax"
       }
     ], 
@@ -2779,6 +2851,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tn#pctl", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2790,7 +2863,7 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2804,7 +2877,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum within days", 
+        "cell_methods": "time: minimum", 
         "known_variables": "tasmin"
       }
     ], 
@@ -2818,6 +2891,7 @@
   {
     "cf_level": "NOT", 
     "varname": "tm#pctl", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -2829,7 +2903,7 @@
       "canonical_units": "Kelvin", 
       "units": "degree_Celsius", 
       "user_units": "degree_Celsius", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2843,7 +2917,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2857,6 +2931,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "hddheat#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -2882,7 +2957,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2896,6 +2971,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ddgt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -2907,7 +2983,7 @@
       "canonical_units": "Kelvin second", 
       "units": "degree_Celsius day", 
       "user_units": "degree-days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2921,7 +2997,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2935,6 +3011,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "cddcold#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -2960,7 +3037,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -2974,6 +3051,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "ddlt#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -2985,7 +3063,7 @@
       "canonical_units": "Kelvin second", 
       "units": "degree_Celsius day", 
       "user_units": "degree-days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -2999,7 +3077,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -3013,6 +3091,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "gddgrow#", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -3038,7 +3117,7 @@
     "input": [
       {
         "standard_name": "air_temperature", 
-        "cell_methods": "time: mean within days", 
+        "cell_methods": "time: mean", 
         "known_variables": "tas"
       }
     ], 
@@ -3052,6 +3131,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "r10mm", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3077,7 +3157,7 @@
     "input": [
       {
         "standard_name": "lwe_thickness_of_precipitation_amount", 
-        "cell_methods": "time: sum within days", 
+        "cell_methods": "time: sum", 
         "known_variables": "pr (transformed)"
       }
     ], 
@@ -3091,6 +3171,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "r20mm", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3116,7 +3197,7 @@
     "input": [
       {
         "standard_name": "lwe_thickness_of_precipitation_amount", 
-        "cell_methods": "time: sum within days", 
+        "cell_methods": "time: sum", 
         "known_variables": "pr (transformed)"
       }
     ], 
@@ -3130,6 +3211,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "r#mm", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3155,7 +3237,7 @@
     "input": [
       {
         "standard_name": "lwe_thickness_of_precipitation_amount", 
-        "cell_methods": "time: sum within days", 
+        "cell_methods": "time: sum", 
         "known_variables": "pr (transformed)"
       }
     ], 
@@ -3169,6 +3251,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "wetdays", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3180,7 +3263,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "days", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -3194,7 +3277,7 @@
     "input": [
       {
         "standard_name": "lwe_thickness_of_precipitation_amount", 
-        "cell_methods": "time: sum within days", 
+        "cell_methods": "time: sum", 
         "known_variables": "pr (transformed)"
       }
     ], 
@@ -3208,6 +3291,7 @@
   {
     "cf_level": "CF-1.6", 
     "varname": "cdd", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "1", 
@@ -3233,7 +3317,7 @@
     "input": [
       {
         "standard_name": "lwe_thickness_of_precipitation_amount", 
-        "cell_methods": "time: sum within days", 
+        "cell_methods": "time: sum", 
         "known_variables": "pr (transformed)"
       }
     ], 
@@ -3247,6 +3331,7 @@
   {
     "cf_level": "CF-1.6/not", 
     "varname": "cwd", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3272,7 +3357,7 @@
     "input": [
       {
         "standard_name": "lwe_thickness_of_precipitation_amount", 
-        "cell_methods": "time: sum within days", 
+        "cell_methods": "time: sum", 
         "known_variables": "pr (transformed)"
       }
     ], 
@@ -3285,7 +3370,8 @@
   }, 
   {
     "cf_level": "", 
-    "varname": "??????", 
+    "varname": "prcptot (??)", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3325,6 +3411,7 @@
   {
     "cf_level": "", 
     "varname": "sdii", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3364,6 +3451,7 @@
   {
     "cf_level": "", 
     "varname": "r95ptot", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3403,6 +3491,7 @@
   {
     "cf_level": "", 
     "varname": "r99ptot", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3442,6 +3531,7 @@
   {
     "cf_level": "", 
     "varname": "r#ptot", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3453,7 +3543,7 @@
       "canonical_units": "meter", 
       "units": "mm", 
       "user_units": "mm", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -3481,6 +3571,7 @@
   {
     "cf_level": "", 
     "varname": "r95p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3520,6 +3611,7 @@
   {
     "cf_level": "", 
     "varname": "r99p", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3559,6 +3651,7 @@
   {
     "cf_level": "", 
     "varname": "r#pctl", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3570,7 +3663,7 @@
       "canonical_units": "1", 
       "units": "1", 
       "user_units": "%", 
-      "reference": "_"
+      "reference": "CLIPC"
     }, 
     "threshold": [
       {
@@ -3598,6 +3691,7 @@
   {
     "cf_level": "", 
     "varname": "rx1day", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3637,6 +3731,7 @@
   {
     "cf_level": "", 
     "varname": "rx5day", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
@@ -3676,6 +3771,7 @@
   {
     "cf_level": "", 
     "varname": "rx#day", 
+    "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
