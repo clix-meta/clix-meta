@@ -1,7 +1,8 @@
 [
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "fd", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -9,6 +10,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Frost Days (Tmin < 0C)", 
       "canonical_units": "1", 
@@ -27,9 +29,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -40,8 +43,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tnlt2", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -49,6 +53,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Frost Days (Tmin < +2C)", 
       "canonical_units": "1", 
@@ -67,9 +72,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -80,8 +86,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tnltm2", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -89,6 +96,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Hard Freeze Days (Tmin < -2C)", 
       "canonical_units": "1", 
@@ -107,9 +115,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -120,8 +129,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tnltm20", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -129,6 +139,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Very Hard Freeze Days (Tmin < -20C)", 
       "canonical_units": "1", 
@@ -147,9 +158,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -160,8 +172,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "id", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -169,6 +182,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Ice Days (Tmax < 0C)", 
       "canonical_units": "1", 
@@ -187,9 +201,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -200,8 +215,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "su", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -209,6 +225,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Summer Days (Tmax > 25C)", 
       "canonical_units": "1", 
@@ -227,9 +244,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -240,15 +258,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "txge30", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Hot Days (Tmax >= 30C)", 
       "canonical_units": "1", 
@@ -267,9 +287,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -280,15 +301,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "txge35", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Very Hot Days (Tmax >= 35C)", 
       "canonical_units": "1", 
@@ -307,9 +330,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -320,8 +344,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tr", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -329,6 +354,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Tropical Nights (Tmin > 20C)", 
       "canonical_units": "1", 
@@ -347,9 +373,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -360,15 +387,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "tmge5", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean >= 5C", 
       "canonical_units": "1", 
@@ -387,9 +416,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -400,8 +430,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tmlt5", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -409,6 +440,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < 5C", 
       "canonical_units": "1", 
@@ -427,9 +459,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -440,15 +473,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "tmge10", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean >= 10C", 
       "canonical_units": "1", 
@@ -467,9 +502,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -480,8 +516,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tmlt10", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -489,6 +526,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < 10C", 
       "canonical_units": "1", 
@@ -507,9 +545,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -520,8 +559,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tngt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -529,6 +569,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin > #C", 
       "canonical_units": "1", 
@@ -547,9 +588,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -560,8 +602,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tnlt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -569,6 +612,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin < #C", 
       "canonical_units": "1", 
@@ -587,9 +631,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -600,15 +645,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "tnge#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin >= #C", 
       "canonical_units": "1", 
@@ -627,9 +674,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -640,15 +688,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "tnle#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin <= #C", 
       "canonical_units": "1", 
@@ -667,9 +717,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -680,8 +731,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "txgt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -689,6 +741,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax > #C", 
       "canonical_units": "1", 
@@ -707,9 +760,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -720,8 +774,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "txlt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -729,6 +784,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax < #C", 
       "canonical_units": "1", 
@@ -747,9 +803,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -760,15 +817,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "txge#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax >= #C", 
       "canonical_units": "1", 
@@ -787,9 +846,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -800,15 +860,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "txle#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax <= #C", 
       "canonical_units": "1", 
@@ -827,9 +889,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -840,8 +903,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tmgt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -849,6 +913,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean > #C", 
       "canonical_units": "1", 
@@ -867,9 +932,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -880,8 +946,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_count", 
     "varname": "tmlt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -889,6 +956,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < #C", 
       "canonical_units": "1", 
@@ -907,9 +975,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -920,15 +989,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "tmge#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean >= #C", 
       "canonical_units": "1", 
@@ -947,9 +1018,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -960,15 +1032,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "tmle#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
+      "standard_name": "number_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean <= #C", 
       "canonical_units": "1", 
@@ -987,9 +1061,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1000,8 +1075,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctngt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -1009,6 +1085,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin > #C", 
       "canonical_units": "day", 
@@ -1027,9 +1104,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1040,8 +1118,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctnlt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -1049,6 +1128,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin < #C", 
       "canonical_units": "day", 
@@ -1067,9 +1147,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1080,15 +1161,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_spell", 
     "varname": "ctnge#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin >= #C", 
       "canonical_units": "day", 
@@ -1107,9 +1190,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1120,15 +1204,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_spell", 
     "varname": "ctnle#", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
+      "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin <= #C", 
       "canonical_units": "day", 
@@ -1147,9 +1233,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1160,8 +1247,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctxgt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -1169,6 +1257,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax > #C", 
       "canonical_units": "day", 
@@ -1187,9 +1276,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1200,8 +1290,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctxlt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -1209,6 +1300,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax < #C", 
       "canonical_units": "day", 
@@ -1227,9 +1319,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1240,15 +1333,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctxge#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax >= #C", 
       "canonical_units": "day", 
@@ -1267,9 +1362,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1280,15 +1376,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctxle#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
+      "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax <= #C", 
       "canonical_units": "day", 
@@ -1307,9 +1405,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1320,8 +1419,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctmgt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -1329,6 +1429,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean > #C", 
       "canonical_units": "day", 
@@ -1347,9 +1448,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1360,8 +1462,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctmlt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -1369,6 +1472,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean < #C", 
       "canonical_units": "day", 
@@ -1387,9 +1491,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1400,15 +1505,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctmge#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
+      "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
+      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean >= #C", 
       "canonical_units": "day", 
@@ -1427,9 +1534,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1440,15 +1548,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "ctmle#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
+      "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
+      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean <= #C", 
       "canonical_units": "day", 
@@ -1467,9 +1577,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1480,15 +1591,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_growing", 
     "varname": "gsl", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
-    "n_inputs": "2", 
+    "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "ETCCDI Growing Season Length (Tmean > 5C)", 
       "canonical_units": "??????", 
@@ -1514,14 +1627,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
-      }, 
-      {
-        "standard_name": "latitude", 
-        "cell_methods": "?????", 
-        "known_variables": "latitude"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1532,15 +1641,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_growing", 
     "varname": "gsstart", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
-    "n_inputs": "2", 
+    "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "Start of ETCCDI Growing Season (6 days with Tmean > 5C)", 
       "canonical_units": "??????", 
@@ -1566,14 +1677,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
-      }, 
-      {
-        "standard_name": "latitude", 
-        "cell_methods": "?????", 
-        "known_variables": "latitude"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1584,15 +1691,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_growing", 
     "varname": "gsend", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
-    "n_inputs": "2", 
+    "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "End of ETCCDI Growing Season (6 days with Tmean < 5C)", 
       "canonical_units": "??????", 
@@ -1618,14 +1727,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
-      }, 
-      {
-        "standard_name": "latitude", 
-        "cell_methods": "?????", 
-        "known_variables": "latitude"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1636,15 +1741,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_growing", 
     "varname": "gsgdd", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
-    "n_inputs": "2", 
+    "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "Degree Days (Tmean >5C) during ETCCDI Growing Season", 
       "canonical_units": "??????", 
@@ -1670,14 +1777,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
-      }, 
-      {
-        "standard_name": "latitude", 
-        "cell_methods": "?????", 
-        "known_variables": "latitude"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1688,8 +1791,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_max", 
     "varname": "txx", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1697,6 +1801,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1707,9 +1812,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1720,8 +1826,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_max", 
     "varname": "tnx", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1729,6 +1836,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -1739,9 +1847,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1752,8 +1861,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_min", 
     "varname": "txn", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1761,6 +1871,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: minimum over days", 
       "long_name": "Minimum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1771,9 +1882,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1784,8 +1896,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_min", 
     "varname": "tnn", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1793,6 +1906,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: minimum over days", 
       "long_name": "Minimum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -1803,9 +1917,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1816,8 +1931,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_max", 
     "varname": "txmax", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1825,6 +1941,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1835,9 +1952,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1848,8 +1966,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_max", 
     "varname": "tnmax", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1857,6 +1976,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -1867,9 +1987,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1880,8 +2001,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_min", 
     "varname": "txmin", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1889,6 +2011,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: minimum over days", 
       "long_name": "Minimum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1899,9 +2022,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1912,8 +2036,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_min", 
     "varname": "tnmin", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1921,6 +2046,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: minimum over days", 
       "long_name": "Minimum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -1931,9 +2057,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1944,8 +2071,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_mean", 
     "varname": "txmean", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1953,6 +2081,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: mean over days", 
       "long_name": "Mean daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1963,9 +2092,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -1976,8 +2106,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_mean", 
     "varname": "tnmean", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -1985,6 +2116,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: mean over days", 
       "long_name": "Mean daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -1995,9 +2127,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2008,8 +2141,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_max", 
     "varname": "tmmax", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -2017,6 +2151,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum daily mean temperature", 
       "canonical_units": "Kelvin", 
@@ -2027,9 +2162,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2040,8 +2176,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_min", 
     "varname": "tmmin", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -2049,6 +2186,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Minimum daily mean temperature", 
       "canonical_units": "Kelvin", 
@@ -2059,9 +2197,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2072,8 +2211,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_mean", 
     "varname": "tmmean", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
@@ -2081,6 +2221,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: mean over days", 
       "long_name": "Mean daily mean temperature", 
       "canonical_units": "Kelvin", 
@@ -2091,9 +2232,10 @@
     "threshold": [], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2104,15 +2246,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_wsdi", 
     "varname": "wsdi", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "Warm Spell Duration Index, count of days with at least 6 consecutive days when Tmax > 90th percentile", 
       "canonical_units": "1", 
@@ -2138,9 +2282,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2151,15 +2296,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_wsdi", 
     "varname": "wsdi#", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "User-defined Warm Spell Duration Index, count of days with at least # consecutive days when Tmax > 90th percentile", 
       "canonical_units": "1", 
@@ -2185,9 +2332,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2198,15 +2346,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_csdi", 
     "varname": "csdi", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "Cold Spell Duration Index, count of days with at least 6 consecutive days when Tmin < 10th percentile", 
       "canonical_units": "1", 
@@ -2232,9 +2382,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2245,15 +2396,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_csdi", 
     "varname": "csdi#", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "2", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "User-defined Cold Spell Duration Index, count of days with at least # consecutive days when Tmin < 10th percentile", 
       "canonical_units": "1", 
@@ -2279,9 +2432,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2292,15 +2446,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "txgt50p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax > 50th percentile", 
       "canonical_units": "1", 
@@ -2319,9 +2475,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2332,15 +2489,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tn10p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmin < 10th percentile", 
       "canonical_units": "1", 
@@ -2359,9 +2518,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2372,15 +2532,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tx10p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
       "cell_methods": "time: maximum within days time: minimum over days", 
       "long_name": "Percentage of days when Tmax < 10th percentile", 
       "canonical_units": "1", 
@@ -2399,9 +2561,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2412,15 +2575,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tn90p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
       "cell_methods": "time: minimum within days time: minimum over days", 
       "long_name": "Percentage of days when Tmin > 90th percentile", 
       "canonical_units": "1", 
@@ -2439,9 +2604,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2452,15 +2618,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tx90p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax > 90th percentile", 
       "canonical_units": "1", 
@@ -2479,9 +2647,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2492,15 +2661,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "txgt#p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax > #th percentile", 
       "canonical_units": "1", 
@@ -2519,9 +2690,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2532,15 +2704,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tngt#p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmin > #th percentile", 
       "canonical_units": "1", 
@@ -2559,9 +2733,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2572,15 +2747,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tmgt#p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Percentage of days when Tmean > #th percentile", 
       "canonical_units": "1", 
@@ -2599,9 +2776,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2612,15 +2790,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "txlt#p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax < #th percentile", 
       "canonical_units": "1", 
@@ -2639,9 +2819,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2652,15 +2833,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tnlt#p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmin < #th percentile", 
       "canonical_units": "1", 
@@ -2679,9 +2862,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2692,15 +2876,17 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_frac", 
     "varname": "tmlt#p", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann", 
     "output": {
-      "standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name": "", 
+      "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Percentage of days when Tmean < #th percentile", 
       "canonical_units": "1", 
@@ -2719,9 +2905,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2732,45 +2919,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.7", 
-    "varname": "dtr", 
-    "default_freq": "ann", 
-    "n_thresholds": "0", 
-    "n_inputs": "2", 
-    "ready": "1", 
-    "freq": "mon", 
-    "output": {
-      "standard_name": "air_temperature", 
-      "cell_methods": "time range within days time: mean over days", 
-      "long_name": "Mean Diurnal Temperature Range", 
-      "canonical_units": "Kelvin", 
-      "units": "degree_Celsius", 
-      "user_units": "degree_Celsius", 
-      "reference": "ETCCDI"
-    }, 
-    "threshold": [], 
-    "input": [
-      {
-        "standard_name": "air_temperature", 
-        "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
-      }, 
-      {
-        "standard_name": "air_temperature", 
-        "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
-      }
-    ], 
-    "et": {
-      "short_name": "dtr", 
-      "long_name": "Daily temperature range", 
-      "definition": "Monthly mean difference between TX and TN", 
-      "comment": "mean of daily temperature range"
-    }
-  }, 
-  {
-    "cf_level": "NOT", 
+    "index_function": "FUN_prctile", 
     "varname": "tx95t", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -2778,6 +2929,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: quantile over days", 
       "long_name": "Very Warm Days threshold (95th percentile of Tmax)", 
       "canonical_units": "Kelvin", 
@@ -2796,9 +2948,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2809,8 +2962,9 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_prctile", 
     "varname": "tx#pctl", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -2818,6 +2972,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: maximum within days time: quantile over days", 
       "long_name": "#th percentile of Tmax", 
       "canonical_units": "Kelvin", 
@@ -2836,9 +2991,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: maximum", 
-        "known_variables": "tasmax"
+        "known_variables": "tasmax", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2849,8 +3005,9 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_prctile", 
     "varname": "tn#pctl", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -2858,6 +3015,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: minimum within days time: quantile over days", 
       "long_name": "#th percentile of Tmin", 
       "canonical_units": "Kelvin", 
@@ -2876,9 +3034,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: minimum", 
-        "known_variables": "tasmin"
+        "known_variables": "tasmin", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2889,8 +3048,9 @@
     }
   }, 
   {
-    "cf_level": "NOT", 
+    "index_function": "FUN_prctile", 
     "varname": "tm#pctl", 
+    "conventions": "NOT", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -2898,6 +3058,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: quantile over days", 
       "long_name": "#th percentile of Tmean", 
       "canonical_units": "Kelvin", 
@@ -2916,9 +3077,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2929,8 +3091,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_dd", 
     "varname": "hddheat#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -2938,6 +3101,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "integral_of_air_temperature_excess_wrt_time", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Heating Degree Days (Tmean < #C)", 
       "canonical_units": "Kelvin second", 
@@ -2956,9 +3120,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -2969,8 +3134,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_dd", 
     "varname": "ddgt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -2978,6 +3144,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "integral_of_air_temperature_excess_wrt_time", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Degree Days (Tmean > #C)", 
       "canonical_units": "Kelvin second", 
@@ -2996,9 +3163,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -3009,8 +3177,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_dd", 
     "varname": "cddcold#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3018,6 +3187,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "integral_of_air_temperature_deficit_wrt_time", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Cooling Degree Days (Tmean > #C)", 
       "canonical_units": "Kelvin second", 
@@ -3036,9 +3206,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -3049,8 +3220,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_dd", 
     "varname": "ddlt#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3058,6 +3230,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "integral_of_air_temperature_deficit_wrt_time", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Degree Days (Tmean < #C)", 
       "canonical_units": "Kelvin second", 
@@ -3076,9 +3249,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -3089,8 +3263,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_dd", 
     "varname": "gddgrow#", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3098,6 +3273,7 @@
     "freq": "ann", 
     "output": {
       "standard_name": "integral_of_air_temperature_excess_wrt_time", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Annual Growing Degree Days (Tmean > 5C)", 
       "canonical_units": "Kelvin second", 
@@ -3116,9 +3292,10 @@
     ], 
     "input": [
       {
-        "standard_name": "air_temperature", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: mean", 
-        "known_variables": "tas"
+        "known_variables": "tas", 
+        "standard_name": "air_temperature"
       }
     ], 
     "et": {
@@ -3129,15 +3306,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "r10mm", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of heavy precipitation days (Precip >=10mm)", 
       "canonical_units": "1", 
@@ -3156,9 +3335,10 @@
     ], 
     "input": [
       {
-        "standard_name": "lwe_thickness_of_precipitation_amount", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: sum", 
-        "known_variables": "pr (transformed)"
+        "known_variables": "pr", 
+        "standard_name": "lwe_thickness_of_precipitation_amount"
       }
     ], 
     "et": {
@@ -3169,15 +3349,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "r20mm", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of very heavy precipitation days (Precip >= 20mm)", 
       "canonical_units": "1", 
@@ -3196,9 +3378,10 @@
     ], 
     "input": [
       {
-        "standard_name": "lwe_thickness_of_precipitation_amount", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: sum", 
-        "known_variables": "pr (transformed)"
+        "known_variables": "pr", 
+        "standard_name": "lwe_thickness_of_precipitation_amount"
       }
     ], 
     "et": {
@@ -3209,15 +3392,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "r#mm", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of days with daily Precip >= #mm)", 
       "canonical_units": "1", 
@@ -3236,9 +3421,10 @@
     ], 
     "input": [
       {
-        "standard_name": "lwe_thickness_of_precipitation_amount", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: sum", 
-        "known_variables": "pr (transformed)"
+        "known_variables": "pr", 
+        "standard_name": "lwe_thickness_of_precipitation_amount"
       }
     ], 
     "et": {
@@ -3249,15 +3435,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_count", 
     "varname": "wetdays", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
+      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of Wet Days (precip >= 1 mm)", 
       "canonical_units": "1", 
@@ -3276,9 +3464,10 @@
     ], 
     "input": [
       {
-        "standard_name": "lwe_thickness_of_precipitation_amount", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: sum", 
-        "known_variables": "pr (transformed)"
+        "known_variables": "pr", 
+        "standard_name": "lwe_thickness_of_precipitation_amount"
       }
     ], 
     "et": {
@@ -3289,8 +3478,9 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6", 
+    "index_function": "FUN_spell", 
     "varname": "cdd", 
+    "conventions": "CF-1.5", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3298,6 +3488,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_below_threshold", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Maximum consecutive dry days (Precip < 1mm)", 
       "canonical_units": "day", 
@@ -3316,9 +3507,10 @@
     ], 
     "input": [
       {
-        "standard_name": "lwe_thickness_of_precipitation_amount", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: sum", 
-        "known_variables": "pr (transformed)"
+        "known_variables": "pr", 
+        "standard_name": "lwe_thickness_of_precipitation_amount"
       }
     ], 
     "et": {
@@ -3329,15 +3521,17 @@
     }
   }, 
   {
-    "cf_level": "CF-1.6/not", 
+    "index_function": "FUN_spell", 
     "varname": "cwd", 
+    "conventions": "CF-1.5/not", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
+      "proposed_standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Maximum consecutive wet days (Precip >= 1mm)", 
       "canonical_units": "day", 
@@ -3356,9 +3550,10 @@
     ], 
     "input": [
       {
-        "standard_name": "lwe_thickness_of_precipitation_amount", 
+        "required_time_resolution": "day", 
         "cell_methods": "time: sum", 
-        "known_variables": "pr (transformed)"
+        "known_variables": "pr", 
+        "standard_name": "lwe_thickness_of_precipitation_amount"
       }
     ], 
     "et": {
@@ -3369,8 +3564,9 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "prcptot (??)", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3378,6 +3574,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
+      "proposed_standard_name": "", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation during Wet Days", 
       "canonical_units": "meter", 
@@ -3396,9 +3593,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3409,8 +3607,9 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "sdii", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3418,6 +3617,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
+      "proposed_standard_name": "", 
       "cell_methods": "??????", 
       "long_name": "Average precipitation during Wet Days (SDII)", 
       "canonical_units": "meter", 
@@ -3436,9 +3636,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3449,15 +3650,17 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "r95ptot", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation amount when Precip > 95th pctl on Wet Days", 
       "canonical_units": "meter", 
@@ -3476,9 +3679,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3489,15 +3693,17 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "r99ptot", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation amount when Precip > 99th pctl on Wet Days", 
       "canonical_units": "meter", 
@@ -3516,9 +3722,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3529,15 +3736,17 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "r#ptot", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation amount when Precip > #th pctl on Wet Days", 
       "canonical_units": "meter", 
@@ -3556,9 +3765,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3569,15 +3779,17 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "r95p", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "??????", 
       "canonical_units": "1", 
@@ -3596,9 +3808,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3609,15 +3822,17 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "r99p", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "??????", 
       "canonical_units": "1", 
@@ -3636,9 +3851,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3649,15 +3865,17 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "r#pctl", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
     "ready": "0", 
     "freq": "ann/sea/mon", 
     "output": {
-      "standard_name": "??????", 
+      "standard_name": "", 
+      "proposed_standard_name": "??????", 
       "cell_methods": "??????", 
       "long_name": "??????", 
       "canonical_units": "1", 
@@ -3676,9 +3894,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3689,8 +3908,9 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "rx1day", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3698,6 +3918,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: sum within days time: maximum over days", 
       "long_name": "Maximum 1-day precipitation", 
       "canonical_units": "meter", 
@@ -3716,9 +3937,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3729,8 +3951,9 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "rx5day", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3738,6 +3961,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: sum within days time: maximum over days", 
       "long_name": "Maximum 5-day precipitation", 
       "canonical_units": "meter", 
@@ -3756,9 +3980,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {
@@ -3769,8 +3994,9 @@
     }
   }, 
   {
-    "cf_level": "", 
+    "index_function": "_", 
     "varname": "rx#day", 
+    "conventions": "", 
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
@@ -3778,6 +4004,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
+      "proposed_standard_name": "", 
       "cell_methods": "time: sum within days time: maximum over days", 
       "long_name": "Maximum #-day precipitation", 
       "canonical_units": "meter", 
@@ -3796,9 +4023,10 @@
     ], 
     "input": [
       {
-        "standard_name": "??????", 
-        "cell_methods": "??????", 
-        "known_variables": "pr (transformed)"
+        "required_time_resolution": "day", 
+        "cell_methods": "time: sum (only days having 1 mm day-1)", 
+        "known_variables": "pr", 
+        "standard_name": "??????"
       }
     ], 
     "et": {

@@ -4,12 +4,12 @@
 		"selection",
 		"category",
 		"orig_order",
-		"index_type",
-		"index_function"
+		"index_type"
 	],
 	"output" : {
 		"__source" : {
 			"standard_name" : "output_standard_name",
+			"proposed_standard_name": "output_proposed_standard_name",
 			"cell_methods" : "output_cell_methods",
 			"long_name" : "output_long_name",
 			"canonical_units" : "output_canonical_units",
@@ -32,6 +32,7 @@
 		"__split" : "n_inputs",
 		"__source" : {
 			"known_variables" : "input_variable",
+			"required_time_resolution": "input_timeresol",
 			"standard_name" : "input_standard_name",
 			"cell_methods" : "input_cell_methods"
 		}
