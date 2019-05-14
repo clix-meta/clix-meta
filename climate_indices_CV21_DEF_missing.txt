@@ -25,58 +25,74 @@
 15 :  tnlt#
         output::proposed_standard_name: ''
 16 :  tnge#
+        output::standard_name_table_version: ''
 17 :  tnle#
+        output::standard_name_table_version: ''
 18 :  txgt#
         output::proposed_standard_name: ''
 19 :  txlt#
         output::proposed_standard_name: ''
 20 :  txge#
+        output::standard_name_table_version: ''
 21 :  txle#
+        output::standard_name_table_version: ''
 22 :  tmgt#
         output::proposed_standard_name: ''
 23 :  tmlt#
         output::proposed_standard_name: ''
 24 :  tmge#
+        output::standard_name_table_version: ''
 25 :  tmle#
+        output::standard_name_table_version: ''
 26 :  ctngt#
         output::proposed_standard_name: ''
 27 :  ctnlt#
         output::proposed_standard_name: ''
 28 :  ctnge#
+        output::standard_name_table_version: ''
 29 :  ctnle#
+        output::standard_name_table_version: ''
 30 :  ctxgt#
         output::proposed_standard_name: ''
 31 :  ctxlt#
         output::proposed_standard_name: ''
 32 :  ctxge#
+        output::standard_name_table_version: ''
 33 :  ctxle#
+        output::standard_name_table_version: ''
 34 :  ctmgt#
         output::proposed_standard_name: ''
 35 :  ctmlt#
         output::proposed_standard_name: ''
 36 :  ctmge#
+        output::standard_name_table_version: ''
 37 :  ctmle#
+        output::standard_name_table_version: ''
 38 :  gsl
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
         output::canonical_units: '??????'
         output::units: '??????'
 39 :  gsstart
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
         output::canonical_units: '??????'
         output::units: '??????'
 40 :  gsend
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
         output::canonical_units: '??????'
         output::units: '??????'
 41 :  gsgdd
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
         output::canonical_units: '??????'
         output::units: '??????'
@@ -109,49 +125,68 @@
 55 :  wsdi
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
 56 :  wsdi#
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
 57 :  csdi
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
 58 :  csdi#
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
 59 :  txgt50p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 60 :  tn10p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 61 :  tx10p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 62 :  tn90p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 63 :  tx90p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 64 :  txgt#p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 65 :  tngt#p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 66 :  tmgt#p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 67 :  txlt#p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 68 :  tnlt#p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 69 :  tmlt#p
         output::standard_name: ''
+        output::standard_name_table_version: ''
 70 :  tx95t
         output::proposed_standard_name: ''
+        output::standard_name_table_version: ''
 71 :  tx#pctl
         output::proposed_standard_name: ''
+        output::standard_name_table_version: ''
 72 :  tn#pctl
         output::proposed_standard_name: ''
+        output::standard_name_table_version: ''
 73 :  tm#pctl
         output::proposed_standard_name: ''
+        output::standard_name_table_version: ''
 74 :  hddheat#
         output::proposed_standard_name: ''
 75 :  ddgt#
@@ -184,24 +219,28 @@
         conventions: ''
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
 88 :  r99ptot
         index_function: '_'
         conventions: ''
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
 89 :  r#ptot
         index_function: '_'
         conventions: ''
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
 90 :  r95p
         index_function: '_'
         conventions: ''
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
         output::long_name: '??????'
 91 :  r99p
@@ -209,6 +248,7 @@
         conventions: ''
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
         output::long_name: '??????'
 92 :  r#pctl
@@ -216,6 +256,7 @@
         conventions: ''
         output::standard_name: ''
         output::proposed_standard_name: '??????'
+        output::standard_name_table_version: ''
         output::cell_methods: '??????'
         output::long_name: '??????'
 93 :  rx1day

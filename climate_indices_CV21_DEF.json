@@ -11,6 +11,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Frost Days (Tmin < 0C)", 
       "canonical_units": "1", 
@@ -54,6 +55,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Frost Days (Tmin < +2C)", 
       "canonical_units": "1", 
@@ -97,6 +99,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Hard Freeze Days (Tmin < -2C)", 
       "canonical_units": "1", 
@@ -140,6 +143,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Very Hard Freeze Days (Tmin < -20C)", 
       "canonical_units": "1", 
@@ -183,6 +187,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Ice Days (Tmax < 0C)", 
       "canonical_units": "1", 
@@ -226,6 +231,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Summer Days (Tmax > 25C)", 
       "canonical_units": "1", 
@@ -264,11 +270,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Hot Days (Tmax >= 30C)", 
       "canonical_units": "1", 
@@ -307,11 +314,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Very Hot Days (Tmax >= 35C)", 
       "canonical_units": "1", 
@@ -355,6 +363,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Tropical Nights (Tmin > 20C)", 
       "canonical_units": "1", 
@@ -393,11 +402,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean >= 5C", 
       "canonical_units": "1", 
@@ -441,6 +451,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < 5C", 
       "canonical_units": "1", 
@@ -479,11 +490,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean >= 10C", 
       "canonical_units": "1", 
@@ -527,6 +539,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < 10C", 
       "canonical_units": "1", 
@@ -570,6 +583,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin > #C", 
       "canonical_units": "1", 
@@ -613,6 +627,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin < #C", 
       "canonical_units": "1", 
@@ -655,7 +670,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin >= #C", 
       "canonical_units": "1", 
@@ -698,7 +714,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin <= #C", 
       "canonical_units": "1", 
@@ -742,6 +759,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax > #C", 
       "canonical_units": "1", 
@@ -785,6 +803,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax < #C", 
       "canonical_units": "1", 
@@ -827,7 +846,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax >= #C", 
       "canonical_units": "1", 
@@ -870,7 +890,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax <= #C", 
       "canonical_units": "1", 
@@ -914,6 +935,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean > #C", 
       "canonical_units": "1", 
@@ -957,6 +979,7 @@
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < #C", 
       "canonical_units": "1", 
@@ -999,7 +1022,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean >= #C", 
       "canonical_units": "1", 
@@ -1042,7 +1066,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "number_of_days_with_air_temperature_at_or_below_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_at_or_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean <= #C", 
       "canonical_units": "1", 
@@ -1086,6 +1111,7 @@
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin > #C", 
       "canonical_units": "day", 
@@ -1129,6 +1155,7 @@
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin < #C", 
       "canonical_units": "day", 
@@ -1171,7 +1198,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "spell_length_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin >= #C", 
       "canonical_units": "day", 
@@ -1214,7 +1242,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
+      "proposed_standard_name": "spell_length_with_air_temperature_at_or_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin <= #C", 
       "canonical_units": "day", 
@@ -1258,6 +1287,7 @@
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax > #C", 
       "canonical_units": "day", 
@@ -1301,6 +1331,7 @@
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax < #C", 
       "canonical_units": "day", 
@@ -1343,7 +1374,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "spell_length_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax >= #C", 
       "canonical_units": "day", 
@@ -1386,7 +1418,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
+      "proposed_standard_name": "spell_length_with_air_temperature_at_or_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax <= #C", 
       "canonical_units": "day", 
@@ -1430,6 +1463,7 @@
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean > #C", 
       "canonical_units": "day", 
@@ -1473,6 +1507,7 @@
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean < #C", 
       "canonical_units": "day", 
@@ -1515,7 +1550,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_above_threshold", 
+      "proposed_standard_name": "spell_length_with_air_temperature_at_or_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean >= #C", 
       "canonical_units": "day", 
@@ -1558,7 +1594,8 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "spell_length_of_days_with_air_temperature_at_or_below_threshold", 
+      "proposed_standard_name": "spell_length_with_air_temperature_at_or_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean <= #C", 
       "canonical_units": "day", 
@@ -1602,6 +1639,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "ETCCDI Growing Season Length (Tmean > 5C)", 
       "canonical_units": "??????", 
@@ -1652,6 +1690,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "Start of ETCCDI Growing Season (6 days with Tmean > 5C)", 
       "canonical_units": "??????", 
@@ -1702,6 +1741,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "End of ETCCDI Growing Season (6 days with Tmean < 5C)", 
       "canonical_units": "??????", 
@@ -1752,6 +1792,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "Degree Days (Tmean >5C) during ETCCDI Growing Season", 
       "canonical_units": "??????", 
@@ -1802,6 +1843,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1837,6 +1879,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -1872,6 +1915,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: minimum over days", 
       "long_name": "Minimum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1907,6 +1951,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: minimum over days", 
       "long_name": "Minimum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -1942,6 +1987,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -1977,6 +2023,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -2012,6 +2059,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: minimum over days", 
       "long_name": "Minimum daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -2047,6 +2095,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: minimum over days", 
       "long_name": "Minimum daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -2082,6 +2131,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: mean over days", 
       "long_name": "Mean daily maximum temperature", 
       "canonical_units": "Kelvin", 
@@ -2117,6 +2167,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: mean over days", 
       "long_name": "Mean daily minimum temperature", 
       "canonical_units": "Kelvin", 
@@ -2152,6 +2203,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum daily mean temperature", 
       "canonical_units": "Kelvin", 
@@ -2182,11 +2234,12 @@
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
-    "ready": "1", 
+    "ready": "v65", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Minimum daily mean temperature", 
       "canonical_units": "Kelvin", 
@@ -2222,6 +2275,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: mean over days", 
       "long_name": "Mean daily mean temperature", 
       "canonical_units": "Kelvin", 
@@ -2257,6 +2311,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "Warm Spell Duration Index, count of days with at least 6 consecutive days when Tmax > 90th percentile", 
       "canonical_units": "1", 
@@ -2307,6 +2362,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "User-defined Warm Spell Duration Index, count of days with at least # consecutive days when Tmax > 90th percentile", 
       "canonical_units": "1", 
@@ -2357,6 +2413,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "Cold Spell Duration Index, count of days with at least 6 consecutive days when Tmin < 10th percentile", 
       "canonical_units": "1", 
@@ -2407,6 +2464,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "User-defined Cold Spell Duration Index, count of days with at least # consecutive days when Tmin < 10th percentile", 
       "canonical_units": "1", 
@@ -2457,6 +2515,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax > 50th percentile", 
       "canonical_units": "1", 
@@ -2500,6 +2559,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmin < 10th percentile", 
       "canonical_units": "1", 
@@ -2543,6 +2603,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: minimum over days", 
       "long_name": "Percentage of days when Tmax < 10th percentile", 
       "canonical_units": "1", 
@@ -2586,6 +2647,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: minimum over days", 
       "long_name": "Percentage of days when Tmin > 90th percentile", 
       "canonical_units": "1", 
@@ -2629,6 +2691,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax > 90th percentile", 
       "canonical_units": "1", 
@@ -2672,6 +2735,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax > #th percentile", 
       "canonical_units": "1", 
@@ -2715,6 +2779,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmin > #th percentile", 
       "canonical_units": "1", 
@@ -2758,6 +2823,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_above_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Percentage of days when Tmean > #th percentile", 
       "canonical_units": "1", 
@@ -2801,6 +2867,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmax < #th percentile", 
       "canonical_units": "1", 
@@ -2844,6 +2911,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Percentage of days when Tmin < #th percentile", 
       "canonical_units": "1", 
@@ -2887,6 +2955,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "fraction_of_days_with_air_temperature_below_threshold", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Percentage of days when Tmean < #th percentile", 
       "canonical_units": "1", 
@@ -2930,6 +2999,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: quantile over days", 
       "long_name": "Very Warm Days threshold (95th percentile of Tmax)", 
       "canonical_units": "Kelvin", 
@@ -2973,6 +3043,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: maximum within days time: quantile over days", 
       "long_name": "#th percentile of Tmax", 
       "canonical_units": "Kelvin", 
@@ -3016,6 +3087,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: minimum within days time: quantile over days", 
       "long_name": "#th percentile of Tmin", 
       "canonical_units": "Kelvin", 
@@ -3059,6 +3131,7 @@
     "output": {
       "standard_name": "air_temperature", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "", 
       "cell_methods": "time: mean within days time: quantile over days", 
       "long_name": "#th percentile of Tmean", 
       "canonical_units": "Kelvin", 
@@ -3102,6 +3175,7 @@
     "output": {
       "standard_name": "integral_of_air_temperature_excess_wrt_time", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Heating Degree Days (Tmean < #C)", 
       "canonical_units": "Kelvin second", 
@@ -3145,6 +3219,7 @@
     "output": {
       "standard_name": "integral_of_air_temperature_excess_wrt_time", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Degree Days (Tmean > #C)", 
       "canonical_units": "Kelvin second", 
@@ -3188,6 +3263,7 @@
     "output": {
       "standard_name": "integral_of_air_temperature_deficit_wrt_time", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Cooling Degree Days (Tmean > #C)", 
       "canonical_units": "Kelvin second", 
@@ -3231,6 +3307,7 @@
     "output": {
       "standard_name": "integral_of_air_temperature_deficit_wrt_time", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Degree Days (Tmean < #C)", 
       "canonical_units": "Kelvin second", 
@@ -3274,6 +3351,7 @@
     "output": {
       "standard_name": "integral_of_air_temperature_excess_wrt_time", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Annual Growing Degree Days (Tmean > 5C)", 
       "canonical_units": "Kelvin second", 
@@ -3312,11 +3390,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of heavy precipitation days (Precip >=10mm)", 
       "canonical_units": "1", 
@@ -3355,11 +3434,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of very heavy precipitation days (Precip >= 20mm)", 
       "canonical_units": "1", 
@@ -3398,11 +3478,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of days with daily Precip >= #mm)", 
       "canonical_units": "1", 
@@ -3441,11 +3522,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
-      "proposed_standard_name": "number_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "proposed_standard_name": "number_of_occurrences_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Number of Wet Days (precip >= 1 mm)", 
       "canonical_units": "1", 
@@ -3489,6 +3571,7 @@
     "output": {
       "standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_below_threshold", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Maximum consecutive dry days (Precip < 1mm)", 
       "canonical_units": "day", 
@@ -3527,11 +3610,12 @@
     "default_freq": "ann", 
     "n_thresholds": "1", 
     "n_inputs": "1", 
-    "ready": "0", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_above_threshold", 
-      "proposed_standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "proposed_standard_name": "spell_length_with_lwe_thickness_of_precipitation_amount_at_or_above_threshold", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Maximum consecutive wet days (Precip >= 1mm)", 
       "canonical_units": "day", 
@@ -3575,6 +3659,7 @@
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation during Wet Days", 
       "canonical_units": "meter", 
@@ -3618,6 +3703,7 @@
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "??????", 
       "long_name": "Average precipitation during Wet Days (SDII)", 
       "canonical_units": "meter", 
@@ -3661,6 +3747,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation amount when Precip > 95th pctl on Wet Days", 
       "canonical_units": "meter", 
@@ -3704,6 +3791,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation amount when Precip > 99th pctl on Wet Days", 
       "canonical_units": "meter", 
@@ -3747,6 +3835,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "Total precipitation amount when Precip > #th pctl on Wet Days", 
       "canonical_units": "meter", 
@@ -3790,6 +3879,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "??????", 
       "canonical_units": "1", 
@@ -3833,6 +3923,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "??????", 
       "canonical_units": "1", 
@@ -3876,6 +3967,7 @@
     "output": {
       "standard_name": "", 
       "proposed_standard_name": "??????", 
+      "standard_name_table_version": "", 
       "cell_methods": "??????", 
       "long_name": "??????", 
       "canonical_units": "1", 
@@ -3919,6 +4011,7 @@
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: maximum over days", 
       "long_name": "Maximum 1-day precipitation", 
       "canonical_units": "meter", 
@@ -3962,6 +4055,7 @@
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: maximum over days", 
       "long_name": "Maximum 5-day precipitation", 
       "canonical_units": "meter", 
@@ -4005,6 +4099,7 @@
     "output": {
       "standard_name": "lwe_thickness_of_precipitation_amount", 
       "proposed_standard_name": "", 
+      "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: maximum over days", 
       "long_name": "Maximum #-day precipitation", 
       "canonical_units": "meter", 

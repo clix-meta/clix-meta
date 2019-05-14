@@ -10,6 +10,7 @@
 		"__source" : {
 			"standard_name" : "output_standard_name",
 			"proposed_standard_name": "output_proposed_standard_name",
+			"standard_name_table_version": "output_standard_name_table_version",
 			"cell_methods" : "output_cell_methods",
 			"long_name" : "output_long_name",
 			"canonical_units" : "output_canonical_units",
