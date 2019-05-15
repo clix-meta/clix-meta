@@ -10,7 +10,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Frost Days (Tmin < 0C)", 
@@ -54,7 +54,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Frost Days (Tmin < +2C)", 
@@ -98,7 +98,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Hard Freeze Days (Tmin < -2C)", 
@@ -142,7 +142,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Very Hard Freeze Days (Tmin < -20C)", 
@@ -186,7 +186,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Ice Days (Tmax < 0C)", 
@@ -230,7 +230,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of Summer Days (Tmax > 25C)", 
@@ -362,7 +362,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of Tropical Nights (Tmin > 20C)", 
@@ -450,7 +450,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < 5C", 
@@ -538,7 +538,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_ocurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < 10C", 
@@ -582,7 +582,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin > #C", 
@@ -626,7 +626,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: sum over days", 
       "long_name": "Number of days with Tmin < #C", 
@@ -758,7 +758,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax > #C", 
@@ -802,7 +802,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: sum over days", 
       "long_name": "Number of days with Tmax < #C", 
@@ -934,7 +934,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean > #C", 
@@ -978,7 +978,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "number_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "number_of_occurrences_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: sum over days", 
       "long_name": "Number of days with Tmean < #C", 
@@ -1110,7 +1110,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "spell_length_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin > #C", 
@@ -1154,7 +1154,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "spell_length_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: minimum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmin < #C", 
@@ -1286,7 +1286,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "spell_length_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax > #C", 
@@ -1330,7 +1330,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "spell_length_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: maximum within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmax < #C", 
@@ -1462,7 +1462,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_above_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "spell_length_with_air_temperature_above_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean > #C", 
@@ -1506,7 +1506,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_air_temperature_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "spell_length_with_air_temperature_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: mean within days time: maximum over days", 
       "long_name": "Maximum number of consequtive days with Tmean < #C", 
@@ -2234,7 +2234,7 @@
     "default_freq": "ann", 
     "n_thresholds": "0", 
     "n_inputs": "1", 
-    "ready": "v65", 
+    "ready": "1", 
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "air_temperature", 
@@ -3570,7 +3570,7 @@
     "freq": "ann/sea/mon", 
     "output": {
       "standard_name": "spell_length_of_days_with_lwe_thickness_of_precipitation_amount_below_threshold", 
-      "proposed_standard_name": "", 
+      "proposed_standard_name": "spell_length_with_lwe_thickness_of_precipitation_amount_below_threshold", 
       "standard_name_table_version": "v65", 
       "cell_methods": "time: sum within days time: sum over days", 
       "long_name": "Maximum consecutive dry days (Precip < 1mm)", 

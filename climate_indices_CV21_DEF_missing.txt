@@ -1,69 +1,48 @@
 1 :  fd
-        output::proposed_standard_name: ''
 2 :  tnlt2
-        output::proposed_standard_name: ''
 3 :  tnltm2
-        output::proposed_standard_name: ''
 4 :  tnltm20
-        output::proposed_standard_name: ''
 5 :  id
-        output::proposed_standard_name: ''
 6 :  su
-        output::proposed_standard_name: ''
 7 :  txge30
 8 :  txge35
 9 :  tr
-        output::proposed_standard_name: ''
 10 :  tmge5
 11 :  tmlt5
-        output::proposed_standard_name: ''
 12 :  tmge10
 13 :  tmlt10
-        output::proposed_standard_name: ''
 14 :  tngt#
-        output::proposed_standard_name: ''
 15 :  tnlt#
-        output::proposed_standard_name: ''
 16 :  tnge#
         output::standard_name_table_version: ''
 17 :  tnle#
         output::standard_name_table_version: ''
 18 :  txgt#
-        output::proposed_standard_name: ''
 19 :  txlt#
-        output::proposed_standard_name: ''
 20 :  txge#
         output::standard_name_table_version: ''
 21 :  txle#
         output::standard_name_table_version: ''
 22 :  tmgt#
-        output::proposed_standard_name: ''
 23 :  tmlt#
-        output::proposed_standard_name: ''
 24 :  tmge#
         output::standard_name_table_version: ''
 25 :  tmle#
         output::standard_name_table_version: ''
 26 :  ctngt#
-        output::proposed_standard_name: ''
 27 :  ctnlt#
-        output::proposed_standard_name: ''
 28 :  ctnge#
         output::standard_name_table_version: ''
 29 :  ctnle#
         output::standard_name_table_version: ''
 30 :  ctxgt#
-        output::proposed_standard_name: ''
 31 :  ctxlt#
-        output::proposed_standard_name: ''
 32 :  ctxge#
         output::standard_name_table_version: ''
 33 :  ctxle#
         output::standard_name_table_version: ''
 34 :  ctmgt#
-        output::proposed_standard_name: ''
 35 :  ctmlt#
-        output::proposed_standard_name: ''
 36 :  ctmge#
         output::standard_name_table_version: ''
 37 :  ctmle#
@@ -202,7 +181,6 @@
 81 :  r#mm
 82 :  wetdays
 83 :  cdd
-        output::proposed_standard_name: ''
 84 :  cwd
 85 :  prcptot (??)
         index_function: '_'
