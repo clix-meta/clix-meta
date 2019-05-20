@@ -2035,7 +2035,7 @@
     "input": [
       {
         "required_time_resolution": "day", 
-        "cell_methods": "time: minimum", 
+        "cell_methods": "time: maximum", 
         "known_variables": "tasmin", 
         "standard_name": "air_temperature"
       }
@@ -2071,8 +2071,8 @@
     "input": [
       {
         "required_time_resolution": "day", 
-        "cell_methods": "time: mean", 
-        "known_variables": "tas", 
+        "cell_methods": "time: minimum", 
+        "known_variables": "tasmax", 
         "standard_name": "air_temperature"
       }
     ], 
@@ -2107,8 +2107,8 @@
     "input": [
       {
         "required_time_resolution": "day", 
-        "cell_methods": "time: mean", 
-        "known_variables": "tas", 
+        "cell_methods": "time: minimum", 
+        "known_variables": "tasmin", 
         "standard_name": "air_temperature"
       }
     ], 
@@ -2143,7 +2143,7 @@
     "input": [
       {
         "required_time_resolution": "day", 
-        "cell_methods": "time: maximum", 
+        "cell_methods": "time: mean", 
         "known_variables": "tasmax", 
         "standard_name": "air_temperature"
       }
@@ -2179,7 +2179,7 @@
     "input": [
       {
         "required_time_resolution": "day", 
-        "cell_methods": "time: minimum", 
+        "cell_methods": "time: mean", 
         "known_variables": "tasmin", 
         "standard_name": "air_temperature"
       }
