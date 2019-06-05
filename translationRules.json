@@ -19,14 +19,14 @@
 			"reference" : "output_reference"
 		}
 	},
-	"threshold" : {
-		"__split" : "n_thresholds",
+	"parameter" : {
+		"__split" : "n_parameters",
 		"__source" : {
-			"varname" : "threshold_varname",
-			"standard_name" : "threshold_standard_name",
-			"value" : "threshold_value",
-			"units" : "threshold_units",
-			"relop" : "threshold_relop"
+			"varname" : "parameter_varname",
+			"standard_name" : "parameter_standard_name",
+			"value" : "parameter_value",
+			"units" : "parameter_units",
+			"relop" : "parameter_relop"
 		}
 	},
 	"input" : {

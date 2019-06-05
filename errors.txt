@@ -1,4 +1,88 @@
 ================================================================================
+Error processing input index 38
+--------------------------------------------------------------------------------
+{
+  "varname": "gsstart", 
+  "ready": "0", 
+  "conventions": "NOT", 
+  "category": "2.5", 
+  "orig_order": "39", 
+  "index_function": "FUN_growing [FUN_spell_beginning]", 
+  "n_parameters": "3", 
+  "parameter_name": "threshold, duration, offset", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "default_freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_standard_name_table_version": "??????", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "Start of ETCCDI Growing Season (6 days with Tmean > 5C)", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_user_units": "day number", 
+  "output_reference": "CLIPC", 
+  "parameter_varname": "threshold_days, threshold_temp, offset", 
+  "parameter_standard_name": "??????, ??????", 
+  "parameter_value": "6, 5", 
+  "parameter_units": "day, degree_Celsius, day", 
+  "parameter_relop": ">, >, _", 
+  "input_variable": "tas", 
+  "input_timeresol": "day", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "standard_name":"??????, ??????" does not yield a list of the expected 3, but instead 2 elements.
+================================================================================
+================================================================================
+Error processing input index 39
+--------------------------------------------------------------------------------
+{
+  "varname": "gsend", 
+  "ready": "0", 
+  "conventions": "NOT", 
+  "category": "2.5", 
+  "orig_order": "40", 
+  "index_function": "FUN_growing [FUN_spell_end]", 
+  "n_parameters": "3", 
+  "parameter_name": "threshold, duration, offset", 
+  "n_inputs": "1", 
+  "freq": "ann", 
+  "default_freq": "ann", 
+  "output_standard_name": "??????", 
+  "output_standard_name_table_version": "??????", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "End of ETCCDI Growing Season (6 days with Tmean < 5C)", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_user_units": "day number", 
+  "output_reference": "CLIPC", 
+  "parameter_varname": "threshold_days, threshold_temp, offset", 
+  "parameter_standard_name": "??????, ??????", 
+  "parameter_value": "6, 5", 
+  "parameter_units": "day, degree_Celsius, day", 
+  "parameter_relop": ">, <, _", 
+  "input_variable": "tas", 
+  "input_timeresol": "day", 
+  "input_standard_name": "air_temperature", 
+  "input_cell_methods": "time: mean", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "standard_name":"??????, ??????" does not yield a list of the expected 3, but instead 2 elements.
+================================================================================
+================================================================================
 Error processing input index 69
 --------------------------------------------------------------------------------
 {
@@ -8,24 +92,25 @@ Error processing input index 69
   "category": "1", 
   "orig_order": "70", 
   "index_function": "FUN_dtr", 
-  "n_thresholds": "0", 
+  "n_parameters": "0", 
+  "parameter_name": "_", 
   "n_inputs": "2", 
   "freq": "mon", 
   "default_freq": "ann", 
   "output_standard_name": "air_temperature", 
   "output_standard_name_table_version": "v65", 
-  "output_proposed_standard_name": "", 
+  "output_proposed_standard_name": "_", 
   "output_cell_methods": "time range within days time: mean over days", 
   "output_long_name": "Mean Diurnal Temperature Range", 
   "output_canonical_units": "Kelvin", 
   "output_units": "degree_Celsius", 
   "output_user_units": "degree_Celsius", 
   "output_reference": "ETCCDI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "tasmin,tasmax", 
   "input_timeresol": "day", 
   "input_standard_name": "air_temperature, air_temperature", 
@@ -48,25 +133,26 @@ Error processing input index 74
   "conventions": "NOT", 
   "category": "2", 
   "orig_order": "75", 
-  "index_function": "_", 
-  "n_thresholds": "2", 
+  "index_function": "??????", 
+  "n_parameters": "2", 
+  "parameter_name": "??????", 
   "n_inputs": "2", 
   "freq": "ann", 
   "default_freq": "ann", 
-  "output_standard_name": "", 
-  "output_standard_name_table_version": "", 
-  "output_proposed_standard_name": "?????", 
+  "output_standard_name": "??????", 
+  "output_standard_name_table_version": "??????", 
+  "output_proposed_standard_name": "??????", 
   "output_cell_methods": "?????", 
   "output_long_name": "?????", 
   "output_canonical_units": "?????", 
   "output_units": "?????", 
   "output_user_units": "events", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "???", 
-  "threshold_standard_name": "??????", 
-  "threshold_value": "???", 
-  "threshold_units": "???", 
-  "threshold_relop": ">, >", 
+  "parameter_varname": "???", 
+  "parameter_standard_name": "??????", 
+  "parameter_value": "???", 
+  "parameter_units": "???", 
+  "parameter_relop": ">, >", 
   "input_variable": "tasmin,tasmax", 
   "input_timeresol": "day", 
   "input_standard_name": "air_temperature, air_temperature", 
@@ -77,7 +163,7 @@ Error processing input index 74
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
+applying rule "parameter":
 	Splitting "varname":"???" does not yield a list of the expected 2, but instead 1 elements.
 ================================================================================
 ================================================================================
@@ -89,25 +175,26 @@ Error processing input index 75
   "conventions": "NOT", 
   "category": "3", 
   "orig_order": "76", 
-  "index_function": "_", 
-  "n_thresholds": "3", 
+  "index_function": "??????", 
+  "n_parameters": "3", 
+  "parameter_name": "??????", 
   "n_inputs": "2", 
   "freq": "ann", 
   "default_freq": "ann", 
-  "output_standard_name": "_", 
-  "output_standard_name_table_version": "", 
-  "output_proposed_standard_name": "", 
+  "output_standard_name": "??????", 
+  "output_standard_name_table_version": "??????", 
+  "output_proposed_standard_name": "??????", 
   "output_cell_methods": "_", 
   "output_long_name": "????", 
   "output_canonical_units": "????", 
   "output_units": "????", 
   "output_user_units": "events", 
   "output_reference": "CLIPC", 
-  "threshold_varname": "???", 
-  "threshold_standard_name": "??????", 
-  "threshold_value": "???", 
-  "threshold_units": "???", 
-  "threshold_relop": "_", 
+  "parameter_varname": "???", 
+  "parameter_standard_name": "??????", 
+  "parameter_value": "???", 
+  "parameter_units": "???", 
+  "parameter_relop": "_", 
   "input_variable": "tasmin,tasmax", 
   "input_timeresol": "day", 
   "input_standard_name": "air_temperature, air_temperature", 
@@ -118,7 +205,7 @@ Error processing input index 75
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
+applying rule "parameter":
 	Splitting "varname":"???" does not yield a list of the expected 3, but instead 1 elements.
 ================================================================================
 ================================================================================
@@ -130,25 +217,26 @@ Error processing input index 76
   "conventions": "NOT", 
   "category": "4", 
   "orig_order": "77", 
-  "index_function": "_", 
-  "n_thresholds": "2", 
+  "index_function": "??????", 
+  "n_parameters": "2", 
+  "parameter_name": "??????", 
   "n_inputs": "2", 
   "freq": "ann", 
   "default_freq": "ann", 
-  "output_standard_name": "", 
-  "output_standard_name_table_version": "", 
-  "output_proposed_standard_name": "?????", 
+  "output_standard_name": "??????", 
+  "output_standard_name_table_version": "??????", 
+  "output_proposed_standard_name": "??????", 
   "output_cell_methods": "?????", 
   "output_long_name": "?????", 
   "output_canonical_units": "?????", 
   "output_units": "?????", 
   "output_user_units": "events", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "???", 
-  "threshold_standard_name": "??????", 
-  "threshold_value": "???", 
-  "threshold_units": "???", 
-  "threshold_relop": "<, <", 
+  "parameter_varname": "???", 
+  "parameter_standard_name": "??????", 
+  "parameter_value": "???", 
+  "parameter_units": "???", 
+  "parameter_relop": "<, <", 
   "input_variable": "tasmin,tasmax", 
   "input_timeresol": "day", 
   "input_standard_name": "air_temperature, air_temperature", 
@@ -159,7 +247,7 @@ Error processing input index 76
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
+applying rule "parameter":
 	Splitting "varname":"???" does not yield a list of the expected 2, but instead 1 elements.
 ================================================================================
 ================================================================================
@@ -171,25 +259,26 @@ Error processing input index 77
   "conventions": "NOT", 
   "category": "3", 
   "orig_order": "78", 
-  "index_function": "_", 
-  "n_thresholds": "3", 
+  "index_function": "??????", 
+  "n_parameters": "3", 
+  "parameter_name": "??????", 
   "n_inputs": "2", 
   "freq": "ann", 
   "default_freq": "ann", 
-  "output_standard_name": "_", 
-  "output_standard_name_table_version": "", 
-  "output_proposed_standard_name": "", 
+  "output_standard_name": "??????", 
+  "output_standard_name_table_version": "??????", 
+  "output_proposed_standard_name": "??????", 
   "output_cell_methods": "_", 
   "output_long_name": "????", 
   "output_canonical_units": "????", 
   "output_units": "????", 
   "output_user_units": "events", 
   "output_reference": "CLIPC", 
-  "threshold_varname": "???", 
-  "threshold_standard_name": "??????", 
-  "threshold_value": "???", 
-  "threshold_units": "???", 
-  "threshold_relop": "<, <", 
+  "parameter_varname": "???", 
+  "parameter_standard_name": "??????", 
+  "parameter_value": "???", 
+  "parameter_units": "???", 
+  "parameter_relop": "<, <", 
   "input_variable": "tasmin,tasmax", 
   "input_timeresol": "day", 
   "input_standard_name": "air_temperature, air_temperature", 
@@ -200,7 +289,7 @@ Error processing input index 77
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
+applying rule "parameter":
 	Splitting "varname":"???" does not yield a list of the expected 3, but instead 1 elements.
 ================================================================================
 ================================================================================
@@ -213,7 +302,8 @@ Error processing input index 83
   "category": "4", 
   "orig_order": "84", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -226,11 +316,11 @@ Error processing input index 83
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -241,8 +331,8 @@ Error processing input index 83
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 84
@@ -254,7 +344,8 @@ Error processing input index 84
   "category": "4", 
   "orig_order": "85", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -267,11 +358,11 @@ Error processing input index 84
   "output_units": "1", 
   "output_user_units": "days", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -282,8 +373,8 @@ Error processing input index 84
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 85
@@ -295,7 +386,8 @@ Error processing input index 85
   "category": "4", 
   "orig_order": "86", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -308,11 +400,11 @@ Error processing input index 85
   "output_units": "degree_Celsius", 
   "output_user_units": "degree_Celsius", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -323,8 +415,8 @@ Error processing input index 85
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 86
@@ -336,7 +428,8 @@ Error processing input index 86
   "category": "4", 
   "orig_order": "87", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -349,11 +442,11 @@ Error processing input index 86
   "output_units": "degree_Celsius", 
   "output_user_units": "degree_Celsius", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -364,8 +457,8 @@ Error processing input index 86
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 87
@@ -377,7 +470,8 @@ Error processing input index 87
   "category": "4", 
   "orig_order": "88", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -390,11 +484,11 @@ Error processing input index 87
   "output_units": "1", 
   "output_user_units": "days", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -405,8 +499,8 @@ Error processing input index 87
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 88
@@ -418,7 +512,8 @@ Error processing input index 88
   "category": "4", 
   "orig_order": "89", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -431,11 +526,11 @@ Error processing input index 88
   "output_units": "1", 
   "output_user_units": "1", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -446,8 +541,386 @@ Error processing input index 88
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
+================================================================================
+================================================================================
+Error processing input index 97
+--------------------------------------------------------------------------------
+{
+  "varname": "r95ptot", 
+  "ready": "0 [%]", 
+  "conventions": "", 
+  "category": "1", 
+  "orig_order": "99", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, quantile", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "", 
+  "output_standard_name_table_version": "", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_user_units": "??????", 
+  "output_reference": "ETCCDI", 
+  "parameter_varname": "threshold, quantile", 
+  "parameter_standard_name": "lwe_thickness_of_precipitation_amount, ??????", 
+  "parameter_value": "1, 0.95", 
+  "parameter_units": "mm day-1 , 1", 
+  "parameter_relop": ">", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "r95ptot", 
+  "et_long_name": "Contribution from very wet days", 
+  "et_definition": "Total precipitation amount when RR > 95th pctl on wet days", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "relop":">" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 98
+--------------------------------------------------------------------------------
+{
+  "varname": "r99ptot", 
+  "ready": "0 [%]", 
+  "conventions": "", 
+  "category": "1", 
+  "orig_order": "100", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, quantile", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "", 
+  "output_standard_name_table_version": "", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_user_units": "??????", 
+  "output_reference": "ETCCDI", 
+  "parameter_varname": "threshold, quantile", 
+  "parameter_standard_name": "lwe_thickness_of_precipitation_amount, ??????", 
+  "parameter_value": "1, 0.99", 
+  "parameter_units": "mm day-1 , 1", 
+  "parameter_relop": ">", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "r99ptot", 
+  "et_long_name": "Contribution from extremely wet days", 
+  "et_definition": "Total precipitation amount when RR > 99th pctl on wet days", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "relop":">" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 99
+--------------------------------------------------------------------------------
+{
+  "varname": "r#ptot", 
+  "ready": "0 [%]", 
+  "conventions": "", 
+  "category": "3", 
+  "orig_order": "101", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, quantile", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "", 
+  "output_standard_name_table_version": "", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "??????", 
+  "output_units": "??????", 
+  "output_user_units": "??????", 
+  "output_reference": "CLIPC", 
+  "parameter_varname": "threshold, quantile", 
+  "parameter_standard_name": "lwe_thickness_of_precipitation_amount, ??????", 
+  "parameter_value": "1, #", 
+  "parameter_units": "mm day-1 , 1", 
+  "parameter_relop": ">", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "relop":">" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 100
+--------------------------------------------------------------------------------
+{
+  "varname": "r95p", 
+  "ready": "0 [%]", 
+  "conventions": "", 
+  "category": "2", 
+  "orig_order": "102", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, quantile", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "", 
+  "output_standard_name_table_version": "", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_user_units": "%", 
+  "output_reference": "ET-SCI", 
+  "parameter_varname": "threshold, quantile", 
+  "parameter_standard_name": "lwe_thickness_of_precipitation_amount, ??????", 
+  "parameter_value": "1, 0.95", 
+  "parameter_units": "mm day-1 , 1", 
+  "parameter_relop": ">", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "r95p", 
+  "et_long_name": "Contribution from very wet days", 
+  "et_definition": "Annual total precipitation amount when RR > 95th pctl on wet days", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "relop":">" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 101
+--------------------------------------------------------------------------------
+{
+  "varname": "r99p", 
+  "ready": "0 [%]", 
+  "conventions": "", 
+  "category": "2", 
+  "orig_order": "103", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, quantile", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "", 
+  "output_standard_name_table_version": "", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_user_units": "%", 
+  "output_reference": "ET-SCI", 
+  "parameter_varname": "threshold, quantile", 
+  "parameter_standard_name": "lwe_thickness_of_precipitation_amount, ??????", 
+  "parameter_value": "1, 0.99", 
+  "parameter_units": "mm day-1 , 1", 
+  "parameter_relop": ">", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "r99p", 
+  "et_long_name": "Contribution from extremely wet days", 
+  "et_definition": "Annual percentage of P>99th percentile /  PRCPTOT", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "relop":">" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 102
+--------------------------------------------------------------------------------
+{
+  "varname": "r#pctl", 
+  "ready": "0 [%]", 
+  "conventions": "", 
+  "category": "3", 
+  "orig_order": "104", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, quantile", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "", 
+  "output_standard_name_table_version": "", 
+  "output_proposed_standard_name": "??????", 
+  "output_cell_methods": "??????", 
+  "output_long_name": "??????", 
+  "output_canonical_units": "1", 
+  "output_units": "1", 
+  "output_user_units": "%", 
+  "output_reference": "CLIPC", 
+  "parameter_varname": "threshold, quantile", 
+  "parameter_standard_name": "lwe_thickness_of_precipitation_amount, ??????", 
+  "parameter_value": "1, #", 
+  "parameter_units": "mm day-1 , 1", 
+  "parameter_relop": ">", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "_", 
+  "et_long_name": "_", 
+  "et_definition": "_", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "relop":">" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 103
+--------------------------------------------------------------------------------
+{
+  "varname": "rx1day", 
+  "ready": "0", 
+  "conventions": "", 
+  "category": "1", 
+  "orig_order": "105", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, duration", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_standard_name_table_version": "v65", 
+  "output_proposed_standard_name": "_", 
+  "output_cell_methods": "time: sum within days time: maximum over days (wet days)", 
+  "output_long_name": "Maximum 1-day precipitation", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_user_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "parameter_varname": "threshold, duration", 
+  "parameter_standard_name": "??????", 
+  "parameter_value": "1", 
+  "parameter_units": "day", 
+  "parameter_relop": "=", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "rx1day", 
+  "et_long_name": "Monthly maximum 1-day precipitation", 
+  "et_definition": "Maximum one-day precipitation", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "standard_name":"??????" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 104
+--------------------------------------------------------------------------------
+{
+  "varname": "rx5day", 
+  "ready": "0", 
+  "conventions": "", 
+  "category": "1", 
+  "orig_order": "106", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, duration", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_standard_name_table_version": "v65", 
+  "output_proposed_standard_name": "_", 
+  "output_cell_methods": "time: sum within days time: maximum over days (wet days)", 
+  "output_long_name": "Maximum 5-day precipitation", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_user_units": "mm", 
+  "output_reference": "ETCCDI", 
+  "parameter_varname": "threshold, duration", 
+  "parameter_standard_name": "??????", 
+  "parameter_value": "5", 
+  "parameter_units": "day", 
+  "parameter_relop": "=", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "rx5day", 
+  "et_long_name": "Monthly maximum 5-day precipitation", 
+  "et_definition": "Maximum consecutive five-day precipitation", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "standard_name":"??????" does not yield a list of the expected 2, but instead 1 elements.
+================================================================================
+================================================================================
+Error processing input index 105
+--------------------------------------------------------------------------------
+{
+  "varname": "rx#day", 
+  "ready": "0", 
+  "conventions": "", 
+  "category": "2", 
+  "orig_order": "107", 
+  "index_function": "_", 
+  "n_parameters": "2", 
+  "parameter_name": "threshold, duration", 
+  "n_inputs": "1", 
+  "freq": "ann/sea/mon", 
+  "default_freq": "ann", 
+  "output_standard_name": "lwe_thickness_of_precipitation_amount", 
+  "output_standard_name_table_version": "v65", 
+  "output_proposed_standard_name": "_", 
+  "output_cell_methods": "time: sum within days time: maximum over days (wet days)", 
+  "output_long_name": "Maximum #-day precipitation", 
+  "output_canonical_units": "meter", 
+  "output_units": "mm", 
+  "output_user_units": "mm", 
+  "output_reference": "ET-SCI", 
+  "parameter_varname": "threshold, duration", 
+  "parameter_standard_name": "??????", 
+  "parameter_value": "#", 
+  "parameter_units": "day", 
+  "parameter_relop": "=", 
+  "input_variable": "pr", 
+  "input_timeresol": "day", 
+  "input_standard_name": "??????", 
+  "input_cell_methods": "time: sum (only days having 1 mm day-1)", 
+  "et_short_name": "rxnday", 
+  "et_long_name": "User-defined consecutive days precipitation amount", 
+  "et_definition": "Maximum consecutive n-day precipitation", 
+  "et_comment": "_"
+}
+--------------------------------------------------------------------------------
+applying rule "parameter":
+	Splitting "standard_name":"??????" does not yield a list of the expected 2, but instead 1 elements.
 ================================================================================
 ================================================================================
 Error processing input index 106
@@ -459,7 +932,8 @@ Error processing input index 106
   "category": "4", 
   "orig_order": "108", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -472,11 +946,11 @@ Error processing input index 106
   "output_units": "_", 
   "output_user_units": "1", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -487,8 +961,8 @@ Error processing input index 106
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 107
@@ -500,7 +974,8 @@ Error processing input index 107
   "category": "4", 
   "orig_order": "109", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "_", 
@@ -513,11 +988,11 @@ Error processing input index 107
   "output_units": "_", 
   "output_user_units": "1", 
   "output_reference": "ET-SCI", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -528,8 +1003,8 @@ Error processing input index 107
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 108
@@ -540,8 +1015,9 @@ Error processing input index 108
   "conventions": "", 
   "category": "5", 
   "orig_order": "111", 
-  "index_function": "FUN_dd", 
-  "n_thresholds": "_", 
+  "index_function": "FUN_degreesum", 
+  "n_parameters": "1", 
+  "parameter_name": "threshold", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -554,11 +1030,11 @@ Error processing input index 108
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -569,8 +1045,8 @@ Error processing input index 108
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "input":
+	The __split field references a field with key "n_inputs" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 109
@@ -582,7 +1058,8 @@ Error processing input index 109
   "category": "5", 
   "orig_order": "112", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -595,11 +1072,11 @@ Error processing input index 109
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -610,8 +1087,8 @@ Error processing input index 109
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 110
@@ -623,7 +1100,8 @@ Error processing input index 110
   "category": "5", 
   "orig_order": "113", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -636,11 +1114,11 @@ Error processing input index 110
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -651,8 +1129,8 @@ Error processing input index 110
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 111
@@ -664,7 +1142,8 @@ Error processing input index 111
   "category": "5", 
   "orig_order": "114", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -677,11 +1156,11 @@ Error processing input index 111
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -692,8 +1171,8 @@ Error processing input index 111
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 112
@@ -705,7 +1184,8 @@ Error processing input index 112
   "category": "5", 
   "orig_order": "115", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -718,11 +1198,11 @@ Error processing input index 112
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -733,8 +1213,8 @@ Error processing input index 112
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 113
@@ -746,7 +1226,8 @@ Error processing input index 113
   "category": "5", 
   "orig_order": "116", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -759,11 +1240,11 @@ Error processing input index 113
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -774,8 +1255,8 @@ Error processing input index 113
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 114
@@ -787,7 +1268,8 @@ Error processing input index 114
   "category": "5", 
   "orig_order": "117", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -800,11 +1282,11 @@ Error processing input index 114
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -815,8 +1297,8 @@ Error processing input index 114
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 115
@@ -828,7 +1310,8 @@ Error processing input index 115
   "category": "5", 
   "orig_order": "118", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -841,11 +1324,11 @@ Error processing input index 115
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -856,8 +1339,8 @@ Error processing input index 115
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 116
@@ -869,7 +1352,8 @@ Error processing input index 116
   "category": "5", 
   "orig_order": "119", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -882,11 +1366,11 @@ Error processing input index 116
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -897,8 +1381,8 @@ Error processing input index 116
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 117
@@ -910,7 +1394,8 @@ Error processing input index 117
   "category": "5", 
   "orig_order": "120", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -923,11 +1408,11 @@ Error processing input index 117
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -938,8 +1423,8 @@ Error processing input index 117
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 118
@@ -951,7 +1436,8 @@ Error processing input index 118
   "category": "5", 
   "orig_order": "121", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -964,11 +1450,11 @@ Error processing input index 118
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -979,8 +1465,8 @@ Error processing input index 118
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 119
@@ -992,7 +1478,8 @@ Error processing input index 119
   "category": "5", 
   "orig_order": "122", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -1005,11 +1492,11 @@ Error processing input index 119
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -1020,8 +1507,8 @@ Error processing input index 119
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 120
@@ -1033,7 +1520,8 @@ Error processing input index 120
   "category": "5", 
   "orig_order": "123", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -1046,11 +1534,11 @@ Error processing input index 120
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -1061,8 +1549,8 @@ Error processing input index 120
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 121
@@ -1074,7 +1562,8 @@ Error processing input index 121
   "category": "5", 
   "orig_order": "124", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -1087,11 +1576,11 @@ Error processing input index 121
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -1102,8 +1591,8 @@ Error processing input index 121
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 122
@@ -1115,7 +1604,8 @@ Error processing input index 122
   "category": "5", 
   "orig_order": "125", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -1128,11 +1618,11 @@ Error processing input index 122
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -1143,8 +1633,8 @@ Error processing input index 122
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 123
@@ -1156,7 +1646,8 @@ Error processing input index 123
   "category": "5", 
   "orig_order": "126", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -1169,11 +1660,11 @@ Error processing input index 123
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -1184,8 +1675,8 @@ Error processing input index 123
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
 ================================================================================
 Error processing input index 124
@@ -1197,7 +1688,8 @@ Error processing input index 124
   "category": "5", 
   "orig_order": "127", 
   "index_function": "_", 
-  "n_thresholds": "_", 
+  "n_parameters": "_", 
+  "parameter_name": "", 
   "n_inputs": "_", 
   "freq": "_", 
   "default_freq": "", 
@@ -1210,11 +1702,11 @@ Error processing input index 124
   "output_units": "_", 
   "output_user_units": "_", 
   "output_reference": "ECA&D", 
-  "threshold_varname": "_", 
-  "threshold_standard_name": "_", 
-  "threshold_value": "_", 
-  "threshold_units": "_", 
-  "threshold_relop": "_", 
+  "parameter_varname": "_", 
+  "parameter_standard_name": "_", 
+  "parameter_value": "_", 
+  "parameter_units": "_", 
+  "parameter_relop": "_", 
   "input_variable": "_", 
   "input_timeresol": "day", 
   "input_standard_name": "_", 
@@ -1225,6 +1717,6 @@ Error processing input index 124
   "et_comment": "_"
 }
 --------------------------------------------------------------------------------
-applying rule "threshold":
-	The __split field references a field with key "n_thresholds" which does not contain an integer, but "_".
+applying rule "parameter":
+	The __split field references a field with key "n_parameters" which does not contain an integer, but "_".
 ================================================================================
