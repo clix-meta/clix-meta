@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:editing-cycles>138</meta:editing-cycles><dc:date>2020-02-12T11:22:14.888424165</dc:date><dc:language>en-GB</dc:language><meta:editing-duration>P6DT17H58M47S</meta:editing-duration><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/dc89aa7a9eabfd848af146d5086077aeed2ae4a5</meta:generator><dc:creator>Lars Bärring</dc:creator><meta:document-statistic meta:table-count="4" meta:cell-count="3068" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">14.0300</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined></office:meta>
+ <office:meta><meta:editing-cycles>140</meta:editing-cycles><dc:date>2020-02-12T13:43:19.416202573</dc:date><dc:language>en-GB</dc:language><meta:editing-duration>P6DT18H8M9S</meta:editing-duration><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/dc89aa7a9eabfd848af146d5086077aeed2ae4a5</meta:generator><dc:creator>Lars Bärring</dc:creator><meta:document-statistic meta:table-count="4" meta:cell-count="3069" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">14.0300</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">112740</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">92879</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">92840</config:config-item>
    <config:config-item-set config:name="TrackedChangesViewSettings">
     <config:config-item config:name="ShowChanges" config:type="boolean">true</config:config-item>
     <config:config-item config:name="ShowAcceptedChanges" config:type="boolean">false</config:config-item>
@@ -47,16 +47,16 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="index_definitions">
        <config:config-item config:name="CursorPositionX" config:type="int">18</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">79</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">137</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">1</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">1</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">3</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionRight" config:type="int">12</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">13</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">57</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">107</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">85</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -169,7 +169,7 @@
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
    <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">vQH+/3ByaW50ZXItMjItMm5wcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpwcmludGVyLTIyLTJucHMAAAAAAAAAAAAAAAAWAAMA2QAAAAAABgAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9cHJpbnRlci0yMi0ybnBzCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpQYWdlU2l6ZTpBNABJbnB1dFNsb3Q6QXV0bwBEdXBsZXg6RHVwbGV4Tm9UdW1ibGUAABIAQ09NUEFUX0RVUExFWF9NT0RFFABEdXBsZXhNb2RlOjpMb25nRWRnZQ==</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">vQH+/3ByaW50ZXItMjItMm5wcwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpwcmludGVyLTIyLTJucHMAAAAAAAAAAAAAAAAWAAMA2QAAAAAABgAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9cHJpbnRlci0yMi0ybnBzCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luZGFqdXN0bWVudD0wLDAsMCwwCmNvbG9yZGVwdGg9MjQKcHNsZXZlbD0wCnBkZmRldmljZT0xCmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4RGF0YQpEdXBsZXg6RHVwbGV4Tm9UdW1ibGUASW5wdXRTbG90OkF1dG8AUGFnZVNpemU6QTQAABIAQ09NUEFUX0RVUExFWF9NT0RFFABEdXBsZXhNb2RlOjpMb25nRWRnZQ==</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
   </config:config-item-set>
@@ -209,6 +209,7 @@
       
       
 
+      
       
       
       
@@ -844,12 +845,15 @@
    <style:table-row-properties style:row-height="4.52mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro4" style:family="table-row">
-   <style:table-row-properties style:row-height="12.44mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="7.88mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro5" style:family="table-row">
-   <style:table-row-properties style:row-height="16.49mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="12.44mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro6" style:family="table-row">
+   <style:table-row-properties style:row-height="16.49mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro7" style:family="table-row">
    <style:table-row-properties style:row-height="8.41mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
@@ -969,7 +973,7 @@
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce38" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N3">
+  <style:style style:name="ce39" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N3">
    <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#d5a6bd" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="0.06pt solid #000000" style:direction="ltr" fo:border-right="0.06pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="0.06pt solid #000000" style:vertical-align="middle" loext:vertical-justify="auto"/>
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
@@ -1264,11 +1268,6 @@
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties fo:color="#ff0000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce82" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
-   <style:table-cell-properties fo:background-color="#afaffa" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" fo:border="0.06pt solid #000000" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="middle" loext:vertical-justify="auto"/>
-   <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
-   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
-  </style:style>
   <style:style style:name="ce196" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="#fce5cd" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" fo:border="0.06pt solid #000000" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="middle" loext:vertical-justify="auto"/>
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
@@ -1279,7 +1278,7 @@
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce161" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+  <style:style style:name="ce159" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
    <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#d5a6bd" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="0.06pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="0.06pt solid #000000" style:vertical-align="middle" loext:vertical-justify="auto"/>
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
@@ -1466,7 +1465,7 @@
    <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm"/>
    <style:text-properties fo:color="#800000"/>
   </style:style>
-  <style:style style:name="ce250" style:family="table-cell" style:parent-style-name="Default">
+  <style:style style:name="ce249" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false" style:vertical-align="middle"/>
    <style:paragraph-properties fo:text-align="start" fo:margin-left="0mm"/>
   </style:style>
@@ -1558,7 +1557,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2020-02-12">0000-00-00</text:date>, <text:time style:data-style-name="N2" text:time-value="11:04:36.270666586">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2020-02-12">0000-00-00</text:date>, <text:time style:data-style-name="N2" text:time-value="13:33:56.656070768">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -1643,7 +1642,7 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>VarName</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce39" office:value-type="string" calcext:value-type="string">
       <text:p>ready</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -1655,10 +1654,10 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>N_parameters</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce39" office:value-type="string" calcext:value-type="string">
       <text:p>parameter_name</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce38" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce39" office:value-type="string" calcext:value-type="string">
       <text:p>input</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -1691,10 +1690,10 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>OUTPUT_user_units</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce161" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce159" office:value-type="string" calcext:value-type="string">
       <text:p>OUTPUT_reference</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce161" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce159" office:value-type="string" calcext:value-type="string">
       <text:p>PARAMETER_definition</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -9610,7 +9609,7 @@
       <text:p>NOT</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
-      <text:p>level_crossing</text:p>
+      <text:p>count_level_crossings</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>1</text:p>
@@ -9629,9 +9628,11 @@
      </table:table-cell>
      <table:table-cell table:style-name="ce101"/>
      <table:table-cell table:style-name="ce102" office:value-type="string" calcext:value-type="string">
-      <text:p>number_of_occurrences with_air_temperature_level_crossings</text:p>
+      <text:p>number_of_occurrences_with_air_temperature_level_crossings</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce82"/>
+     <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
+      <text:p>time: sum over days</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>time: level_crossing within days time: sum over days</text:p>
      </table:table-cell>
@@ -9665,12 +9666,12 @@
      <table:table-cell table:style-name="ce104" table:number-columns-repeated="978"/>
      <table:table-cell table:style-name="ce107" table:number-columns-repeated="13"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>faf</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce51" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>1</text:p>
+     <table:table-cell table:style-name="ce51" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>NOT</text:p>
@@ -9699,7 +9700,7 @@
      </table:table-cell>
      <table:table-cell table:style-name="ce26"/>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean within days time: first_occurrence over days</text:p>
+      <text:p>time: minimum within days time: first_occurrence over days</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>First Autumn Frost (day-of-year during Jul-Dec when Tmin &lt; 0 degC)</text:p>
@@ -9712,18 +9713,18 @@
       <text:p>B4EST</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce102" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: air_temperature, value: 0, unit: degree_Celsius), condition: &lt;</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: air_temperature, long_name: “Threshold temperature for frost”, value: 0, unit: degree_Celsius), condition: &lt;</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" table:number-columns-repeated="14"/>
      <table:table-cell table:style-name="ce103" table:number-columns-repeated="978"/>
      <table:table-cell table:style-name="ce106" table:number-columns-repeated="13"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>lsf</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce51" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>1</text:p>
+     <table:table-cell table:style-name="ce51" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>NOT</text:p>
@@ -9752,7 +9753,7 @@
      </table:table-cell>
      <table:table-cell table:style-name="ce26"/>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean within days time: last_occurrence over days</text:p>
+      <text:p>time: minimum within days time: last_occurrence over days</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" office:value-type="string" calcext:value-type="string">
       <text:p>Last Spring Frost (day-of-year during Jan-Jun when Tmin &lt; 0 degC)</text:p>
@@ -9765,7 +9766,7 @@
       <text:p>B4EST</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce102" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: air_temperature, value: 0, unit: degree_Celsius), condition: &lt;</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: air_temperature, long_name: “Threshold temperature for frost”, value: 0, unit: degree_Celsius), condition: &lt;</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26" table:number-columns-repeated="14"/>
      <table:table-cell table:style-name="ce103" table:number-columns-repeated="978"/>
@@ -9887,7 +9888,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro4">
+    <table:table-row table:style-name="ro5">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>count_occurrences</text:p>
      </table:table-cell>
@@ -9908,7 +9909,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro4">
+    <table:table-row table:style-name="ro5">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>first_occurrence</text:p>
      </table:table-cell>
@@ -9929,7 +9930,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro4">
+    <table:table-row table:style-name="ro5">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>last_occurrence</text:p>
      </table:table-cell>
@@ -9950,7 +9951,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>spell_length</text:p>
      </table:table-cell>
@@ -10061,7 +10062,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro6">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>thresholded_statistic</text:p>
      </table:table-cell>
@@ -10119,7 +10120,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>thresholded_running_statistics</text:p>
      </table:table-cell>
@@ -10762,7 +10763,7 @@
      <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
       <text:p>days</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce250" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="4">
+     <table:table-cell table:style-name="ce249" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="4">
       <text:p>The indices CD, CW, WD, and WW are based on Beniston (2009).</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
@@ -10842,7 +10843,7 @@
       <text:p>Mean of the Tourism Climatic Index</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Default"/>
-     <table:table-cell table:style-name="ce250" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="3">
+     <table:table-cell table:style-name="ce249" office:value-type="string" calcext:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="3">
       <text:p>Mieczkowski (1985), Perch-Nielsen et al. (2010), Osczevski &amp; Bleustein (2005).</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
