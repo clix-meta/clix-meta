@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:editing-cycles>145</meta:editing-cycles><dc:date>2020-02-16T12:54:19.450573238</dc:date><dc:language>en-GB</dc:language><meta:editing-duration>P6DT21H47M17S</meta:editing-duration><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/dc89aa7a9eabfd848af146d5086077aeed2ae4a5</meta:generator><dc:creator>Lars Bärring</dc:creator><meta:document-statistic meta:table-count="4" meta:cell-count="3084" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">14.0300</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined></office:meta>
+ <office:meta><meta:editing-cycles>149</meta:editing-cycles><dc:date>2020-02-16T23:15:47.849093502</dc:date><dc:language>en-GB</dc:language><meta:editing-duration>P7DT40M37S</meta:editing-duration><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/dc89aa7a9eabfd848af146d5086077aeed2ae4a5</meta:generator><dc:creator>Lars Bärring</dc:creator><meta:document-statistic meta:table-count="4" meta:cell-count="3093" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">14.0300</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaWidth" config:type="int">112996</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">94754</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">99619</config:config-item>
    <config:config-item-set config:name="TrackedChangesViewSettings">
     <config:config-item config:name="ShowChanges" config:type="boolean">true</config:config-item>
     <config:config-item config:name="ShowAcceptedChanges" config:type="boolean">false</config:config-item>
@@ -46,17 +46,17 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="index_definitions">
-       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">149</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">13</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">127</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">1</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">1</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">3</config:config-item>
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionRight" config:type="int">1</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">3</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">114</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">103</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">85</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -169,7 +169,7 @@
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
    <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">kQH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAsgAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCm1hcmdpbmRhanVzdG1lbnQ9MCwwLDAsMApjb2xvcmRlcHRoPTI0CnBzbGV2ZWw9MApwZGZkZXZpY2U9MApjb2xvcmRldmljZT0wClBQRENvbnRleERhdGEKRHVwbGV4Ok5vbmUAUGFnZVNpemU6QTQAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmY=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">kQH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAsgAAAAAAAAAEAAhSAAAEdAAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCm1hcmdpbmRhanVzdG1lbnQ9MCwwLDAsMApjb2xvcmRlcHRoPTI0CnBzbGV2ZWw9MApwZGZkZXZpY2U9MApjb2xvcmRldmljZT0wClBQRENvbnRleERhdGEKUGFnZVNpemU6QTQARHVwbGV4Ok5vbmUAABIAQ09NUEFUX0RVUExFWF9NT0RFDwBEdXBsZXhNb2RlOjpPZmY=</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
   </config:config-item-set>
@@ -209,6 +209,7 @@
       
       
 
+      
       
       
       
@@ -853,12 +854,18 @@
    <style:table-row-properties style:row-height="7.88mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro5" style:family="table-row">
-   <style:table-row-properties style:row-height="12.44mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="11.57mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro6" style:family="table-row">
-   <style:table-row-properties style:row-height="16.49mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+   <style:table-row-properties style:row-height="15.26mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ro7" style:family="table-row">
+   <style:table-row-properties style:row-height="12.44mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro8" style:family="table-row">
+   <style:table-row-properties style:row-height="16.49mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro9" style:family="table-row">
    <style:table-row-properties style:row-height="8.41mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
   <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
@@ -978,7 +985,7 @@
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce24" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N3">
+  <style:style style:name="ce23" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N3">
    <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#d5a6bd" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="0.06pt solid #000000" style:direction="ltr" fo:border-right="0.06pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="0.06pt solid #000000" style:vertical-align="middle" loext:vertical-justify="auto"/>
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
@@ -1283,7 +1290,7 @@
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="ce86" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
+  <style:style style:name="ce85" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
    <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#d5a6bd" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="0.06pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="0.06pt solid #000000" style:vertical-align="middle" loext:vertical-justify="auto"/>
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Ubuntu Mono" fo:font-size="9pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="9pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="9pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
@@ -1562,7 +1569,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2020-02-16">0000-00-00</text:date>, <text:time style:data-style-name="N2" text:time-value="12:41:56.275265711">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2020-02-16">0000-00-00</text:date>, <text:time style:data-style-name="N2" text:time-value="13:17:44.627249276">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -1647,7 +1654,7 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>VarName</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce24" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string">
       <text:p>ready</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -1659,10 +1666,10 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>N_parameters</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce24" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string">
       <text:p>parameter_name</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce24" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce23" office:value-type="string" calcext:value-type="string">
       <text:p>input</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -1695,10 +1702,10 @@
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
       <text:p>OUTPUT_user_units</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce86" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce85" office:value-type="string" calcext:value-type="string">
       <text:p>OUTPUT_reference</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce86" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce85" office:value-type="string" calcext:value-type="string">
       <text:p>PARAMETER_definition</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce2" office:value-type="string" calcext:value-type="string">
@@ -6372,24 +6379,16 @@
      <table:table-cell table:style-name="ce239" office:value-type="string" calcext:value-type="string">
       <text:p>tx95t</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce280" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>1</text:p>
+     <table:table-cell table:style-name="ce280" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce229" office:value-type="string" calcext:value-type="string">
       <text:p>NOT</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce229" office:value-type="string" calcext:value-type="string">
-      <text:p>percentile</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce239" office:value-type="string" calcext:value-type="string">
-      <text:p>1</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce280" office:value-type="string" calcext:value-type="string">
-      <text:p>percentiles</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce273" office:value-type="string" calcext:value-type="string">
-      <text:p>data: tasmax</text:p>
-     </table:table-cell>
+     <table:table-cell table:style-name="ce229"/>
+     <table:table-cell table:style-name="ce239"/>
+     <table:table-cell table:style-name="ce280"/>
+     <table:table-cell table:style-name="ce273"/>
      <table:table-cell table:style-name="ce229" office:value-type="string" calcext:value-type="string">
       <text:p>ann/sea/mon</text:p>
      </table:table-cell>
@@ -7161,7 +7160,7 @@
      <table:table-cell table:style-name="ce229" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>r10mm</text:p>
      </table:table-cell>
@@ -7231,7 +7230,7 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>r20mm</text:p>
      </table:table-cell>
@@ -7299,7 +7298,7 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="10"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>r{RT}mm</text:p>
      </table:table-cell>
@@ -7368,7 +7367,7 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
       <text:p>wetdays</text:p>
      </table:table-cell>
@@ -7419,7 +7418,7 @@
       <text:p>CLIPC</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce314" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce231"/>
      <table:table-cell table:style-name="ce240"/>
@@ -7431,7 +7430,7 @@
      <table:table-cell table:style-name="ce342" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>cdd</text:p>
      </table:table-cell>
@@ -7482,7 +7481,7 @@
       <text:p>ETCCDI</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce309" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &lt;, reducer: maximum</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &lt;, reducer: maximum</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>cdd</text:p>
@@ -7501,7 +7500,7 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>cwd</text:p>
      </table:table-cell>
@@ -7552,7 +7551,7 @@
       <text:p>ETCCDI</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce309" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=, reducer: maximum</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, reducer: maximum</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>cwd</text:p>
@@ -7571,7 +7570,7 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>prcptot</text:p>
      </table:table-cell>
@@ -7611,7 +7610,7 @@
       <text:p>Total precipitation during Wet Days</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
-      <text:p>m</text:p>
+      <text:p>meter</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce331" office:value-type="string" calcext:value-type="string">
       <text:p>mm</text:p>
@@ -7623,7 +7622,7 @@
       <text:p>ETCCDI</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce309" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=, reducer: sum</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, reducer: sum</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>prcptot</text:p>
@@ -7642,7 +7641,7 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>sdii</text:p>
      </table:table-cell>
@@ -7675,7 +7674,7 @@
      </table:table-cell>
      <table:table-cell table:style-name="ce311"/>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
-      <text:p>time: sum within days time: sum over days (wet days)</text:p>
+      <text:p>time: sum within days time: mean over days (wet days)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230"/>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
@@ -7691,7 +7690,7 @@
       <text:p>ETCCDI</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce309" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=, reducer: mean</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, reducer: mean</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>sdii</text:p>
@@ -7946,18 +7945,24 @@
      <table:table-cell table:style-name="ce229" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro3">
-     <table:table-cell table:style-name="ce236" office:value-type="string" calcext:value-type="string">
+    <table:table-row table:style-name="ro5">
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
       <text:p>r{PRC}pctl</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce278" office:value-type="float" office:value="0" calcext:value-type="float">
-      <text:p>0</text:p>
+     <table:table-cell table:style-name="ce275" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce236" office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
       <text:p>NOT</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3" table:style-name="ce296" office:value-type="string" calcext:value-type="string">
-      <text:p>??????</text:p>
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
+      <text:p>thresholded_percentile</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
+      <text:p>2</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
+      <text:p>threshold, condition, percentiles</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce275" office:value-type="string" calcext:value-type="string">
       <text:p>data: pr</text:p>
@@ -7968,17 +7973,28 @@
      <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
       <text:p>ann</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="2" table:style-name="ce318" office:value-type="string" calcext:value-type="string">
-      <text:p>??????</text:p>
+     <table:table-cell table:style-name="ce312" office:value-type="string" calcext:value-type="string">
+      <text:p>lwe_thickness_of_precipitation_amount</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="6" table:style-name="ce296" office:value-type="string" calcext:value-type="string">
-      <text:p>??????</text:p>
+     <table:table-cell table:style-name="ce312"/>
+     <table:table-cell table:style-name="ce240"/>
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
+      <text:p>time: sum withon days time: percentile over days (wet days)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
+      <text:p>{PRC}th percentile of precipitation during wet days (Precip &gt;= 1mm)</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
+      <text:p>meter</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" table:style-name="ce240" office:value-type="string" calcext:value-type="string">
+      <text:p>mm</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce240" office:value-type="string" calcext:value-type="string">
       <text:p>CLIPC</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce318" office:value-type="string" calcext:value-type="string">
-      <text:p>??????</text:p>
+     <table:table-cell table:style-name="ce312" office:value-type="string" calcext:value-type="string">
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, percentiles: (var_name: percentile, standard_name: , proposed_standard_name: quantile, value: {PRC}, unit: %)</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce231"/>
      <table:table-cell table:style-name="ce240"/>
@@ -7988,7 +8004,8 @@
      <table:table-cell table:style-name="ce240"/>
      <table:table-cell table:style-name="ce231"/>
      <table:table-cell table:style-name="ce240" table:number-columns-repeated="4"/>
-     <table:table-cell table:number-columns-repeated="991"/>
+     <table:table-cell table:style-name="ce345" table:number-columns-repeated="978"/>
+     <table:table-cell table:style-name="ce350" table:number-columns-repeated="13"/>
     </table:table-row>
     <table:table-row table:style-name="ro2">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
@@ -8039,7 +8056,7 @@
       <text:p>ETCCDI</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce309" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=, reducer: maximum</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, reducer: maximum</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>rx1day</text:p>
@@ -8055,12 +8072,12 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro6">
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>rx5day</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce274" office:value-type="float" office:value="0" calcext:value-type="float">
-      <text:p>0</text:p>
+     <table:table-cell table:style-name="ce274" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>CF-1.5</text:p>
@@ -8104,7 +8121,7 @@
       <text:p>ETCCDI</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce309" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=, reducer: sum</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, rolling_aggregator: sum, window_size: (var_name: window_size, standard_name: , proposed_standard_name: , value: 5, unit: day, long_name=”Running window length”), reducer: maximum</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce230" office:value-type="string" calcext:value-type="string">
       <text:p>rx5day</text:p>
@@ -8120,12 +8137,12 @@
      <table:table-cell table:style-name="ce230" table:number-columns-repeated="4"/>
      <table:table-cell table:number-columns-repeated="991"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro6">
      <table:table-cell table:style-name="ce229" office:value-type="string" calcext:value-type="string">
       <text:p>rx{ND}day</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce273" office:value-type="float" office:value="0" calcext:value-type="float">
-      <text:p>0</text:p>
+     <table:table-cell table:style-name="ce273" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce229" office:value-type="string" calcext:value-type="string">
       <text:p>CF-1.5</text:p>
@@ -8169,7 +8186,7 @@
       <text:p>ET-SCI</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce310" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=, reducer: sum</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, rolling_aggregator: sum, window_size: (var_name: window_size, standard_name: , proposed_standard_name: , value: {ND}, unit: day, long_name=”Running window length”), reducer: maximum</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce229" office:value-type="string" calcext:value-type="string">
       <text:p>rxnday</text:p>
@@ -8546,7 +8563,7 @@
      <table:table-cell table:style-name="ce345" table:number-columns-repeated="978"/>
      <table:table-cell table:style-name="ce350" table:number-columns-repeated="13"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro4">
      <table:table-cell table:style-name="ce242" office:value-type="string" calcext:value-type="string">
       <text:p>rr</text:p>
      </table:table-cell>
@@ -8595,7 +8612,7 @@
       <text:p>ECA&amp;D</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce320" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=, reducer: sum</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=, reducer: sum</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce242" table:number-columns-repeated="14"/>
      <table:table-cell table:style-name="ce345" table:number-columns-repeated="978"/>
@@ -8821,7 +8838,7 @@
      <table:table-cell table:style-name="ce345" table:number-columns-repeated="978"/>
      <table:table-cell table:style-name="ce350" table:number-columns-repeated="13"/>
     </table:table-row>
-    <table:table-row table:style-name="ro2">
+    <table:table-row table:style-name="ro5">
      <table:table-cell table:style-name="ce242" office:value-type="string" calcext:value-type="string">
       <text:p>rr1</text:p>
      </table:table-cell>
@@ -8872,7 +8889,7 @@
       <text:p>ECA&amp;D</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce336" office:value-type="string" calcext:value-type="string">
-      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1), condition: &gt;=</text:p>
+      <text:p>threshold: (var_name: threshold, standard_name: lwe_precipitation_rate, value: 1, unit: mm day-1, long_name: “Wet day threshold”), condition: &gt;=</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce337"/>
      <table:table-cell table:style-name="ce242"/>
@@ -9322,8 +9339,8 @@
      <table:table-cell table:style-name="ce242" office:value-type="string" calcext:value-type="string">
       <text:p>etr</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce282" office:value-type="float" office:value="1" calcext:value-type="float">
-      <text:p>1</text:p>
+     <table:table-cell table:style-name="ce282" office:value-type="float" office:value="0" calcext:value-type="float">
+      <text:p>0</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce242" office:value-type="string" calcext:value-type="string">
       <text:p>CF-1.5</text:p>
@@ -9346,10 +9363,10 @@
      <table:table-cell table:style-name="ce242" office:value-type="string" calcext:value-type="string">
       <text:p>ann</text:p>
      </table:table-cell>
-     <table:table-cell table:style-name="ce320" office:value-type="string" calcext:value-type="string">
-      <text:p>air_temperature</text:p>
-     </table:table-cell>
      <table:table-cell table:style-name="ce320"/>
+     <table:table-cell table:style-name="ce320" office:value-type="string" calcext:value-type="string">
+      <text:p>air_temperature_difference</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce242" office:value-type="string" calcext:value-type="string">
       <text:p>time: range</text:p>
      </table:table-cell>
@@ -9853,7 +9870,7 @@
      <table:table-cell table:style-name="ce347" table:number-columns-repeated="978"/>
      <table:table-cell table:style-name="ce351" table:number-columns-repeated="13"/>
     </table:table-row>
-    <table:table-row table:style-name="ro3" table:number-rows-repeated="2">
+    <table:table-row table:style-name="ro3">
      <table:table-cell table:style-name="ce247"/>
      <table:table-cell table:style-name="ce286"/>
      <table:table-cell table:style-name="ce247" table:number-columns-repeated="3"/>
@@ -9862,6 +9879,55 @@
      <table:table-cell table:style-name="ce324" table:number-columns-repeated="2"/>
      <table:table-cell table:style-name="ce247" table:number-columns-repeated="7"/>
      <table:table-cell table:style-name="ce324"/>
+     <table:table-cell table:style-name="ce247" table:number-columns-repeated="14"/>
+     <table:table-cell table:style-name="ce346" table:number-columns-repeated="978"/>
+     <table:table-cell table:style-name="ce353" table:number-columns-repeated="13"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>txmax5daymean</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce286" office:value-type="float" office:value="1" calcext:value-type="float">
+      <text:p>1</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>NOT</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>running_statistics</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>3</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce286" office:value-type="string" calcext:value-type="string">
+      <text:p>rolling_aggregator, window_size, reducer</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce286" office:value-type="string" calcext:value-type="string">
+      <text:p>data: tasmax</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>ann/sea/mon</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>ann</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce324" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce247" table:number-columns-repeated="2"/>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>Annual mximum 5-day mean daily maximum temperature</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>Kelvin</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="2" table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>degree_Celsius</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce247" office:value-type="string" calcext:value-type="string">
+      <text:p>TEST</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce324" office:value-type="string" calcext:value-type="string">
+      <text:p>rolling_aggregator: mean, window_size: (var_name: window_size, proposed_standard_name: temporal_window_size, value: 5, unit: day), reducer: maximum</text:p>
+     </table:table-cell>
      <table:table-cell table:style-name="ce247" table:number-columns-repeated="14"/>
      <table:table-cell table:style-name="ce346" table:number-columns-repeated="978"/>
      <table:table-cell table:style-name="ce353" table:number-columns-repeated="13"/>
@@ -9955,7 +10021,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>count_occurrences</text:p>
      </table:table-cell>
@@ -9976,7 +10042,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>first_occurrence</text:p>
      </table:table-cell>
@@ -9997,7 +10063,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro5">
+    <table:table-row table:style-name="ro7">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>last_occurrence</text:p>
      </table:table-cell>
@@ -10018,7 +10084,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1018"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro8">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>spell_length</text:p>
      </table:table-cell>
@@ -10129,7 +10195,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
-    <table:table-row table:style-name="ro6">
+    <table:table-row table:style-name="ro8">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>thresholded_statistic</text:p>
      </table:table-cell>
@@ -10187,7 +10253,7 @@
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
-    <table:table-row table:style-name="ro7">
+    <table:table-row table:style-name="ro9">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>thresholded_running_statistics</text:p>
      </table:table-cell>
@@ -11728,7 +11794,7 @@
    </table:table>
    <table:named-expressions/>
    <table:database-ranges>
-    <table:database-range table:name="__Anonymous_Sheet_DB__0" table:target-range-address="index_definitions.A1:index_definitions.W123" table:display-filter-buttons="true" table:orientation="column"/>
+    <table:database-range table:name="__Anonymous_Sheet_DB__0" table:target-range-address="index_definitions.A1:index_definitions.W132" table:display-filter-buttons="true" table:orientation="column"/>
    </table:database-ranges>
   </office:spreadsheet>
  </office:body>
