@@ -6,7 +6,7 @@ climate indices (aka climate indicators).
 To facilitate data exchange and dissemination the metadata should, as far as possible, follow 
 [Climate and Forecasting [CF] Conventions](http://cfconventions.org/). Considering the very rich and diverse flora of climate indices this is 
 however not always possible. By collecting a wide range of different indices it is easier to discover any common patterns and features that 
-is currently not covered by the CF Conventions. Currently identified issues frequently relate to `standard_name` and `cell_methods` which both 
+are currently not covered by the CF Conventions. Currently identified issues frequently relate to `standard_name` and `cell_methods` which both 
 are *controlled vocabularies* in the CF Conventions.
 
 This repository is in active development, and the content will frequently change. 
