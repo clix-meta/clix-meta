@@ -30,4 +30,7 @@ produced by [ECA&D](https://www.ecad.eu/indicesextremes/index.php). However, som
 
 
 
-This work is supported by European project [IS-ENES3](https://is.enes.org/) and [SMHI Rossby Centre](https://www.smhi.se/en/research/research-departments/climate-research-rossby-centre2-552)
+This work is supported by European project [IS-ENES3](https://is.enes.org/) and [SMHI Rossby Centre](https://www.smhi.se/en/research/research-departments/climate-research-rossby-centre2-552).
+
+
+The content of this repository is licensed under a ![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
