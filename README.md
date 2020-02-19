@@ -49,7 +49,7 @@ This work is supported by the European project [IS-ENES3](https://is.enes.org/) 
 
 ## Licence ##
 
-**CF-index-meta** (c) by *Lars Barring* and *Klaus Zimmermann*, Rossby Centre, 
+**CF-index-meta** (c) by *Lars Bärring* and *Klaus Zimmermann*, Rossby Centre, 
 Swedish Meteorological and Hydrological Institute (SMHI).
 
 ![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) **CF-index-meta** is 
