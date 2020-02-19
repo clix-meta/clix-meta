@@ -5,12 +5,13 @@ and developing, a unified view of metadata elements required to
 describe climate indices (aka climate indicators). 
 
 To facilitate data exchange and dissemination the metadata should, 
-as far as possible, follow [Climate and Forecasting [CF] Conventions]
-(http://cfconventions.org/). Considering the very rich and diverse 
-flora of climate indices this is however not always possible. By 
-collecting a wide range of different indices it is easier to discover 
-any common patterns and features that are currently not covered by the 
-CF Conventions. Currently identified issues frequently relate to 
+as far as possible, follow 
+[Climate and Forecasting [CF] Conventions](http://cfconventions.org/). 
+Considering the very rich and diverse flora of climate indices this 
+is however not always possible. By collecting a wide range of 
+different indices it is easier to discover any common patterns and 
+features that are currently not well covered by the CF Conventions. 
+Currently identified issues frequently relate to 
 [`standard_name`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#standard-name) 
 or/and [`cell_methods`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#cell-methods)
 which both are *controlled vocabularies* of the CF Conventions.
@@ -48,7 +49,7 @@ This work is supported by the European project [IS-ENES3](https://is.enes.org/) 
 
 ## Licence ##
 
-**CF-index-meta** (c) by *Lars BÃ¤rring* and *Klaus Zimmermann*, Rossby Centre, 
+**CF-index-meta** (c) by *Lars Bärring* and *Klaus Zimmermann*, Rossby Centre, 
 Swedish Meteorological and Hydrological Institute (SMHI).
 
 ![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) **CF-index-meta** is 
