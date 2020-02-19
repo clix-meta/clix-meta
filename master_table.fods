@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:editing-cycles>160</meta:editing-cycles><dc:date>2020-02-19T11:01:16.281779318</dc:date><dc:language>en-GB</dc:language><meta:editing-duration>P8DT54M22S</meta:editing-duration><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/dc89aa7a9eabfd848af146d5086077aeed2ae4a5</meta:generator><dc:creator>Lars Bärring</dc:creator><meta:document-statistic meta:table-count="4" meta:cell-count="3093" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">14.0300</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined></office:meta>
+ <office:meta><meta:editing-cycles>161</meta:editing-cycles><dc:date>2020-02-19T13:44:35.371100094</dc:date><dc:language>en-GB</dc:language><meta:editing-duration>P8DT3H17M30S</meta:editing-duration><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/dc89aa7a9eabfd848af146d5086077aeed2ae4a5</meta:generator><dc:creator>Lars Bärring</dc:creator><meta:document-statistic meta:table-count="4" meta:cell-count="3093" meta:object-count="0"/><meta:user-defined meta:name="AppVersion">14.0300</meta:user-defined><meta:user-defined meta:name="DocSecurity" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -100,7 +100,7 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
-     <config:config-item config:name="ActiveTable" config:type="string">ECA&amp;D</config:config-item>
+     <config:config-item config:name="ActiveTable" config:type="string">index_functions</config:config-item>
      <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1620</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">85</config:config-item>
@@ -796,37 +796,37 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="33.32mm"/>
   </style:style>
   <style:style style:name="co19" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="60.2mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="22.74mm"/>
   </style:style>
   <style:style style:name="co20" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="19.84mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="47.73mm"/>
   </style:style>
   <style:style style:name="co21" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="24.02mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="31.4mm"/>
   </style:style>
   <style:style style:name="co22" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="67.27mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="140.32mm"/>
   </style:style>
   <style:style style:name="co23" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="181.35mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="82.34mm"/>
   </style:style>
   <style:style style:name="co24" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="22.58mm"/>
   </style:style>
   <style:style style:name="co25" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="22.74mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="60.2mm"/>
   </style:style>
   <style:style style:name="co26" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="47.73mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="19.84mm"/>
   </style:style>
   <style:style style:name="co27" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="31.4mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="24.02mm"/>
   </style:style>
   <style:style style:name="co28" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="140.32mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="67.27mm"/>
   </style:style>
   <style:style style:name="co29" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="82.34mm"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="181.35mm"/>
   </style:style>
   <style:style style:name="co30" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="30.43mm"/>
@@ -1382,6 +1382,18 @@
   <style:style style:name="ce251" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties fo:background-color="transparent"/>
   </style:style>
+  <style:style style:name="ce261" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="ce364" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap"/>
+   <style:paragraph-properties fo:margin-left="0mm"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="10pt" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="ce365" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties fo:wrap-option="wrap"/>
+   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="10pt" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
   <style:style style:name="ce252" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
    <style:table-cell-properties fo:border-bottom="0.74pt solid #000000" fo:background-color="#d5a6bd" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="0.06pt solid #000000" style:direction="ltr" fo:border-right="0.06pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="0.06pt solid #000000" style:vertical-align="top" loext:vertical-justify="auto"/>
    <style:paragraph-properties fo:text-align="start" css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
@@ -1422,18 +1434,6 @@
    <style:table-cell-properties style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="top" loext:vertical-justify="auto"/>
    <style:paragraph-properties css3t:text-justify="auto" fo:margin-left="0mm" style:writing-mode="page"/>
    <style:text-properties style:use-window-font-color="true"/>
-  </style:style>
-  <style:style style:name="ce261" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
-  </style:style>
-  <style:style style:name="ce364" style:family="table-cell" style:parent-style-name="Default">
-   <style:table-cell-properties style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap"/>
-   <style:paragraph-properties fo:margin-left="0mm"/>
-   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="10pt" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
-  </style:style>
-  <style:style style:name="ce365" style:family="table-cell" style:parent-style-name="Default">
-   <style:table-cell-properties fo:wrap-option="wrap"/>
-   <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" fo:font-size="10pt" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="ce264" style:family="table-cell" style:parent-style-name="Default">
    <style:table-cell-properties style:rotation-align="none"/>
@@ -9936,13 +9936,203 @@
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
    </table:table>
+   <table:table table:name="variables" table:style-name="ta1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <table:table-column table:style-name="co19" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co20" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co21" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co22" table:default-cell-style-name="ce251"/>
+    <table:table-column table:style-name="co23" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
+      <text:p>var_name</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
+      <text:p>standard_name</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
+      <text:p>cell_methods</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
+      <text:p>aliases</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
+      <text:p>comment</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>pr</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>precipitation_flux</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: mean</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce364" office:value-type="string" calcext:value-type="string">
+      <text:p>pradjust, prec, rr, precip, PREC, Prec, RR, PRECIP, Precip</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>tas</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>air_temperature</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: mean</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+      <text:p>tasadjust, tmean, tm, tg, meant, TMEAN, Tmean, TM, TG, MEANT, meanT, tasmidpoint</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>tasmax</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>air_temperature</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: maximum</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce365" office:value-type="string" calcext:value-type="string">
+      <text:p>tasmaxadjust, tmax, tx, maxt, TMAX, Tmax, TX, MAXT, maxT</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>tasmin</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>air_temperature</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: minimum</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce365" office:value-type="string" calcext:value-type="string">
+      <text:p>tasminadjust, tmin, tn, mint, TMIN, Tmin, TN, MINT, minT</text:p>
+     </table:table-cell>
+     <table:table-cell/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>hurs</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>relative_humidity</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: mean</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+      <text:p>hursadjust, rh, RH</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>less well established</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>psl</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>air_pressure_at_sea_level </text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: mean</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
+      <text:p>mslp, slp, pp, MSLP, SLP, PP</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>not well established</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>snd</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>surface_snow_thickness</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: mean</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>sd, SD</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>not well established</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>sund</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>duration_of_sunshine </text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: mean</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>ss, SS</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>not well established</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>wsgsmax</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>wind_speed_of_gust</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: maximum</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>fx, FX</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>not well established</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>sfcWind</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>wind_speed</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>time: mean</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>sfcwind, fg, FG</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>not well established</text:p>
+     </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:number-columns-repeated="5"/>
+    </table:table-row>
+   </table:table>
    <table:table table:name="index_functions" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
-    <table:table-column table:style-name="co19" table:default-cell-style-name="ce253"/>
-    <table:table-column table:style-name="co20" table:default-cell-style-name="ce257"/>
-    <table:table-column table:style-name="co21" table:number-columns-repeated="2" table:default-cell-style-name="ce257"/>
-    <table:table-column table:style-name="co22" table:default-cell-style-name="ce253"/>
-    <table:table-column table:style-name="co23" table:default-cell-style-name="ce253"/>
+    <table:table-column table:style-name="co25" table:default-cell-style-name="ce253"/>
+    <table:table-column table:style-name="co26" table:default-cell-style-name="ce257"/>
+    <table:table-column table:style-name="co27" table:number-columns-repeated="2" table:default-cell-style-name="ce257"/>
+    <table:table-column table:style-name="co28" table:default-cell-style-name="ce253"/>
+    <table:table-column table:style-name="co29" table:default-cell-style-name="ce253"/>
     <table:table-column table:style-name="co24" table:number-columns-repeated="1018" table:default-cell-style-name="ce253"/>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:style-name="ce252" office:value-type="string" calcext:value-type="string">
@@ -10400,195 +10590,6 @@
     </table:table-row>
     <table:table-row table:style-name="ro4">
      <table:table-cell table:number-columns-repeated="1024"/>
-    </table:table-row>
-   </table:table>
-   <table:table table:name="variables" table:style-name="ta1">
-    <table:table-column table:style-name="co25" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co26" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co27" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co28" table:default-cell-style-name="ce251"/>
-    <table:table-column table:style-name="co29" table:default-cell-style-name="Default"/>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
-      <text:p>var_name</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
-      <text:p>standard_name</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
-      <text:p>cell_methods</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
-      <text:p>aliases</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce261" office:value-type="string" calcext:value-type="string">
-      <text:p>comment</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>pr</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>precipitation_flux</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce364" office:value-type="string" calcext:value-type="string">
-      <text:p>pradjust, prec, rr, precip, PREC, Prec, RR, PRECIP, Precip</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>tas</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>air_temperature</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
-      <text:p>tasadjust, tmean, tm, tg, meant, TMEAN, Tmean, TM, TG, MEANT, meanT, tasmidpoint</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>tasmax</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>air_temperature</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: maximum</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce365" office:value-type="string" calcext:value-type="string">
-      <text:p>tasmaxadjust, tmax, tx, maxt, TMAX, Tmax, TX, MAXT, maxT</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>tasmin</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>air_temperature</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: minimum</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="ce365" office:value-type="string" calcext:value-type="string">
-      <text:p>tasminadjust, tmin, tn, mint, TMIN, Tmin, TN, MINT, minT</text:p>
-     </table:table-cell>
-     <table:table-cell/>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>hurs</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>relative_humidity</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
-      <text:p>hursadjust, rh, RH</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>less well established</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>psl</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>air_pressure_at_sea_level </text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean</text:p>
-     </table:table-cell>
-     <table:table-cell table:style-name="Default" office:value-type="string" calcext:value-type="string">
-      <text:p>mslp, slp, pp, MSLP, SLP, PP</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>not well established</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>snd</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>surface_snow_thickness</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>sd, SD</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>not well established</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>sund</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>duration_of_sunshine </text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>ss, SS</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>not well established</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>wsgsmax</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>wind_speed_of_gust</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: maximum</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>fx, FX</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>not well established</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>sfcWind</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>wind_speed</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>time: mean</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>sfcwind, fg, FG</text:p>
-     </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>not well established</text:p>
-     </table:table-cell>
-    </table:table-row>
-    <table:table-row table:style-name="ro4">
-     <table:table-cell table:number-columns-repeated="5"/>
     </table:table-row>
    </table:table>
    <table:table table:name="ECA&amp;D" table:style-name="ta2">
