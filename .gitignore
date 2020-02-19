@@ -1,9 +1,3 @@
-# Skip "old generation" files
-climate_indices_CV*
-errors.txt
-*.py
-translat*
-
 # Skip backup files
 *~ 
 .*~ 
