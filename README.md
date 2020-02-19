@@ -11,7 +11,7 @@ are *controlled vocabularies* in the CF Conventions.
 
 This repository is in active development, and the content will frequently change. 
 
-Currently it contains a LibreOffice Calc file, **master_table.fods**, containing several sheets.
+Currently, the main component is a [LibreOffice Calc](https://www.libreoffice.org/) file, **master_table.fods**, that contains several sheets.
 
 The sheets are as follows:
 
