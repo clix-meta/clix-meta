@@ -1,17 +1,20 @@
 ## Overview ##
 
-This repository aims to provide a platform for thinking about, and developing, a unified view of metadata elements required to describe
-climate indices (aka climate indicators). 
+This repository aims to provide a platform for thinking about, and developing, a unified view 
+of metadata elements required to describe climate indices (aka climate indicators). 
 
 To facilitate data exchange and dissemination the metadata should, as far as possible, follow 
-[Climate and Forecasting [CF] Conventions](http://cfconventions.org/). Considering the very rich and diverse flora of climate indices this is 
-however not always possible. By collecting a wide range of different indices it is easier to discover any common patterns and features that 
-are currently not covered by the CF Conventions. Currently identified issues frequently relate to `standard_name` and `cell_methods` which both 
-are *controlled vocabularies* in the CF Conventions.
+[Climate and Forecasting [CF] Conventions](http://cfconventions.org/). Considering the very 
+rich and diverse flora of climate indices this is however not always possible. By collecting a 
+wide range of different indices it is easier to discover any common patterns and features that 
+are currently not covered by the CF Conventions. Currently identified issues frequently relate to 
+[`standard_name`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#standard-name) 
+or/and [`cell_methods`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#cell-methods)
+which both are *controlled vocabularies* of the CF Conventions.
 
 This repository is in active development, and the content will frequently change. 
 
-Currently, the main component is a [LibreOffice Calc](https://www.libreoffice.org/) file, **master_table.fods**, that contains several sheets.
+Currently, the main component is a speadsheet file, **master_table.xls**, that contains several sheets. The *.xls* format should [hopefully] be readable/editable by several common desktop office.
 
 The sheets are as follows:
 
