@@ -1,0 +1,129 @@
+# These variables are auto-generated from the master table at
+# https://bitbucket.org/cf-index-meta/cf-index-meta
+
+# This is based on version index_definition.yml.
+---
+variables:
+  pr:
+    standard_name: precipitation_flux
+    cell_methods:
+      - time: mean
+    aliases:
+      - pradjust
+      - prec
+      - rr
+      - precip
+      - PREC
+      - Prec
+      - RR
+      - PRECIP
+      - Precip
+
+  tas:
+    standard_name: air_temperature
+    cell_methods:
+      - time: mean
+    aliases:
+      - tasadjust
+      - tmean
+      - tm
+      - tg
+      - meant
+      - TMEAN
+      - Tmean
+      - TM
+      - TG
+      - MEANT
+      - meanT
+      - tasmidpoint
+
+  tasmax:
+    standard_name: air_temperature
+    cell_methods:
+      - time: maximum
+    aliases:
+      - tasmaxadjust
+      - tmax
+      - tx
+      - maxt
+      - TMAX
+      - Tmax
+      - TX
+      - MAXT
+      - maxT
+
+  tasmin:
+    standard_name: air_temperature
+    cell_methods:
+      - time: minimum
+    aliases:
+      - tasminadjust
+      - tmin
+      - tn
+      - mint
+      - TMIN
+      - Tmin
+      - TN
+      - MINT
+      - minT
+
+  hurs:
+    standard_name: relative_humidity
+    cell_methods:
+      - time: mean
+    aliases:
+      - hursadjust
+      - rh
+      - RH
+    comment: less well established
+
+  psl:
+    standard_name: air_pressure_at_sea_level
+    cell_methods:
+      - time: mean
+    aliases:
+      - mslp
+      - slp
+      - pp
+      - MSLP
+      - SLP
+      - PP
+    comment: not well established
+
+  snd:
+    standard_name: surface_snow_thickness
+    cell_methods:
+      - time: mean
+    aliases:
+      - sd
+      - SD
+    comment: not well established
+
+  sund:
+    standard_name: duration_of_sunshine
+    cell_methods:
+      - time: mean
+    aliases:
+      - ss
+      - SS
+    comment: not well established
+
+  wsgsmax:
+    standard_name: wind_speed_of_gust
+    cell_methods:
+      - time: maximum
+    aliases:
+      - fx
+      - FX
+    comment: not well established
+
+  sfcWind:
+    standard_name: wind_speed
+    cell_methods:
+      - time: mean
+    aliases:
+      - sfcwind
+      - fg
+      - FG
+    comment: not well established
+
