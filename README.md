@@ -41,6 +41,13 @@ for calculation of the indices.
 [ECA&D](https://www.ecad.eu/indicesextremes/index.php). Many of these are
 already covered by existing entries in the *index_table* sheet.
 
+In addition to the main file there are two example YAML files:
+
+* **index_definitions__example.yml** and **variables__example.yml** that shows
+how the corresponding spreadsheets in the master_table.xls can be transformed
+into more easily machine-readable format, while still being readable for humans.
+N.B. These files are incuded here as examples and may not be updated to track
+changes in the master_table.xls
 
 
 This work is supported by the European project [IS-ENES3](https://is.enes.org/) and by
