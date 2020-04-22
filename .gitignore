@@ -1,6 +1,9 @@
 # Skip backup files
-*~ 
-.*~ 
+*~
+.*~
 
 # Skip lock files
 .~lock*
+
+__pycache__
+*.egg-info

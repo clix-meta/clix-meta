@@ -1,0 +1,64 @@
+# These index definitions are auto-generated from the master table at
+# https://bitbucket.org/cf-index-meta/cf-index-meta
+
+# This is based on version {{ version }}.
+---
+indices:
+{% for idx in indices %}
+  {{ idx.var_name }}:
+    reference: {{- idx.reference|add_space }}
+    period:
+      allowed:
+{% for p in idx.period.allowed %}
+        {{ p }}:
+{% endfor %}
+      default: {{- idx.period.default|add_space }}
+    output:
+      var_name: {{- idx.output.var_name|add_space(quote=True) }}
+      standard_name: {{- idx.output.standard_name|add_space }}
+{% if idx.output.proposed_standard_name %}
+      proposed_standard_name: {{- idx.output.proposed_standard_name|add_space }}
+{% endif %}
+      long_name: {{- idx.output.long_name|add_space(quote=True) }}
+      units: {{- idx.output.units|add_space(quote=True) }}
+      cell_methods:
+{% for cm in idx.output.cell_methods %}
+        - {{ cm }}
+{% endfor %}
+    input:
+{% for argname, variable in idx.inputs.items() %}
+      {{ argname }}: {{- variable|add_space }}
+{% endfor %}
+    index_function:
+      name: {{- idx.index_function.name|add_space }}
+      parameters:
+{% for param in idx.index_function.parameters %}
+        {{ param.var_name }}:
+          kind: {{- param.kind|add_space }}
+{% if param.kind == 'quantity' %}
+          standard_name: {{- param.standard_name|add_space }}
+{% if param.proposed_standard_name is not none %}
+          proposed_standard_name: {{- param.proposed_standard_name|add_space }}
+{% endif %}
+{% if param.long_name is not none %}
+          long_name: {{- param.long_name|add_space(quote=True) }}
+{% endif %}
+          data: {{- param.data|add_space }}
+          units: {{- param.units|add_space(quote=True) }}
+{% elif param.kind == 'operator' %}
+          operator: {{- param.operator|add_space(quote=True) }}
+{% elif param.kind == 'reducer' %}
+          reducer: {{- param.reducer|add_space }}
+{% else %}
+          # Warning: Unknown kind!
+{% endif %}
+{% endfor %}
+    ET:
+      short_name: {{- idx.ET.short_name|add_space(quote=True) }}
+      long_name: {{- idx.ET.long_name|add_space(quote=True) }}
+      definition: {{- idx.ET.definition|add_space(quote=True) }}
+      comment: {{- idx.ET.comment|add_space(quote=True) }}
+{% if not loop.last %}
+
+{% endif %}
+{% endfor %}

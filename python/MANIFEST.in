@@ -1,0 +1,2 @@
+include versioneer.py
+include ci_meta/_version.py

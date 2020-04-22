@@ -4,6 +4,15 @@ This repository aims to provide a platform for thinking about,
 and developing, a unified view of metadata elements required to
 describe climate indices (aka climate indicators).
 
+Currently, the main component is the spreadsheet file, **master_table.xls**,
+that contains several tables as separate sheets. The *.xls* format should
+[hopefully] be readable/editable by several common desktop office programs.
+
+The repository also contains a small python package that can convert the
+spreadsheet into a set of equivalent [yaml](https://yaml.org/) files that are
+better suited for automatic processing. For more information about the python
+program, take a look at the `python` sub-directory.
+
 To facilitate data exchange and dissemination the metadata should,
 as far as possible, follow
 [Climate and Forecasting [CF] Conventions](http://cfconventions.org/).
@@ -18,11 +27,7 @@ which both are *controlled vocabularies* of the CF Conventions.
 
 This repository is in active development, and the content will frequently change.
 
-Currently, the main component is a spreadsheet file, **master_table.xls**,
-that contains several tables as separate sheets. The *.xls* format should
-[hopefully] be readable/editable by several common desktop office.
-
-The sheets are as follows:
+The sheets of the spreadsheet file are as follows:
 
 * **index_table**  ---  the main table holding the metadata for the
 individual indices. Most of the indices developed by the
@@ -50,17 +55,18 @@ N.B. These files are incuded here as examples and may not be updated to track
 changes in the master_table.xls
 
 
-This work is supported by the European project [IS-ENES3](https://is.enes.org/) and by
-[SMHI Rossby Centre](https://www.smhi.se/en/research/research-departments/climate-research-rossby-centre2-552).
+This work is supported by the European project [IS-ENES3](https://is.enes.org/)
+and by [SMHI Rossby Centre](https://www.smhi.se/en/research/research-departments/climate-research-rossby-centre2-552).
 
 
 ## Licence ##
 
-**CF-index-meta** (c) by *Lars Bärring* and *Klaus Zimmermann*, Rossby Centre,
-Swedish Meteorological and Hydrological Institute (SMHI).
+**CF-index-meta** (c) 2020 by *Lars Bärring* and *Klaus Zimmermann*, Rossby
+Centre, Swedish Meteorological and Hydrological Institute (SMHI).
 
-![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) **CF-index-meta** is
-licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) The spreadsheet and all
+the metadata therein is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
 
 You should have received a copy of the license along with this
 work. If not, see <http://creativecommons.org/licenses/by-sa/4.0/>.

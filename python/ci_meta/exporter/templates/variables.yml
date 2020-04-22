@@ -1,0 +1,22 @@
+# These variables are auto-generated from the master table at
+# https://bitbucket.org/cf-index-meta/cf-index-meta
+
+# This is based on version {{ version }}.
+---
+variables:
+{% for var in variables %}
+  {{ var.var_name }}:
+    standard_name: {{ var.standard_name }}
+    cell_methods:
+{% for cm in var.cell_methods %}
+      - {{ cm }}
+{% endfor %}
+    aliases:
+{% for alias in var.aliases %}
+      - {{ alias }}
+{% endfor %}
+{% if var.comment != '' %}
+    comment: {{ var.comment }}
+{% endif %}
+
+{% endfor %}
