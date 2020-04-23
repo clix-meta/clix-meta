@@ -35,8 +35,9 @@ def parse_args():
     parser = argparse.ArgumentParser(
         description=(f'An exporter for climate index metadata, '
                      f'version {ci_meta.__version__}.'))
+    parser.add_argument('-v', '--version', action='version',
+                        version=ci_meta.__version__)
     parser.add_argument('-f', '--force', action='store_true')
-    parser.add_argument('-t', '--table-version', default=ci_meta.__version__)
     parser.add_argument('document')
     return parser.parse_args()
 
@@ -64,12 +65,12 @@ def main():
     var_definition_template = env.get_template('variables.yml')
     var_definitions = build_variables(args.document)
     var_output = var_definition_template.render(variables=var_definitions,
-                                                version=args.table_version)
+                                                version=ci_meta.__version__)
 
     idx_definition_template = env.get_template('index_definitions.yml')
     idx_definitions = build_index_definitions(args.document)
     idx_output = idx_definition_template.render(indices=idx_definitions,
-                                                version=args.table_version)
+                                                version=ci_meta.__version__)
 
     with opened_w_force('variables.yml', args.force) as outfile:
         outfile.write(var_output)
