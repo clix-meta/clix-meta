@@ -1,0 +1,10 @@
+name: ci-meta-exporter
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python
+  - dos2unix
+  - zip
