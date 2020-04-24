@@ -31,6 +31,9 @@ setuptools.setup(
         'Topic :: Scientific/Engineering :: GIS',
     ],
     packages=setuptools.find_packages(),
+    package_data={
+        'ci_meta.exporter': ['templates/*.yml'],
+    },
     python_requires='>=3.8',
     install_requires=[
         'PyYAML',
