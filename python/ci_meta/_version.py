@@ -41,7 +41,7 @@ def get_config():
     cfg = VersioneerConfig()
     cfg.VCS = "git"
     cfg.style = "pep440"
-    cfg.tag_prefix = ""
+    cfg.tag_prefix = "cf-index-meta-"
     cfg.parentdir_prefix = "cf-index-meta-"
     cfg.versionfile_source = "ci_meta/_version.py"
     cfg.verbose = False
