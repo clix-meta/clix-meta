@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import os
 import setuptools
 import versioneer
 
 
-readme_path = os.path.join(os.path.dirname(__file__), '..', 'README.md')
-with open(readme_path, 'r') as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 
