@@ -30,7 +30,13 @@ yaml files, this README, and the LICENSE. These are made available as archives
 in `.zip` format with MS Dos/Windows style line endings and `.tar.gz` format
 with Unix style line endings.
 
-We provide distributions for currently ongoing work and stable releases.
+We provide distributions for currently
+[ongoing work](#markdown-header-ongoing-work),
+[pre-releases](#markdown-header-pre-releases),  and stable
+[releases](#markdown-header-releases).
+
+Here, we link the most recent versions. Older versions can be found on the
+[Downloads](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/) page.
 
 ## Ongoing Work
 
@@ -38,6 +44,17 @@ The current status of ongoing work can be downloaded here:
 
 * [cf-index-meta-data-devel.tar.gz](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-devel.tar.gz)
 * [cf-index-meta-data-devel.zip](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-devel.zip)
+
+## Pre-releases
+
+Pre-releases signify agreed-upon states, but are not yet considered ready for
+prime time use. Here, we only link the latest pre-release. Older ones can be
+found on the
+[Downloads](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/) page.
+
+* CF Index Meta Data 0.2.0
+    * [cf-index-meta-data-0.2.0.tar.gz](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-0.2.0.tar.gz)
+    * [cf-index-meta-data-0.2.0.zip](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-0.2.0.zip)
 
 ## Releases
 
