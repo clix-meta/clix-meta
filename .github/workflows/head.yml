@@ -29,7 +29,7 @@ jobs:
         run: |
           conda env update -n base --file bitbucket-environment.yml
           pip install -e ./python/
-          export CI_META_PREFIX=cf-index-meta-data
+          export CI_META_PREFIX=clix-meta-data
           export CI_META_VERSION=$(ci-meta-exporter -v)
           echo 'devel' >ci-meta-version.txt
           export CI_META_NAME=${CI_META_PREFIX}-${CI_META_VERSION}
@@ -38,13 +38,14 @@ jobs:
           cd $CI_META_NAME
           ci-meta-exporter ./master_table.xls
           cd ..
-          tar cvf ${CI_META_PREFIX}-devel.tar.gz $CI_META_NAME
+          export CI_META_ARCHIVE_BASE=${CI_META_PREFIX}-devel
+          tar cvf ${CI_META_ARCHIVE_BASE}.tar.gz $CI_META_NAME
           cd $CI_META_NAME
           $CONDA/bin/unix2dos README.md LICENSE.txt *.yml
           cd ..
-          zip -r ${CI_META_PREFIX}-devel.zip $CI_META_NAME
+          zip -r ${CI_META_ARCHIVE_BASE}.zip $CI_META_NAME
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
           name: yaml-version
-          path: cf-index-meta-data-*.*
+          path: ${CI_META_ARCHIVE_BASE}.tar.gz
