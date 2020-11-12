@@ -40,6 +40,6 @@ jobs:
           cd ..
           tar cvf ${CI_META_PREFIX}-devel.tar.gz $CI_META_NAME
           cd $CI_META_NAME
-          unix2dos README.md LICENSE.txt *.yml
+          $CONDA/bin/unix2dos README.md LICENSE.txt *.yml
           cd ..
           zip -r ${CI_META_PREFIX}-devel.zip $CI_META_NAME
