@@ -44,7 +44,7 @@ jobs:
           cd ..
           zip -r ${CI_META_PREFIX}-devel.zip $CI_META_NAME
       - name: Upload artifacts
-        uses: actions/upload-artifacts@v2
+        uses: actions/upload-artifact@v2
         with:
           name: yaml-version
           path: cf-index-meta-data-*.*
