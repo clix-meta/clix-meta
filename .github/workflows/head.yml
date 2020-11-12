@@ -48,4 +48,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: yaml-version
-          path: ${CI_META_ARCHIVE_BASE}.tar.gz
+          path: clix-meta-data-*.tar.gz
