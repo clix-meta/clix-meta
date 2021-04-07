@@ -7,8 +7,6 @@ assignees: larsbarring
 
 ---
 
-##### Describe your question, request or issue here: #####
+# Describe your question, request or issue here:
 
-
-* * *
 

@@ -7,7 +7,7 @@ assignees: larsbarring
 
 ---
 
-##### Brief summary of the new index #####
+# Brief summary of the new index
 
 
 
@@ -16,7 +16,7 @@ assignees: larsbarring
 <!--
 Please provide all the necessary information in the following table.
 
-Write the table entries in the space between the `|   |` and check that it looks right by pressing the `Preview` button above. If necessary toggle back to make changes/additions using the  `Write` button.
+Write the table entries in the empty space between the `|   |` and check that it looks right by pressing the `Preview` button above. If necessary toggle back to make changes/additions using the  `Write` button.
 -->
 
 | *Column name* | *New index* |

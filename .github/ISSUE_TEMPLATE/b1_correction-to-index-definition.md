@@ -7,8 +7,18 @@ assignees: larsbarring
 
 ---
 
-##### Please fill in the relevant table entries below #####
-*Write the table entries in the space between the* `|   |` *and check that it looks right by pressing the* `Preview` *button above. If necessary toggle back to make changes /additions using the*  `Write` *button. Additional information and comments can be added below the table.*
+# Please explain briefly what is wrong
+<!--
+This is not necessary if it obvious from the table entries below.
+-->
+
+
+# Suggest specific changes to the `index_definition` table
+<!--
+If possible, please tell what specific changes are needed to the index definition table by filling in the relevant table entries below.
+
+Write the table entries in the empty space between the `|   |` and check that it looks right by pressing the `Preview` button above. If necessary toggle back to make changes /additions using the `Write` button.
+-->
  
 | *Column name* | *Present (wrong) entry* | *Suggested correction* |
 | ------ | ------ | ------ |
@@ -33,7 +43,3 @@ assignees: larsbarring
 | ET_definition |  |  |
 | ET_comment |  |  |
 
-##### Additional information #####
-
-
-* * *
