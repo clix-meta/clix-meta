@@ -42,6 +42,7 @@ Write the table entries in the space between the `|   |` and check that it looks
 | ET_definition |  |
 | ET_comment |  |
 
-##### Additional information #####
+# Additional Information
+<!-- Here you can provide any additional information -->
 
 * * *
