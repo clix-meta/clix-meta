@@ -44,5 +44,3 @@ Write the table entries in the space between the `|   |` and check that it looks
 
 # Additional Information
 <!-- Here you can provide any additional information -->
-
-* * *
