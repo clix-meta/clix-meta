@@ -17,48 +17,25 @@ program, take a look at the `python` sub-directory.
 
 We encourage contributions via discussions in issues. If you have a suggestion
 for the improvement of the metadata or the distribution of this work, please
-have a look at [the
-issues](https://bitbucket.org/cf-index-meta/cf-index-meta/issues?status=new&status=open)
-and don't hesitate to open a new one to initiate a discussion on any question or
+have a look at [the issues](https://github.com/clix-meta/clix-meta/issues).
+To help you starting a new issue there are three issue templates:
+
+* **Request new climate index** --- this template is divided into two parts,
+one for a general description of the new index, and one part for more precisely
+specifying entries in the `index_definition` speadsheet (see below). There
+is no need to complete all parts, just fill out those parts that you feel are
+relevant for your proposal.
+* **Correction to index definition** --- this template specifically
+refers to the `index_definition` spreadsheet (see below). Here we would like
+you to specify which table entries are wrong and how they should be changed.
+* **General issue** --- any other issue, question or discussion.
+ 
+Don't hesitate to open a new one to initiate a discussion on any question or
 topic related to this effort!
 
 # Download
 
-Standard bitbucket and git approaches apply. We also provide distributions of
-only the metadata, that is the xls spreadsheet together with the corresponding
-yaml files, this README, and the LICENSE. These are made available as archives
-in `.zip` format with MS Dos/Windows style line endings and `.tar.gz` format
-with Unix style line endings.
-
-We provide distributions for currently
-[ongoing work](#markdown-header-ongoing-work),
-[pre-releases](#markdown-header-pre-releases),  and stable
-[releases](#markdown-header-releases).
-
-Here, we link the most recent versions. Older versions can be found on the
-[Downloads](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/) page.
-
-## Ongoing Work
-
-The current status of ongoing work can be downloaded here:
-
-* [cf-index-meta-data-devel.tar.gz](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-devel.tar.gz)
-* [cf-index-meta-data-devel.zip](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-devel.zip)
-
-## Pre-releases
-
-Pre-releases signify agreed-upon states, but are not yet considered ready for
-prime time use. Here, we only link the latest pre-release. Older ones can be
-found on the
-[Downloads](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/) page.
-
-* CF Index Meta Data 0.2.0
-    * [cf-index-meta-data-0.2.0.tar.gz](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-0.2.0.tar.gz)
-    * [cf-index-meta-data-0.2.0.zip](https://bitbucket.org/cf-index-meta/cf-index-meta/downloads/cf-index-meta-data-0.2.0.zip)
-
-## Releases
-
-Currently, there are no releases available.
+Standard github and git approaches apply. 
 
 # Approach
 
@@ -134,7 +111,7 @@ and by [SMHI Rossby Centre](https://www.smhi.se/en/research/research-departments
 
 # License
 
-**CF-index-meta** (c) 2020 by *Lars Bärring* and *Klaus Zimmermann*, Rossby
+**CF-index-meta** (c) 2020-2021 by *Lars Bärring* and *Klaus Zimmermann*, Rossby
 Centre, Swedish Meteorological and Hydrological Institute (SMHI).
 
 ![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) The spreadsheet and all
