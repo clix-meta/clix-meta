@@ -39,14 +39,12 @@ jobs:
           cd $CI_META_DIR
           ci-meta-exporter ./master_table.xls
           cd ../..
-          export CI_META_ARCHIVE_BASE=${CI_META_PREFIX}-devel
-          echo "CI_META_ARCHIVE_BASE=$CI_META_ARCHIVE_BASE" >> $GITHUB_ENV
           echo "CI_META_NAME=$CI_META_NAME" >> $GITHUB_ENV
           echo "CI_META_DIR=$CI_META_DIR" >> $GITHUB_ENV
       - name: Upload normal line endings version
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.CI_META_ARCHIVE_BASE }}
+          name: ${{ env.CI_META_NAME }}
           path: artifact/*
       - name: Create windows line endings version
         run: |
@@ -56,5 +54,5 @@ jobs:
       - name: Upload windows line endings version
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.CI_META_ARCHIVE_BASE }}-win
+          name: ${{ env.CI_META_NAME }}-win
           path: artifact/*
