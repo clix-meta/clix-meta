@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: head-artifacts
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -10,16 +8,11 @@ on:
   pull_request:
     branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -39,7 +32,6 @@ jobs:
         run: |
           export CI_META_PREFIX=clix-meta-data
           export CI_META_VERSION=$(ci-meta-exporter -v)
-          echo 'devel' >ci-meta-version.txt
           export CI_META_NAME=${CI_META_PREFIX}-${CI_META_VERSION}
           mkdir $CI_META_NAME
           cp master_table.xls README.md LICENSE.txt $CI_META_NAME/
@@ -52,7 +44,7 @@ jobs:
       - name: Upload normal line endings version
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.CI_META_ARCHIVE_BASE }}-linux
+          name: ${{ env.CI_META_ARCHIVE_BASE }}
           path: ${{ env.CI_META_NAME }}
       - name: Create windows line endings version
         run: |
@@ -63,15 +55,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ env.CI_META_ARCHIVE_BASE }}-win
-          path: ${{ env.CI_META_NAME }}
-      - name: Create mac line endings version
-        run: |
-          cd $CI_META_NAME
-          dos2unix README.md LICENSE.txt *.yml
-          unix2mac README.md LICENSE.txt *.yml
-          cd ..
-      - name: Upload mac line endings version
-        uses: actions/upload-artifact@v2
-        with:
-          name: ${{ env.CI_META_ARCHIVE_BASE }}-osx
           path: ${{ env.CI_META_NAME }}
