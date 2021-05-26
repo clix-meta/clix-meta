@@ -47,6 +47,8 @@ jobs:
           ci-meta-exporter ./master_table.xls
           cd ..
           export CI_META_ARCHIVE_BASE=${CI_META_PREFIX}-devel
+          echo "CI_META_ARCHIVE_BASE=$CI_META_ARCHIVE_BASE" >> $GITHUB_ENV
+          echo "CI_META_NAME=$CI_META_NAME" >> $GITHUB_ENV
       # - name: Create tarball
       #   run: |
       #     tar cvf ${CI_META_ARCHIVE_BASE}.tar.gz $CI_META_NAME
