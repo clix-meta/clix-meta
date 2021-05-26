@@ -49,17 +49,29 @@ jobs:
           export CI_META_ARCHIVE_BASE=${CI_META_PREFIX}-devel
           echo "CI_META_ARCHIVE_BASE=$CI_META_ARCHIVE_BASE" >> $GITHUB_ENV
           echo "CI_META_NAME=$CI_META_NAME" >> $GITHUB_ENV
-      # - name: Create tarball
-      #   run: |
-      #     tar cvf ${CI_META_ARCHIVE_BASE}.tar.gz $CI_META_NAME
-      # - name: Create zip
-      #   run: |
-      #     cd $CI_META_NAME
-      #     $CONDA/bin/unix2dos README.md LICENSE.txt *.yml
-      #     cd ..
-      #     zip -r ${CI_META_ARCHIVE_BASE}.zip $CI_META_NAME
-      - name: Upload artifacts
+      - name: Upload normal line endings version
         uses: actions/upload-artifact@v2
         with:
-          name: ${{ env.CI_META_ARCHIVE_BASE }}
+          name: ${{ env.CI_META_ARCHIVE_BASE }}-linux
+          path: ${{ env.CI_META_NAME }}
+      - name: Create windows line endings version
+        run: |
+          cd $CI_META_NAME
+          unix2dos README.md LICENSE.txt *.yml
+          cd ..
+      - name: Upload windows line endings version
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.CI_META_ARCHIVE_BASE }}-win
+          path: ${{ env.CI_META_NAME }}
+      - name: Create mac line endings version
+        run: |
+          cd $CI_META_NAME
+          dos2unix README.md LICENSE.txt *.yml
+          unix2mac README.md LICENSE.txt *.yml
+          cd ..
+      - name: Upload mac line endings version
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.CI_META_ARCHIVE_BASE }}-osx
           path: ${{ env.CI_META_NAME }}
