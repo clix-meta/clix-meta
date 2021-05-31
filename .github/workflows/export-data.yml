@@ -1,0 +1,58 @@
+name: export-data
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Add conda to system path
+        run: |
+          # $CONDA is an env variable pointing to the root of the miniconda directory
+          echo $CONDA/bin >> $GITHUB_PATH
+      - name: Install dependencies
+        run: |
+          conda env update --file environment.yml --name base
+      - name: Install exporter
+        run: |
+          pip install -e ./python/
+      - name: Prepare versioned directory
+        run: |
+          export CI_META_PREFIX=clix-meta-data
+          export CI_META_VERSION=$(ci-meta-exporter -v)
+          export CI_META_NAME=${CI_META_PREFIX}-${CI_META_VERSION}
+          export CI_META_DIR=artifact/$CI_META_NAME
+          mkdir -p $CI_META_DIR
+          cp master_table.xls README.md LICENSE.txt $CI_META_DIR/
+          cd $CI_META_DIR
+          ci-meta-exporter ./master_table.xls
+          cd ../..
+          echo "CI_META_NAME=$CI_META_NAME" >> $GITHUB_ENV
+          echo "CI_META_DIR=$CI_META_DIR" >> $GITHUB_ENV
+      - name: Upload normal line endings version
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.CI_META_NAME }}
+          path: artifact/*
+      - name: Create windows line endings version
+        run: |
+          cd $CI_META_DIR
+          unix2dos README.md LICENSE.txt *.yml
+          cd ../..
+      - name: Upload windows line endings version
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.CI_META_NAME }}-win
+          path: artifact/*
