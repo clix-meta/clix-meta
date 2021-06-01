@@ -44,7 +44,7 @@ jobs:
           cd $CI_META_NAME
           unix2dos README.md LICENSE.txt *.yml
           cd ..
-          zip -r {CI_META_NAME}.zip ${CI_META_NAME}
+          zip -r ${CI_META_NAME}.zip ${CI_META_NAME}
 
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
