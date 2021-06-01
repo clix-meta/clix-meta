@@ -29,12 +29,13 @@ jobs:
       - name: Install exporter
         run: |
           pip install -e ./python/
-      - name: Prepare versioned directory
+      - name: Prepare data
+        id: preparation
         run: |
           export CI_META_PREFIX=clix-meta-data
           export CI_META_VERSION=$(ci-meta-exporter -v)
           export CI_META_NAME=${CI_META_PREFIX}-${CI_META_VERSION}
-          echo "CI_META_NAME=$CI_META_NAME" >> $GITHUB_ENV
+          echo "::set-output name=ci-meta-name::${CI_META_NAME}"
           mkdir $CI_META_NAME
           cp master_table.xls README.md LICENSE.txt $CI_META_NAME/
           cd $CI_META_NAME
@@ -53,6 +54,6 @@ jobs:
           prerelease: true
           title: "Development Build"
           files: |
-            *.tar.gz
-            *.zip
+            ${{ steps.preparation.outputs.ci-meta-name }}.tar.gz
+            ${{ steps.preparation.outputs.ci-meta-name }}.zip
         id: "automatic_releases"
