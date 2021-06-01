@@ -53,6 +53,6 @@ jobs:
           prerelease: true
           title: "Development Build"
           files: |
-            ${CI_META_NAME}.tar.gz
-            ${CI_META_NAME}.zip
+            *.tar.gz
+            *.zip
         id: "automatic_releases"
