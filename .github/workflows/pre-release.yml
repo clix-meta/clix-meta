@@ -34,24 +34,16 @@ jobs:
           export CI_META_PREFIX=clix-meta-data
           export CI_META_VERSION=$(ci-meta-exporter -v)
           export CI_META_NAME=${CI_META_PREFIX}-${CI_META_VERSION}
-          export CI_META_DIR=artifact/$CI_META_NAME
-          mkdir -p $CI_META_DIR
-          cp master_table.xls README.md LICENSE.txt $CI_META_DIR/
-          cd $CI_META_DIR
+          echo "CI_META_NAME=$CI_META_NAME" >> $GITHUB_ENV
+          mkdir $CI_META_NAME
+          cp master_table.xls README.md LICENSE.txt $CI_META_NAME/
+          cd $CI_META_NAME
           ci-meta-exporter ./master_table.xls
           cd ..
-          echo "CI_META_NAME=$CI_META_NAME" >> $GITHUB_ENV
-          echo "CI_META_DIR=$CI_META_DIR" >> $GITHUB_ENV
-      - name: Prepare tarball
-        run: |
           tar cvf ${CI_META_NAME}.tar.gz ${CI_META_NAME}
-      - name: Create windows line endings version
-        run: |
           cd $CI_META_NAME
           unix2dos README.md LICENSE.txt *.yml
           cd ..
-      - name: Prepare zipfile
-        run: |
           zip -r {CI_META_NAME}.zip ${CI_META_NAME}
 
       - uses: "marvinpinto/action-automatic-releases@latest"
