@@ -1,5 +1,5 @@
 # These index definitions are auto-generated from the master table at
-# https://bitbucket.org/cf-index-meta/cf-index-meta
+# https://github.com/clix-meta/clix-meta
 
 # This is based on version {{ version }}.
 ---
