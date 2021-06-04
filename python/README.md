@@ -5,7 +5,7 @@ information from the main spreadsheet into a set of equivalent
 [yaml](https://yaml.org/) files that are better suited for automatic
 processing. For more information about the metadata itself, please have a look
 at the main directory of this repository or at
-https://bitbucket.org/cf-index-meta/cf-index-meta
+https://github.com/clix-meta/clix-meta
 
 
 This work is supported by the European project [IS-ENES3](https://is.enes.org/)

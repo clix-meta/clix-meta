@@ -18,7 +18,7 @@ setuptools.setup(
     description='Climate index metadata',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://bitbucket.org/cf-index-meta/cf-index-meta',
+    url='https://github.com/clix-meta/clix-meta',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
@@ -50,7 +50,7 @@ setuptools.setup(
     },
     project_urls={
         'Bug Reports':
-        'https://bitbucket.org/cf-index-meta/cf-index-meta/issues',
-        'Source': 'https://bitbucket.org/cf-index-meta/cf-index-meta',
+        'https://github.com/clix-meta/clix-meta/issues',
+        'Source': 'https://github.com/clix-meta/clix-meta',
     },
 )
