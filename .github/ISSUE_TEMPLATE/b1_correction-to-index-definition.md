@@ -2,14 +2,14 @@
 name: Correction to index definition
 about: Correction to the definition of an index definition in the master_table.xlsx
 title: ''
-labels: ''
+labels: 'update index'
 assignees: larsbarring
 
 ---
 
 # Please explain briefly what is wrong
 <!--
-This is not necessary if it obvious from the table entries below.
+This is not necessary if it is obvious from the table entries below.
 -->
 
 
@@ -17,7 +17,7 @@ This is not necessary if it obvious from the table entries below.
 <!--
 If possible, please tell what specific changes are needed to the index definition table by filling in the relevant table entries below.
 
-Write the table entries in the empty space between the `|   |` and check that it looks right by pressing the `Preview` button above. If necessary toggle back to make changes /additions using the `Write` button.
+Write the table entries in the empty space between the `|   |` and check that it looks right by pressing the `Preview` button above. If necessary use the `Write` button to toggle back to make changes/additions.
 -->
  
 | *Column name* | *Present (wrong) entry* | *Suggested correction* |
