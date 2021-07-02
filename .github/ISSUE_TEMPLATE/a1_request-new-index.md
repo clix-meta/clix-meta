@@ -2,7 +2,7 @@
 name: Request new index
 about: Suggest a new index to be included in the index_definition table of the master_table.xlsx
 title: ''
-labels: ''
+labels: 'new index'
 assignees: larsbarring
 
 ---
@@ -16,7 +16,7 @@ assignees: larsbarring
 <!--
 Please provide all the necessary information in the following table.
 
-Write the table entries in the empty space between the `|   |` and check that it looks right by pressing the `Preview` button above. If necessary toggle back to make changes/additions using the  `Write` button.
+Write the table entries in the empty space between the `|   |` and check that it looks right by pressing the `Preview` button above. If necessary use the `Write` button to toggle back to make changes/additions.
 -->
 
 | *Column name* | *New index* |

@@ -1,8 +1,8 @@
 ---
 name: General issue 
-about: General question and comment not asking for new index or reporting errors in index definition 
+about: General question or comment not asking for new index or reporting errors in index definition 
 title: ''
-labels: ''
+labels: 'question, enhancement'
 assignees: larsbarring
 
 ---
