@@ -35,7 +35,13 @@ topic related to this effort!
 
 # Download
 
-Standard github and git approaches apply. 
+Standard github and git approaches apply when using the green button "Code"
+(above right), which does not include yaml files of the tables. To the right,
+under the heading "[Releases](https://github.com/clix-meta/clix-meta/releases)"
+packaged versions of the repository are available as compressed files.
+These include yaml files that are up-to-date with the corresponding tables of
+the spreadsheet file. The compressed files are available both for MS-DOS/Windows
+line endings (`.zip`) and Linux line endings (`.gz`).
 
 # Approach
 
