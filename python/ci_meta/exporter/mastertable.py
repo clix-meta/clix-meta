@@ -22,14 +22,13 @@ SUPPORTED_REDUCERS = [
 
 def build_period(spec):
     PERIODS = {
-        'ann': 'annual',
-        'sea': 'seasonal',
-        'mon': 'monthly',
+        'annual': 'annual',
+        'seasonal': 'seasonal',
+        'monthly': 'monthly',
         '_': 'unknown',
         '': 'unknown',
     }
-    period = PERIODS[spec]
-    return period
+    return PERIODS[spec]
 
 
 def tr_cell_methods(cell_method_string):
@@ -135,7 +134,7 @@ def prepare_record(record):
     d = {
         'var_name': var_name,
         'reference': record['OUTPUT_reference'],
-        'period': build_period(record['period']),
+        'default_period': build_period(record['default_period']),
         'output': {
             'var_name': var_name,
             'standard_name': record['OUTPUT_standard_name'],
