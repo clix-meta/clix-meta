@@ -7,12 +7,7 @@ indices:
 {% for idx in indices %}
   {{ idx.var_name }}:
     reference: {{- idx.reference|add_space }}
-    period:
-      allowed:
-{% for p in idx.period.allowed %}
-        {{ p }}:
-{% endfor %}
-      default: {{- idx.period.default|add_space }}
+    default_period: {{- idx.default_period|add_space }}
     output:
       var_name: {{- idx.output.var_name|add_space(quote=True) }}
       standard_name: {{- idx.output.standard_name|add_space }}
