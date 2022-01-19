@@ -52,6 +52,11 @@ Considering the very rich and diverse flora of climate indices this
 is however not always possible. By collecting a wide range of
 different indices it is easier to discover any common patterns and
 features that are currently not well covered by the CF Conventions.
+
+A more detailed overview of the approach towards structuring the climate index
+metadata is available in this [IS-ENES3](https://is.enes.org/) technical
+report [Milestone M10.3](https://is.enes.org/documents/milestones/climate-indicators-indicesand-file-metadata-specifications-and-tools/view)
+
 Currently identified issues frequently relate to
 [`standard_name`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#standard-name)
 or/and [`cell_methods`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#cell-methods)
