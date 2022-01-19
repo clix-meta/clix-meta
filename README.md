@@ -53,14 +53,59 @@ is however not always possible. By collecting a wide range of
 different indices it is easier to discover any common patterns and
 features that are currently not well covered by the CF Conventions.
 
-A more detailed overview of the approach towards structuring the climate index
-metadata is available in this [IS-ENES3](https://is.enes.org/) technical
-report [Milestone M10.3](https://is.enes.org/documents/milestones/climate-indicators-indicesand-file-metadata-specifications-and-tools/view)
+With respect to climate index metadata the CF Conventions are in a sense
+both *permissive* and *restrictive*. This have have some bearing on which indices
+are at all incuded in the list, and which metadata elements are present,
+as well as the (somewhat subjective) classification as `Ready` or not.
+
+<details>
+<summary>Further details here (click me)</summary>
+
+The CF Conventions is *permissive* in the sense that only the bare essential
+information for understanding what the data represents are mandatory, and
+that any additional information can be included with few limitations.
+However, for such free (i.e., non-managed) information there are no rules,
+which means that it is difficult or intractable to develop common standardised
+workflows that would depend on this particular metadata information.
+However, for such purposes it is *restrictive* in the sense that the managed
+components are not always well suited to handle climate index metadata.
+In particular the following elements of the CF Conventions machinery is of relevance
+for detailed description a climate indicator:
+•  *Standard name* (recommended if available): a controlled vocabulary describing the data
+variable (in this case indicator) according to certain agreed rules and conventions. A
+proposal for a standard name is only accepted into the vocabulary after a screening
+procedure.
+•  *Long name* (recommended): a short descriptive free text describing the data variable.
+Typically, this can function as a title for a plot or similar. While this element is not
+required it is strongly recommended because it serves the dual purpose of providing a
+succinct description of the data that is understandable to humans, and a semi-standardised
+title for plots etc.
+•  *Unit* (required if standard name is used, else recommended): unit of the data variable. In
+practice information about the unit of the data is compulsory, or the data will be difficult
+to understand and analyse irrespective of whether it done manually or in an automated
+workflow.
+•  *Cell methods* (recommended if available): a controlled vocabulary of methods applied to
+create the climate indicator. Currently, the controlled vocabulary contains a rather limited
+set of methods, namely: point (default), sum, maximum, maximum_absolute_value,
+median, mid_range, minimum, minimum_absolute_value, mean, mean_absolute_value,
+mean_of_upper_decile, mode, range, root_mean_square, standard_deviation,
+sum_of_squares, variance.
 
 Currently identified issues frequently relate to
 [`standard_name`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#standard-name)
 or/and [`cell_methods`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.8/cf-conventions.html#cell-methods)
 which both are *controlled vocabularies* of the CF Conventions.
+
+
+
+<details>
+
+
+A more detailed overview of the approach towards structuring the climate index
+metadata is available in this [IS-ENES3](https://is.enes.org/) technical
+report [Milestone M10.3](https://is.enes.org/documents/milestones/climate-indicators-indicesand-file-metadata-specifications-and-tools/view)
+(as per late 29020).
+
 
 This repository is in active development, and the content will frequently
 change.
