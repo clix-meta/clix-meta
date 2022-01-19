@@ -71,20 +71,24 @@ However, for such purposes it is *restrictive* in the sense that the managed
 components are not always well suited to handle climate index metadata.
 In particular the following elements of the CF Conventions machinery is of relevance
 for detailed description a climate indicator:
+
 •  *Standard name* (recommended if available): a controlled vocabulary describing the data
 variable (in this case indicator) according to certain agreed rules and conventions. A
 proposal for a standard name is only accepted into the vocabulary after a screening
 procedure.
-•  *Long name* (recommended): a short descriptive free text describing the data variable.
+
+•  Long name* (recommended): a short descriptive free text describing the data variable.
 Typically, this can function as a title for a plot or similar. While this element is not
 required it is strongly recommended because it serves the dual purpose of providing a
 succinct description of the data that is understandable to humans, and a semi-standardised
 title for plots etc.
-•  *Unit* (required if standard name is used, else recommended): unit of the data variable. In
+
+•  Unit* (required if standard name is used, else recommended): unit of the data variable. In
 practice information about the unit of the data is compulsory, or the data will be difficult
 to understand and analyse irrespective of whether it done manually or in an automated
 workflow.
-•  *Cell methods* (recommended if available): a controlled vocabulary of methods applied to
+
+•  Cell methods* (recommended if available): a controlled vocabulary of methods applied to
 create the climate indicator. Currently, the controlled vocabulary contains a rather limited
 set of methods, namely: point (default), sum, maximum, maximum_absolute_value,
 median, mid_range, minimum, minimum_absolute_value, mean, mean_absolute_value,
@@ -98,7 +102,7 @@ which both are *controlled vocabularies* of the CF Conventions.
 
 
 
-<details>
+</details>
 
 
 A more detailed overview of the approach towards structuring the climate index
