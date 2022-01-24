@@ -54,34 +54,44 @@ different indices it is easier to discover any common patterns and
 features that are currently not well covered by the CF Conventions.
 
 With respect to climate index metadata the CF Conventions are in a sense
-both *permissive* and *restrictive*. This have have some bearing on which indices
-are at all incuded in the list, and which metadata elements are present,
-as well as the (somewhat subjective) classification as `Ready` or not.
+both *permissive* and *restrictive*. This has some bearing on which indices
+are at all included in the list, and which metadata elements are present,
+as well as the (somewhat subjective) classification as `ready` or not.
 
 <details>
 <p><summary><b><u>Further details here <i>(click here)</i></u></b></summary></p>
 
 CF is *permissive* in the sense that only the bare essential information for
-understanding what the data represents are mandatory, and that any additional
-information can be included with few limitations. Thus, almost any climate
-index dataset can be published in a CF compliant way, but only with the bare
-minimum of standardised metadata. For such free (i.e., non-managed) information
-there are no rules, which means that it is difficult or intractable to develop
-common standardised workflows that would depend on this particular metadata
-information. For such purposes CF is *restrictive* in that the managed
-components are not always well suited to handle climate index metadata.
+understanding what the data represents are mandatory
+(cf. [here](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html#design),
+especially paragraph 8), and that any additional information can be included
+with few limitations. Thus, almost any climate index dataset can be published
+in a CF compliant way, but only with the bare minimum of standardised metadata.
+For such free (i.e., non-managed) information there are no rules, which means
+that it is difficult or intractable to develop common standardised workflows
+that would depend on this particular metadata information. But the CF
+Conventions also includes a range of more detailed metadata components that
+are managed according to specific rules. With these managed components it is
+possible to provide a richer and much more detailed description of the
+dataset. For these managed components CF is however often *restrictive* in
+that the rules are not always well suited to handle climate index metadata.
 
-In the *index definition* table there is a column *ready* (second left) that is
-subjectively indicating how complete the metadata description is. In general
-terms, indices marked as ready ("1") either have full metadata description,
-or there are advanced plans for what needs to be done. In particular, the focus
-is on the following elements of the CF Conventions:
+At the [2021 CF Workshop](http://cfconventions.org/Meetings/2021-Workshop.html)
+a plenary [presentation](https://drive.google.com/drive/folders/1F97r6FQEIp7RUKlpGelOsxTWg-1cFEXd)
+outlined the links between metadata requirements for describing the climate
+indices and the CF Conventions (version 1.9).
+
+In the *index definition* table the column *`ready`* (second left) subjectively
+indicates how complete the metadata description is. In general terms, indices
+marked as ready ("1") either have full metadata description, or there are
+advanced plans for what needs to be done. In particular, the focus is on the
+following elements of the CF Conventions:
 
 *  [`standard_name`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html#standard-name) (recommended if available).
 
-*  [`long_name`] (free text, recommended).
+*  `long_name` (free text, recommended).
 
-*  [`unit`] (required if standard name is used, else recommended).
+*  `unit` (required if standard name is used, else recommended).
 
 *  [`cell_methods`](http://cfconventions.org/Data/cf-conventions/cf-conventions-1.9/cf-conventions.html#cell-methods) (recommended if available).
 
@@ -109,8 +119,8 @@ is on the following elements of the CF Conventions:
 
 
 More details (as per late 2020) regarding the approach towards structuring the
-climate index metadata is available in this [IS-ENES3](https://is.enes.org/)
-technical report [Milestone M10.3](https://is.enes.org/documents/milestones/climate-indicators-indicesand-file-metadata-specifications-and-tools/view).
+climate index metadata is available in an [IS-ENES3](https://is.enes.org/)
+project report [M10.3 - Climate indicators/indices and file metadata specifications and tools](https://is.enes.org/documents/milestones/climate-indicators-indicesand-file-metadata-specifications-and-tools/view).
 
 
 This repository is in active development, and the content will frequently
