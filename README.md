@@ -143,7 +143,11 @@ sheets are as follows:
   However, some of the more complex indices remain to be included.
 
 * **variables**  ---  specification of input variables (following CMIP5/6 and
-  CORDEX rules). This sheet also gives common aliases for the variable names.
+  CORDEX rules). This sheet also gives non-exhaustive lists of common aliases
+  for the variable names. Its role is to provide a link from the actual variable
+  name in the input file to the standardised variable names used in the
+  index_definitions  table. It is not intended to be prescriptive or restrictive
+  regarding what variable names can be used or are suitable. 	  
 
 * **index_functions**  ---  contains details about the calculation methods used
   for the indices. This is referred to in the index_definitions sheet.
