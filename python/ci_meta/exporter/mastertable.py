@@ -78,11 +78,17 @@ def tr_parameter(parameter):
              'kind': 'reducer',
              'reducer': parameter['reducer']}
     elif parameter['value'] is not None:
+        raw_value = parameter['value']
+        try:
+            float(raw_value)
+            value = raw_value
+        except ValueError:
+            value = f'"{raw_value}"'
         d = {'var_name': parameter['name'],
              'kind': 'quantity',
              'standard_name': parameter['standard_name'],
              'proposed_standard_name': parameter['proposed_standard_name'],
-             'data': parameter['value'],
+             'data': value,
              'units': parameter['units'],
              'long_name': parameter['long_name']}
     else:
