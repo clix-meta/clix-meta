@@ -6,11 +6,13 @@ import regex as re
 import pyexcel as pe
 
 
+# Order matters! Earlier operators will be preferred,
+# so <= MUST appear before <, etc.
 SUPPORTED_OPERATORS = [
-    '<',
-    '>',
     '<=',
     '>=',
+    '<',
+    '>',
 ]
 SUPPORTED_REDUCERS = [
     'min',
