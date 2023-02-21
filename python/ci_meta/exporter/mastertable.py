@@ -116,7 +116,7 @@ def split_parameter_definitions(parameter_definitions_string, parameter_names):
         r'unit: (?P<units>[^,)]*)(, |\))'
         r'(long_name: \p{Pi}(?P<long_name>[^\p{Pf}]*)\p{Pf}\))?')
     timestamp_regex = (
-        r"[1-9][0-9]*(-[0-1][0-9](-[0-3][0-9](T[0-1][0-9][0-1][0-9][0-6][0-9])?)?)?"
+        r"[1-9][0-9]*(-[0-1][0-9](-[0-3][0-9](T[0-2][0-9][0-5][0-9][0-5][0-9])?)?)?"
     )
     period_regex = r"P[0-9]*Y([0-9]*M([0-9]*D)?)?"
     time_range_regex = rf"(?P<time_range>{timestamp_regex}/{timestamp_regex}|{timestamp_regex}/{period_regex}|{period_regex}/{timestamp_regex})"
