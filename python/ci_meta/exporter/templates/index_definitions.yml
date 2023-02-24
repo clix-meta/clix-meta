@@ -44,6 +44,8 @@ indices:
           operator: {{- param.operator|add_space(quote=True) }}
 {% elif param.kind == 'reducer' %}
           reducer: {{- param.reducer|add_space }}
+{% elif param.kind == 'time_range' %}
+          data: {{- param.data|add_space }}
 {% else %}
           # Warning: Unknown kind!
 {% endif %}

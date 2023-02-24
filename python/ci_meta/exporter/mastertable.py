@@ -93,6 +93,12 @@ def tr_parameter(parameter):
              'data': value,
              'units': parameter['units'],
              'long_name': parameter['long_name']}
+    elif parameter["time_range"] is not None:
+        d = {
+            "var_name": parameter["name"],
+            "kind": "time_range",
+            "data": parameter["time_range"],
+        }
     else:
         raise RuntimeError(f"Invalid parameter found {parameter[0]}")
     return d
@@ -109,8 +115,13 @@ def split_parameter_definitions(parameter_definitions_string, parameter_names):
         r'value: (?P<value>[^,]*), '
         r'unit: (?P<units>[^,)]*)(, |\))'
         r'(long_name: \p{Pi}(?P<long_name>[^\p{Pf}]*)\p{Pf}\))?')
-    param_regex = r'{}: (?:{}|{}|{})'.format(
-        name_regex, red_regex, op_regex, qty_regex
+    timestamp_regex = (
+        r"[1-9][0-9]*(-[0-1][0-9](-[0-3][0-9](T[0-2][0-9][0-5][0-9][0-5][0-9])?)?)?"
+    )
+    period_regex = r"P[0-9]*Y([0-9]*M([0-9]*D)?)?"
+    time_range_regex = rf"(?P<time_range>{timestamp_regex}/{timestamp_regex}|{timestamp_regex}/{period_regex}|{period_regex}/{timestamp_regex})"
+    param_regex = r"{}: (?:{}|{}|{}|{})".format(
+        name_regex, red_regex, op_regex, qty_regex, time_range_regex
     )
     matcher = re.compile(param_regex)
     result = [tr_parameter(p)
