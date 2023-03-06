@@ -1,8 +1,9 @@
 # These variables are auto-generated from the master table at
 # https://github.com/clix-meta/clix-meta
-
-# This is based on version {{ version }}.
 ---
+distribution:
+  name: clix-meta
+  version: {{ version }}
 variables:
 {% for var in variables %}
   {{ var.var_name }}:

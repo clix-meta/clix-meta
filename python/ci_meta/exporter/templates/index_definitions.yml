@@ -1,8 +1,9 @@
 # These index definitions are auto-generated from the master table at
 # https://github.com/clix-meta/clix-meta
-
-# This is based on version {{ version }}.
 ---
+distribution:
+  name: clix-meta
+  version: {{ version }}
 indices:
 {% for idx in indices %}
   {{ idx.var_name }}:
