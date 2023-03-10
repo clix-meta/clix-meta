@@ -14,6 +14,10 @@ def add_space(variable, quote=False):
     value = variable.strip()
     if len(value) > 0:
         if quote:
+            if '"' in value:
+                raise ValueError(
+                    'Values that will be quoted cannot contain quotation '
+                    'marks ("). Please check <%s>', value)
             return ' "{}"'.format(value)
         else:
             return ' {}'.format(value)
