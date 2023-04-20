@@ -181,13 +181,14 @@ The **index_functions** sheet will be added to the yaml files in the future.
 
 # Acknowledgement
 
-This work is supported by the European project [IS-ENES3](https://is.enes.org/)
-and by [SMHI Rossby Centre](https://www.smhi.se/en/research/research-departments/climate-research-rossby-centre2-552).
+This work is supported by the European Horizon 2020 programme through the projects
+[IS-ENES3](https://is.enes.org/) (2019-2023) and [CLIMATEUROPE2](https://climateurope2.eu/) (2022-2027),
+as well as by the [SMHI Rossby Centre](https://www.smhi.se/en/research/research-departments/climate-research-at-the-rossby-centre).
 
 
 # License
 
-**CF-index-meta** (c) 2020-2021 by *Lars Bärring* and *Klaus Zimmermann*, Rossby
+**Clix-meta**(c) 2020-2023 by *Lars Bärring* and *Klaus Zimmermann*, Rossby
 Centre, Swedish Meteorological and Hydrological Institute (SMHI).
 
 ![](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) The spreadsheet and all
