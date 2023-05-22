@@ -50,7 +50,7 @@ def build_period(spec):
         period = period_parts[0]
         period_arg = period_parts[1][:-1]
         assert period_arg in YEAR or period_arg in MONTHS_SHORT
-        return PERIODS[period] + "[" + period_arg + "]"
+        return f"{PERIODS[period]}[{period_arg}]"
     else:
         return PERIODS[spec]
 
