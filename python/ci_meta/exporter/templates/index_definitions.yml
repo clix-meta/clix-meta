@@ -8,7 +8,7 @@ indices:
 {% for idx in indices %}
   {{ idx.var_name }}:
     reference: {{- idx.reference|add_space }}
-    default_period: {{- idx.default_period|add_space }}
+    default_period: {{- idx.default_period|add_space(quote=True) }}
     output:
       var_name: {{- idx.output.var_name|add_space(quote=True) }}
       standard_name: {{- idx.output.standard_name|add_space }}

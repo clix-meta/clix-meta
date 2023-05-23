@@ -30,7 +30,29 @@ def build_period(spec):
         '_': 'unknown',
         '': 'unknown',
     }
-    return PERIODS[spec]
+    YEAR = "jfmamjjasond" * 2
+    MONTHS_SHORT = [
+        "jan",
+        "feb",
+        "mar",
+        "apr",
+        "may",
+        "jun",
+        "jul",
+        "aug",
+        "sep",
+        "oct",
+        "nov",
+        "dec",
+    ]
+    period_parts = spec.split("[")
+    if len(period_parts) == 2 and period_parts[1][-1] == "]":
+        period = period_parts[0]
+        period_arg = period_parts[1][:-1]
+        assert period_arg in YEAR or period_arg in MONTHS_SHORT
+        return f"{PERIODS[period]}[{period_arg}]"
+    else:
+        return PERIODS[spec]
 
 
 def tr_cell_methods(cell_method_string):
